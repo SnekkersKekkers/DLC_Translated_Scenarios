@@ -1,0 +1,42 @@
+ChEyeOpenLevel(10,#1);
+ChCheek(10,0);
+MsgDisp("主人公","Yeah.
+I love Tomoe-kun too.");
+ChEye(10,3);
+ChMouth(10,4);
+ChMotion(10,0);
+VoicePlay("T021040020_10_000");
+MsgDisp("Tomoe","You love me too...");
+MsgDisp("主人公","Yeah.
+I love you.");
+ChEye(10,3);
+ChMouth(10,3);
+ChMotion(10,3);
+ChEyeOpenLevel(10,0);
+ChCheek(10,10);
+VoicePlay("T021040020_10_010");
+MsgDisp("Tomoe","You-chan, I love you!");
+BGMStop(2.8);
+MsgClear();
+ScrFadeOut(0,1);
+ChClose(10,0,0);
+Wait(120,0);
+StlOpen("ev_10_06");
+ScrFadeIn(0);
+VoicePlay("T021040020_10_020");
+MsgDisp("Tomoe","...How do I do this gently?");
+StlEffect(1,1,60);
+Wait(60,0);
+SEPlay("EV_SE_695");
+Wait(120,0);
+VoicePlay("T021040020_10_030");
+MsgDisp("Tomoe","Haa...
+Was that okay?");
+Wait(120,0);
+MsgClear();
+MsgClose();
+ScrFadeOut(0,1,120);
+StlClose();
+Wait(160,0);
+SEStop("EV_SE_695",3.5);
+Wait(220,0);
