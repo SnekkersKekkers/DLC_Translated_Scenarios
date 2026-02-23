@@ -1,0 +1,29 @@
+ChLayout(1);
+BGOpen("sc510",0);
+ScrFadeIn(0);
+MsgDisp("主人公","（早く大成先生に報告したいな。
+喜んでくれるよね！）");
+MsgClose();
+ScrFadeOut(0);
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+BGOpen("ex340",0);
+ScrFadeIn(0);
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
+SEWait();
+BGMPlay("BGM_C11_ONARI_A",0.01);
+ChOpen(11,40,0,0,0,-1,-1,0,0);
+VoicePlay("D031100900_11_000");
+MsgDisp("大成","おめでとう。
+感想は？");
+MsgDisp("主人公","すごくうれしいです！
+大成先生が教えてくれたおかげです。");
+ChEye(11,3);
+ChMouth(11,3);
+ChMotion(11,3);
+VoicePlay("D031100900_11_010");
+MsgDisp("大成","オレも嬉しい。");
+MsgDisp("主人公","じゃあ、先生の試験も――");

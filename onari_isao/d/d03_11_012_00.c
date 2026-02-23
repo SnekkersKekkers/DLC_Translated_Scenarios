@@ -1,0 +1,198 @@
+ChLayout(1);
+BGOpen("sc310",0);
+ScrFadeIn(0);
+MsgDisp("主人公","（今日は日直だから、職員室に
+クラス日誌を取りにいかないと）");
+MsgClose();
+ScrFadeOut(0);
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+SEPlay("EV_SE_DOOR_024");
+SEWait();
+MsgDisp("主人公","失礼します。");
+SEPlay("EV_SE_DOOR_019");
+BGOpen("sc360",0);
+Wait(35,0);
+ScrFadeIn(0);
+MsgDisp("主人公","（え……あそこにいるのって――）");
+MsgClose();
+BGMPlay("BGM_HANYOU_A",0.01);
+ChOpen(37,254,0,0,0,-1,-1,0,0);
+VoicePlay("D031101200_37_000");
+MsgDisp("大迫","オッス！　久しぶりだな。");
+MsgDisp("主人公","大迫先生、こんにちは。
+高等部にご用ですか？");
+ChEye(37,1);
+ChMouth(37,0);
+VoicePlay("D031101200_37_010");
+MsgDisp("大迫","オッスオッス！　ちょっとな。
+それよりおまえ、
+勉強がんばってるみたいじゃないか。");
+MsgDisp("主人公","はい。
+でもどうして大迫先生が……？");
+ChEye(37,1);
+ChMouth(37,0);
+ChEyeOpenLevel(37,8);
+VoicePlay("D031101200_37_020");
+MsgDisp("大迫","ふふん。
+おーい、こっちだ。");
+VoicePlay("D031101200_11_000");
+MsgDisp("？大成","やあ。");
+MsgDisp("主人公","！");
+SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
+ChPosition(37,1);
+MsgClose();
+SEWait();
+ChOpen(11,254,4,0,4,-1,-1,0,2);
+MsgDisp("主人公","大成先生∋");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,0);
+VoicePlay("D031101200_11_010");
+MsgDisp("大成","赴任先が決まったから、挨拶にきた。");
+ChEye(37,0);
+ChMouth(37,0);
+ChEyeOpenLevel(37,8);
+VoicePlay("D031101200_37_030");
+MsgDisp("大迫","ははっ、一年遅れだぞぉ。
+相変わらずマイペースでいいな。");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,4);
+VoicePlay("D031101200_11_020");
+MsgDisp("大成","その分、いい勉強できましたよ。
+……ね？");
+MsgDisp("主人公","あ……はい！");
+ChEye(37,0);
+ChMouth(37,0);
+VoicePlay("D031101200_37_040");
+MsgDisp("大迫","たっぷり青春したらしいな～。");
+MsgDisp("主人公","青春？");
+ChEye(37,1);
+ChMouth(37,0);
+VoicePlay("D031101200_37_050");
+MsgDisp("大迫","そうだぁ、甘酸っぱい青春だぁ。");
+SEPlay("EV_SE_587",0,0.6);
+SEWait();
+ChEye(37,2);
+ChMouth(37,0);
+VoicePlay("D031101200_37_060");
+MsgDisp("大迫","あ、す、すみません。");
+MsgDisp("主人公","ふふっ。
+大成先生、おめでとうございます！");
+ChEye(11,3);
+ChMouth(11,0);
+ChMotion(11,1);
+ChEyeOpenLevel(11,0);
+VoicePlay("D031101200_11_030");
+MsgDisp("大成","うん。
+じゃあオレ、校長先生と教頭先生に
+挨拶してくるから。");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,0);
+VoicePlay("D031101200_11_040");
+MsgDisp("大成","大迫先生、失礼します。");
+ChEye(37,0);
+ChMouth(37,0);
+VoicePlay("D031101200_37_070");
+MsgDisp("大迫","おう、じゃな。がんばれよ！");
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+ChClose(11);
+ChPosition(37,0);
+MsgDisp("主人公","（やった！
+大成先生の授業をまた受けられるんだ……）");
+ChEye(37,0);
+ChMouth(37,0);
+ChEyeOpenLevel(37,8);
+VoicePlay("D031101200_37_080");
+MsgDisp("大迫","あいつ、変わったな。
+おまえのおかげかぁ？");
+MsgDisp("主人公","えっ、そんなことないです。");
+ChEye(37,0);
+ChMouth(37,0);
+ChEyeOpenLevel(37,0);
+VoicePlay("D031101200_37_090");
+MsgDisp("大迫","いや、先生にはできなかったことだ。
+……ありがとうな。");
+MsgDisp("主人公","大迫先生……");
+ChEye(37,0);
+ChMouth(37,0);
+VoicePlay("D031101200_37_100");
+MsgDisp("大迫","そうだ！
+おまえも教師になったらどうだ？");
+MsgDisp("主人公","え？");
+ChEye(37,1);
+ChMouth(37,0);
+VoicePlay("D031101200_37_110");
+MsgDisp("大迫","考えてみろ～。
+進路指導もうすぐだろ？");
+MsgDisp("主人公","（わたしが……先生に？）");
+MsgSel("一流大学に入って教師を目指そう！","わたしには無理かな……");
+switch (MsgSelRsltGet()){
+    case 0:
+    MsgDisp("主人公","よしっ、わたしも大成先生みたいに
+一流大学に入って、はば学の先生に
+なれるようにがんばります！");
+    ChEye(37,0);
+    ChMouth(37,0);
+    VoicePlay("D031101200_37_120");
+    MsgDisp("大迫","はははっ！　やる気だな。
+がんばれ～！");
+    MsgClose();
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(37);
+    VoicePlay("D031101200_37_130");
+    MsgDisp("大迫","ああ、大成の赴任先ははば学じゃないぞぉ？
+余多門だ。");
+    MsgDisp("主人公","え？
+……ヨタカド？");
+    VoicePlay("D031101200_37_140");
+    MsgDisp("大迫","そうだ、余多門工業高等学校。");
+    MsgClose();
+    ScrFadeOut(0);
+    MsgDisp("主人公","（えぇぇ∋
+大成先生の赴任先、はば学じゃないんだ……
+余多門高校って、どこにあるんだろう？）");
+    break ;
+    case 1:
+    MsgDisp("主人公","先生になるなんて……
+わたしには無理です。");
+    ChEye(37,1);
+    ChMouth(37,0);
+    VoicePlay("D031101200_37_150");
+    MsgDisp("大迫","無理かどうか決めるのは自分だぞぉ？");
+    MsgDisp("主人公","……はい。");
+    ChEye(37,0);
+    ChMouth(37,0);
+    VoicePlay("D031101200_37_160");
+    MsgDisp("大迫","大成もおまえも似ているからな。
+ゆっくり考えて納得して決めればいい。
+じゃあな。");
+    MsgClose();
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(37);
+    MsgDisp("主人公","あ、大成先生は高等部に赴任されるんですか？");
+    VoicePlay("D031101200_37_170");
+    MsgDisp("大迫","ん？　オオナリの赴任先は
+はば学じゃないぞぉ？
+余多門高校だ。");
+    MsgDisp("主人公","よたかど？");
+    VoicePlay("D031101200_37_180");
+    MsgDisp("大迫","そうだ、余多門工業高等学校。");
+    MsgClose();
+    ScrFadeOut(0);
+    MsgDisp("主人公","（はば学じゃないのか……じゃあ、
+もう大成先生にも会えなくなっちゃうんだ。
+寂しいけど、仕方ないよね……）");
+    break ;
+    default :
+    DbgAssert(0);
+    break ;
+    }
+MsgClose();

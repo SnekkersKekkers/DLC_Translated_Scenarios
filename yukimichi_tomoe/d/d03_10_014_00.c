@@ -20,8 +20,8 @@ MsgClose();
 SEPlay("EV_SE_544",0.1);
 ChOpen(10,37,0,3,0,0,#1,0,0);
 VoicePlay("D031001400_10_000");
-MsgDisp("Tomoe","You-chan, are you ready to win and take on
-the world?");
+MsgDisp("Tomoe","Kimi-chan, are you ready to win and take
+on the world?");
 MsgDisp("主人公","Hehe, yes!");
 BGMStop();
 MsgClose();

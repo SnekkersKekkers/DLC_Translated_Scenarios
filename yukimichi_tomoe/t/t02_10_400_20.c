@@ -15,7 +15,7 @@ ChMotion(10,3);
 ChEyeOpenLevel(10,0);
 ChCheek(10,10);
 VoicePlay("T021040020_10_010");
-MsgDisp("Tomoe","You-chan, I love you!");
+MsgDisp("Tomoe","Kimi-chan, I love you!");
 BGMStop(2.8);
 MsgClear();
 ScrFadeOut(0,1);

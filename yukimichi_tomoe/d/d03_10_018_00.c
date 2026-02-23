@@ -41,7 +41,7 @@ MsgClose();
 BGMPlay("BGM_C10_TOMOE_B",0.01,0.5);
 ChOpen(10,37,5,5,5,#1,#1,0,0);
 VoicePlay("D031001800_10_020");
-MsgDisp("Tomoe","...You-chan∋
+MsgDisp("Tomoe","...Kimi-chan∋
 What's up?");
 MsgDisp("主人公","I should be asking Tomoe-chan that.
 You're back...?");
@@ -68,7 +68,7 @@ ChMouth(10,4);
 ChMotion(10,4);
 VoicePlay("D031001800_10_050");
 MsgDisp("Tomoe","Y-Yeah.
-You-chan, you've still been coming to the
+Kimi-chan, you've still been coming to the
 dojo...");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE",0.1,0.5);
@@ -126,7 +126,7 @@ He really is a man after all...)");
 StlEye(10,2);
 StlMouth(10,2);
 VoicePlay("D031001800_10_100");
-MsgDisp("Tomoe","You-chan is soft and smells good...");
+MsgDisp("Tomoe","Kimi-chan is soft and smells good...");
 MsgDisp("主人公","Eh...∋");
 StlEye(10,0);
 StlMouth(10,0);
@@ -144,7 +144,7 @@ StlEye(10,0);
 StlMouth(10,0);
 StlEyeOpenLevel(10,5);
 VoicePlay("D031001800_10_130");
-MsgDisp("Tomoe","You-chan...?");
+MsgDisp("Tomoe","Kimi-chan...?");
 MsgDisp("主人公","Tomoe-kun...?");
 SEPlay("EV_SE_512",0,0.4,1);
 BGMStop(2);
@@ -179,7 +179,7 @@ ChMotion(10,3);
 VoicePlay("D031001800_10_160");
 MsgDisp("Tomoe","Yeah.
 You're a proper judo practitioner now,
-You-chan.");
+Kimi-chan.");
 MsgDisp("主人公","You understand me now?");
 ChEye(10,0);
 ChMouth(10,0);

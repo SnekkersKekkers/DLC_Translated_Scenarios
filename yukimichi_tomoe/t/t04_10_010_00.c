@@ -10,7 +10,7 @@ ScrFadeIn(0);
 MsgDispHide();
 VoicePlay("T041001000_10_000");
 MsgDisp("Tomoe","My very first love...
-That's you, You-chan.");
+That's you, Kimi-chan.");
 MsgClose();
 Wait(300,0);
 ScrFadeOut(0,0);

@@ -10,7 +10,7 @@ SEStop("EV_SE_577",0);
 SEWait();
 MsgDisp("主人公","Hello, Tomoe-chan?");
 VoicePlay("D031001700_10_000");
-MsgDisp("Tomoe","You-chan, good morning.
+MsgDisp("Tomoe","Kimi-chan, good morning.
 Are you doing okay?");
 MsgDisp("主人公","Good Morning? I see. Is it morning over
 there? It's evening here!");
@@ -43,7 +43,7 @@ MsgDisp("Tomoe","Even though we're in Paris...");
 MsgDisp("主人公","Hehe, that's kind of disappointing, isn't
 it?");
 VoicePlay("D031001700_10_070");
-MsgDisp("Tomoe","They're not You-chan, after all.
+MsgDisp("Tomoe","They're not Kimi-chan, after all.
 Byebye!");
 MsgDisp("主人公","Yeah, byebye!");
 SEPlay("SYS_SE_PHONE_POWER_ON");

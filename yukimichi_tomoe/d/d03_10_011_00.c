@@ -8,7 +8,7 @@ MsgClose();
 BGMPlay("BGM_C10_TOMOE_A",0.01);
 ChOpen(10,37,0,1,0,#1,#1,0,0);
 VoicePlay("D031001100_10_000");
-MsgDisp("Tomoe","You-chan is getting stronger, but so are
+MsgDisp("Tomoe","Kimi-chan is getting stronger, but so are
 your opponents. If you want to keep
 winning, you need to practice!");
 MsgDisp("主人公","OSSU!");
@@ -67,7 +67,7 @@ ChEye(10,0);
 ChMouth(10,4);
 ChMotion(10,0);
 VoicePlay("D031001100_10_060");
-MsgDisp("Tomoe","...You-chan?");
+MsgDisp("Tomoe","...Kimi-chan?");
 MsgDisp("主人公","What?");
 BGMPlay("BGM_C10_TOMOE_B",0.01);
 Wait(30,0);
@@ -107,7 +107,7 @@ ChMotion(10,4);
 VoicePlay("D031001100_10_110");
 MsgDisp("Tomoe","Okay.
 I need to go practice.
-It would be strange if only You-chan won.");
+It would be strange if only Kimi-chan won.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();

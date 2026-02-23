@@ -38,7 +38,7 @@ VoicePlay("D031001300_10_020");
 MsgDisp("Tomoe","Who's that...?");
 VoicePlay("D031001300_10_030");
 MsgDisp("Tomoe","Ugh...
-You-chan, let's talk outside.");
+Kimi-chan, let's talk outside.");
 MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
@@ -79,7 +79,7 @@ ChMouth(10,0);
 ChMotion(10,4);
 ChCheek(10,10);
 VoicePlay("D031001300_10_070");
-MsgDisp("Tomoe","...You-chan.
+MsgDisp("Tomoe","...Kimi-chan.
 You're kind, aren't you?
 I'm sorry.");
 MsgClose();

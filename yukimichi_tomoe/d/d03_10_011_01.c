@@ -8,7 +8,7 @@ MsgClose();
 BGMPlay("BGM_C10_TOMOE_A",0.01);
 ChOpen(10,37,0,1,4,#1,#1,0,0);
 VoicePlay("D031001101_10_000");
-MsgDisp("Tomoe","You-chan is definitely getting stronger.
+MsgDisp("Tomoe","Kimi-chan is definitely getting stronger.
 But at that pace it's impossible for you
 to win the Inter-High.");
 MsgDisp("主人公","Tomoe-chan, I...");
@@ -17,7 +17,7 @@ ChMouth(10,4);
 ChMotion(10,2);
 ChEyeOpenLevel(10,0);
 VoicePlay("D031001101_10_010");
-MsgDisp("Tomoe","I want You-chan to do judo at her own
+MsgDisp("Tomoe","I want Kimi-chan to do judo at her own
 pace.
 Don't keep forcing yourself.");
 MsgClose();

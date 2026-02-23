@@ -64,8 +64,8 @@ ChOpen(37,254,0,0,0,#1,#1,0,2);
 VoicePlay("D031000000_38_000");
 MsgDisp("Club Members","Osako-sensei, OSSU!");
 MsgDisp("主人公","(Eh, that's a teacher∋ I thought he was a
-middle school teacher...That's
-Osako-sensei, the Judo Club advisor.)");
+middle schooler...That's Osako-sensei, the
+Judo Club advisor.)");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031000000_37_010");
@@ -99,7 +99,7 @@ That person is exactly like we heard.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031000000_37_040");
-MsgDisp("Osako","Tomoe's grandfather was my teacher.
+MsgDisp("Osako","Tomoe's grandfather was my master.
 The head instructor of the Tomoe Dojo.");
 ChEye(37,0);
 ChMouth(37,0);

@@ -187,12 +187,12 @@ ChMouth(33,0);
 ChEyeOpenLevel(33,8);
 VoicePlay("D031000800_33_040");
 MsgDisp("Guy","No, it's both of you.
-Both Tomoe-chan and You-chan are cute.");
+Both Tomoe-chan and Kimi-chan are cute.");
 ChEye(10,0);
 ChMouth(10,3);
 ChMotion(10,3);
 VoicePlay("D031000800_10_110");
-MsgDisp("Tomoe","You-chan?
+MsgDisp("Tomoe","Kimi-chan?
 Interesting choice of words.");
 ChEye(33,1);
 ChMouth(33,0);
@@ -253,7 +253,7 @@ ChMouth(10,4);
 ChMotion(10,2);
 VoicePlay("D031000800_10_160");
 MsgDisp("Tomoe","Uhm...then...
-I'll call you You-chan?");
+I'll call you Kimi-chan?");
 MsgDisp("主人公","Ehhh?
 That's what the person from before called
 me—");
@@ -264,13 +264,13 @@ ChEyeOpenLevel(10,0);
 VoicePlay("D031000800_10_170");
 MsgDisp("Tomoe","Yeah.
 His fashion sense was terrible but I liked
-You-chan.");
+Kimi-chan.");
 MsgDisp("主人公","Hehe!");
 ChEye(10,0);
 ChMouth(10,3);
 ChMotion(10,0);
 VoicePlay("D031000800_10_180");
-MsgDisp("Tomoe","See You-chan later then.
+MsgDisp("Tomoe","See you later then, Kimi-chan.
 I'm going to go train.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");

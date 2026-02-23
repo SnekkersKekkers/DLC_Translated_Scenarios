@@ -1,0 +1,151 @@
+ChLayout(1);
+BGOpen("sc500",1);
+ScrFadeIn(0);
+MsgDisp("主人公","（そうだ。
+今日は余多門高校まで行ってみよう。
+大成先生に会えるかな？）");
+MsgClose();
+ScrFadeOut(0);
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+EnvAutoSet(0);
+BGOpen("ex360",1);
+EnvPlay("SE_ENV_BG_SC131_CW1",0.5);
+ScrFadeIn(0);
+MsgClose();
+VoicePlay("D031101400_33_000");
+MsgDisp("余多門生Ｂ","やっぱり戻ってきた。
+運命には逆らえないって、言っただろ。");
+VoicePlay("D031101400_39_010");
+MsgDisp("余多門生Ｃ","お、転校生ちゃん。
+サクセスが来る前に、こっちおいでよ。");
+MsgDisp("主人公","えっ？");
+MsgDisp("主人公","（あ、大成先生が言ってたよね。
+“逃げないでこっちから
+踏み込んでいってやればいい”って……）");
+VoicePlay("D031101400_39_020");
+MsgDisp("余多門生Ｃ","怖くない、怖くない。");
+MsgDisp("主人公","（うん、よし……）");
+MsgSel("職員室まで連れて行って","やっぱり、怖いかも……");
+switch (MsgSelRsltGet()){
+    case 0:
+    MsgDisp("主人公","うん、じゃあ職員室まで連れて行って。");
+    VoicePlay("D031101400_33_030");
+    MsgDisp("余多門生Ｂ","あ、あそこは、方角が悪い。
+鬼門だ。");
+    MsgClose();
+    SEWait();
+    BGMPlay("BGM_C11_ONARI_A",0.01);
+    ChOpen(11,40,0,3,3,-1,-1,0,0);
+    VoicePlay("D031101400_11_000");
+    MsgDisp("大成","ははっ、君の勝ちだ。
+おまえらの負け。");
+    MsgDisp("主人公","大成先生！");
+    MsgClose();
+    ChClose(11,0,30);
+    ChLayout(0);
+    MsgClose();
+    SEPlay("EV_SE_544");
+    ChOpen(11,40,3,0,0,-1,-1,0,0);
+    VoicePlay("D031101400_11_010");
+    MsgDisp("大成","よくできました。");
+    MsgClose();
+    ScrFadeOut(0);
+    SEPlay("EV_SE_682",0,0.5);
+    MsgDisp("","（ポンポン）");
+    ScrFadeIn(0);
+    MsgDisp("主人公","（あ……
+大成先生、わたしの頭を撫でてくれた……）");
+    VoicePlay("D031101400_33_040");
+    MsgDisp("余多門生Ｂ","おい、サクセス。
+校門でそんなことしていいのかよ。
+行こうぜ。");
+    VoicePlay("D031101400_39_050");
+    MsgDisp("余多門生Ｃ","あーあ、あほらし。");
+    SEPlay("EV_SE_FOOT_WALK_AWAY_MANY",0,0.4);
+    BGOpen("ex361",1);
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,4);
+    VoicePlay("D031101400_11_020");
+    MsgDisp("大成","ははっ、あいつらに注意されたの初めてだよ。
+新鮮。");
+    MsgDisp("主人公","ふふっ。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,0);
+    VoicePlay("D031101400_11_030");
+    MsgDisp("大成","ふっ……
+じゃあ、勉強しにいくか？");
+    MsgClose();
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(11);
+    MsgDisp("主人公","（ちょっとびっくりしたけど、
+大成先生の手、あったかかった……
+うん、勇気を出してよかった！）");
+    break ;
+    case 1:
+    MsgDisp("主人公","（やっぱり、怖いかも……）");
+    VoicePlay("D031101400_34_060");
+    MsgDisp("余多門生Ａ","サクセスのカノジョだぜ？");
+    MsgClose();
+    SEWait();
+    BGMPlay("BGM_C11_ONARI_A",0.01);
+    ChOpen(11,40,4,1,3,-1,-1,0,0);
+    VoicePlay("D031101400_11_040");
+    MsgDisp("大成","オレのカノジョになんか用？");
+    MsgDisp("主人公","カノジョ∋");
+    MsgClose();
+    ChClose(11,0,30);
+    ChLayout(0);
+    MsgClose();
+    SEPlay("EV_SE_544");
+    ChOpen(11,40,3,0,0,-1,-1,0,0);
+    VoicePlay("D031101400_11_050");
+    MsgDisp("大成","ふん、よくがんばった。");
+    MsgClose();
+    ScrFadeOut(0);
+    SEPlay("EV_SE_682",0,0.5);
+    MsgDisp("","（ポンポン）");
+    MsgDisp("主人公","（あ……
+大成先生、わたしの頭を撫でてくれた……）");
+    ScrFadeIn(0);
+    VoicePlay("D031101400_34_070");
+    MsgDisp("余多門生Ａ","校門で教師が
+そんなことしていいのかよ……");
+    VoicePlay("D031101400_39_080");
+    MsgDisp("余多門生Ｃ","あーあ、あほらし。
+行こうぜ。");
+    SEPlay("EV_SE_FOOT_WALK_AWAY_MANY",0,0.4);
+    BGOpen("ex361",1);
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,4);
+    VoicePlay("D031101400_11_060");
+    MsgDisp("大成","あいつに注意されたの初めてかもな。
+新鮮。");
+    MsgDisp("主人公","ふふっ。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,0);
+    VoicePlay("D031101400_11_070");
+    MsgDisp("大成","じゃあ、勉強しにいくか。");
+    MsgClose();
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(11);
+    MsgDisp("主人公","（はぁ……ドキドキした。
+でも、さっきの「カノジョ」って……
+大成先生って時々ビックリすること言うよね）");
+    break ;
+    default :
+    DbgAssert(0);
+    break ;
+    }
+EnvAutoSet(1);
+MsgClose();
+ScrFadeOut(0);
+ChLayout(1);

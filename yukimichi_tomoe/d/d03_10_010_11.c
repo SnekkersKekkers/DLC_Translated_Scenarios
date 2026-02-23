@@ -22,7 +22,7 @@ ChMouth(10,0);
 ChMotion(10,4);
 VoicePlay("D031001011_10_010");
 MsgDisp("Tomoe","Yeah.
-I'm glad You-chan is here with me.");
+I'm glad Kimi-chan is here with me.");
 MsgDisp("主人公","Tomoe-chan could probably pull off clothes
 from this store too.");
 VoicePlay("D031001011_31_000");
@@ -54,8 +54,7 @@ ChMouth(31,2);
 ChMotion(31,2);
 VoicePlay("D031001011_31_020");
 MsgDisp("Goro","That's me♪ As expected of you, you
-discovered another one. 
-Tomoe-chan.");
+discovered another one. Tomoe-chan.");
 ChEye(10,5);
 ChMouth(10,4);
 ChMotion(10,5);
@@ -75,9 +74,8 @@ ChEye(31,2);
 ChMouth(31,2);
 ChMotion(31,4);
 VoicePlay("D031001011_31_040");
-MsgDisp("Goro","Geez! Did you forget already? 
-I was the one who took you 
-to that fashion show▼");
+MsgDisp("Goro","Geez! Did you forget already? I was the
+one who took you to that fashion show▼");
 ChEye(10,0);
 ChMouth(10,4);
 ChMotion(10,0);
@@ -225,7 +223,7 @@ ChMouth(10,3);
 ChMotion(10,3);
 VoicePlay("D031001011_10_160");
 MsgDisp("Tomoe","Let's win the Inter-high together,
-You-chan.");
+Kimi-chan.");
 MsgDisp("主人公","...Yeah!");
 ChEye(10,0);
 ChMouth(10,3);

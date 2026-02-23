@@ -1,0 +1,174 @@
+ChLayout(1);
+BGOpen("ex080",0);
+ScrFadeIn(0);
+MsgDisp("主人公","（今日は、学食でランチだ）");
+VoicePlay("D031100400_44_000");
+MsgDisp("女子生徒Ａ","ね、何にしようか？");
+MsgDisp("主人公","うーん、どれもおいしそうで
+悩んじゃうなぁ。");
+VoicePlay("D031100400_45_000");
+MsgDisp("女子生徒Ｂ","すごい！　大成先生！");
+VoicePlay("D031100400_42_020");
+MsgDisp("男子生徒","二人とも、がんばれ！");
+MsgDisp("主人公","？");
+MsgClose();
+ScrFadeOut(0);
+StlOpen("ev_11_04");
+StlEye(11,0);
+StlMouth(11,0);
+StlEye(37,0);
+StlMouth(37,0);
+BGMPlay("BGM_C11_ONARI_A",0.01);
+ScrFadeIn(0);
+MsgDisp("主人公","（あれは……大成先生と大迫先生∋）");
+StlEye(37,0);
+StlMouth(37,0);
+VoicePlay("D031100400_37_000");
+MsgDisp("大迫","大成、やるな～。
+全然余裕じゃないか？");
+StlEye(11,0);
+StlMouth(11,1);
+VoicePlay("D031100400_11_000");
+MsgDisp("大成","美味しい麻婆でした。");
+StlEye(37,1);
+StlMouth(37,0);
+VoicePlay("D031100400_42_030");
+MsgDisp("男子生徒","通常の激辛麻婆でもキツいのに、
+辛さ１０倍だよ？");
+MsgDisp("主人公","ええっ！　辛さ１０倍∋");
+VoicePlay("D031100400_44_010");
+MsgDisp("女子生徒Ａ","まじでヤバイ、大成先生。");
+StlEye(11,1,0);
+StlMouth(11,0);
+StlEyeOpenLevel(11,5,1);
+VoicePlay("D031100400_11_010");
+MsgDisp("大成","オレ、ヤバイのかな？");
+StlEye(37,0,0);
+StlMouth(37,0);
+StlEyeOpenLevel(37,0,1);
+VoicePlay("D031100400_37_010");
+MsgDisp("大迫","ああ、昔からヤバかった。
+辛さだけじゃなくて、大食いもな。");
+MsgDisp("主人公","（大成先生は辛党で大食いなんだ。
+ちょっと意外……）");
+StlEye(11,0);
+StlMouth(11,0);
+VoicePlay("D031100400_11_020");
+MsgDisp("大成","満腹にならないってだけです。");
+MsgClose();
+ScrFadeOut(0);
+StlClose();
+BGOpen("ex090",0);
+ChLayout(3);
+MsgClose();
+ChOpen(37,254,0,0,0,-1,-1,0,2,0,30);
+ChOpen(11,254,4,0,4,0,-1,0,1,0,30);
+BGMVol(0.5,2);
+ScrFadeIn(0);
+MsgDisp("主人公","大成先生、お腹大丈夫ですか？");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,0);
+VoicePlay("D031100400_11_030");
+MsgDisp("大成","うん。なんで？");
+ChEye(37,2);
+ChMouth(37,0);
+VoicePlay("D031100400_37_020");
+MsgDisp("大迫","ヒー、フー……おまえには敵わない。
+辛さが戻ってきたぞぉ。");
+VoicePlay("D031100400_42_050");
+MsgDisp("男子生徒","はははっ！
+小さい先生、顔が赤いよ。");
+VoicePlay("D031100400_44_020");
+MsgDisp("女子生徒Ａ","ふふっ、かわいいかも？");
+ChEye(37,1);
+ChMouth(37,0);
+VoicePlay("D031100400_37_030");
+MsgDisp("大迫","コラァ、おまえたち。
+先生はな、なりは小さくても大迫力、
+大迫力だぁ～！");
+SEPlay("EV_SE_621");
+Wait(30,0);
+SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
+ChClose(37);
+VoicePlay("D031100400_37_040");
+MsgDisp("大迫","すみません！　水をください！");
+VoicePlay("D031100400_44_030");
+MsgDisp("女子生徒Ａ","大丈夫ですか～？
+水はあっちですよ。");
+VoicePlay("D031100400_42_080");
+MsgDisp("男子生徒","はははっ！");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,2);
+ChEyeOpenLevel(11,7);
+VoicePlay("D031100400_11_040");
+MsgDisp("大成","……やっぱり敵わないな。");
+MsgDisp("主人公","え？");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,4);
+VoicePlay("D031100400_11_050");
+MsgDisp("大成","さっきの「なりは小さくても大迫力」ってやつ、
+自己紹介でマネしたんだけど。");
+MsgDisp("主人公","あ……「大失敗でも大成功」？");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,3);
+ChEyeOpenLevel(11,0);
+VoicePlay("D031100400_11_060");
+MsgDisp("大成","そう。
+激辛勝負にも勝った。
+でも結局、大迫先生の周りの方が盛り上がる。");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,0);
+VoicePlay("D031100400_11_070");
+MsgDisp("大成","？
+……あれ、君はここにいていいの？");
+MsgDisp("主人公","え？　わたしは……");
+MsgSel("大成先生と一緒の方が楽しいです","友だちが向こうにいるので失礼します");
+switch (MsgSelRsltGet()){
+    case 0:
+    MsgDisp("主人公","わたしは大成先生と一緒の方が楽しいです。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,4);
+    VoicePlay("D031100400_11_080");
+    MsgDisp("大成","ふーん。二週間だけだったけど、
+君みたいな人がいてくれて助かった。
+ありがとう。");
+    MsgClose();
+    SEPlay("EV_SE_713");
+    Wait(30,0);
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(11);
+    MsgDisp("主人公","（そっか、実習期間、もう終わりなんだ。
+大成先生、はば学に赴任してきて欲しいな）");
+    break ;
+    case 1:
+    MsgDisp("主人公","友だちが向こうにいるので、失礼します。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,4);
+    VoicePlay("D031100400_11_090");
+    MsgDisp("大成","そうか。２週間だけだったけど、
+君みたいな人がいてくれて助かった。
+ありがとう。");
+    MsgClose();
+    SEPlay("EV_SE_713");
+    Wait(30,0);
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(11);
+    MsgDisp("主人公","（大成先生の実習期間、終わりなんだ……
+あっという間だったな）");
+    break ;
+    default :
+    DbgAssert(0);
+    break ;
+    }
+MsgClose();
+ScrFadeOut(0);
+ChLayout(1);

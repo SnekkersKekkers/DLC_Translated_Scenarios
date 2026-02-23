@@ -6,7 +6,7 @@ ChMouth(10,4);
 ChMotion(10,4);
 VoicePlay("T021040030_10_000");
 MsgDisp("Tomoe","Uhm...
-You-chan?");
+Kimi-chan?");
 MsgDisp("主人公","When I sparred with you for the first
 time, I realized that Tomoe-kun is really
 a man...");

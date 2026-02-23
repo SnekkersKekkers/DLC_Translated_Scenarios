@@ -66,7 +66,7 @@ StlMouth(10,0);
 BGMPlay("BGM_C10_TOMOE_B",0.01);
 ScrFadeIn(0);
 VoicePlay("D031001500_10_020");
-MsgDisp("Tomoe","You-chan, congratulations on winning the
+MsgDisp("Tomoe","Kimi-chan, congratulations on winning the
 Inter-High!
 Cheers!");
 MsgDisp("主人公","Tomoe-chan, congratulations on being
@@ -78,7 +78,7 @@ Wait(10,1);
 StlEye(10,2);
 StlMouth(10,2);
 VoicePlay("D031001500_10_030");
-MsgDisp("Tomoe","...Hey, You-chan.");
+MsgDisp("Tomoe","...Hey, Kimi-chan.");
 MsgDisp("主人公","What?");
 StlEye(10,2);
 StlMouth(10,0);

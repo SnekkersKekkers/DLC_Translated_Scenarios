@@ -81,9 +81,8 @@ ChEye(35,2);
 ChMouth(35,0);
 ChEyeOpenLevel(35,8);
 VoicePlay("D031000911_35_030");
-MsgDisp("Guy","Hmm, what? Ah, that's right. 
-Right, right. Who are you again? 
-It's been a while～!");
+MsgDisp("Guy","Hmm, what? Ah, that's right. Right, right.
+Who are you again? It's been a while～!");
 ChEye(35,0);
 ChMouth(35,0);
 ChEyeOpenLevel(35,0);

@@ -1,0 +1,221 @@
+ChLayout(1);
+BGOpen("sc510",0);
+ScrFadeIn(0);
+MsgDisp("主人公","（よかった！
+早く大成先生に報告したいな。
+喜んでくれるよね！）");
+MsgClose();
+ScrFadeOut(0);
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+BGOpen("ex350",0);
+ScrFadeIn(0);
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_COME_ALONE");
+Wait(70,0);
+ChOpen(33,254,0,1,0,-1,-1,0,0);
+VoicePlay("D031101500_33_000");
+MsgDisp("？余多門生Ｂ","また会った。
+これは前世からの因縁だ。");
+MsgDisp("主人公","えぇと……");
+ChEye(33,0);
+ChMouth(33,1);
+VoicePlay("D031101500_33_010");
+MsgDisp("？余多門生Ｂ","ええ？　わかんない？
+サクセスのより、
+オレとの運命の糸の方が太いって。");
+MsgDisp("主人公","ああ！　余多門高校の？");
+ChPosition(33,1);
+MsgClose();
+SEPlay("EV_SE_544",0,0.6);
+ChOpen(34,254,0,1,0,-1,-1,0,2);
+SEWait();
+VoicePlay("D031101500_34_020");
+MsgDisp("余多門生Ａ","忘れられてんじゃん。");
+MsgDisp("主人公","あ、野良さん、こんにちは。");
+ChEye(34,0);
+ChMouth(34,0);
+VoicePlay("D031101500_34_030");
+MsgDisp("余多門生Ａ","オレは覚えられてる。");
+ChEye(33,1);
+ChMouth(33,1);
+VoicePlay("D031101500_33_040");
+MsgDisp("余多門生Ｂ","うるせぇ。
+今日でオレも覚えたよな。");
+MsgDisp("主人公","はい。");
+ChEye(33,0);
+ChMouth(33,0);
+VoicePlay("D031101500_33_050");
+MsgDisp("余多門生Ｂ","じゃあ、オレたちは街で運命探しだ。");
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+ChClose(33);
+MsgDisp("主人公","運命探しって……？");
+ChEye(34,2);
+ChMouth(34,0);
+VoicePlay("D031101500_34_060");
+MsgDisp("余多門生Ａ","ナンパだよ。");
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+ChClose(34);
+MsgDisp("主人公","…………");
+MsgClose();
+ScrFadeOut(0);
+SEPlay("EV_SE_088");
+BGOpen("ex340",0);
+ScrFadeIn(0);
+MsgClose();
+BGMPlay("BGM_C11_ONARI_A",0.01);
+ChOpen(11,40,4,0,4,-1,-1,0,0);
+VoicePlay("D031101500_11_000");
+MsgDisp("大成","やあ。");
+MsgDisp("主人公","大成先生！
+期末テストの結果、満足できる成績でした！");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,3);
+VoicePlay("D031101500_11_010");
+MsgDisp("大成","うん、このまま一流大学合格だ。");
+MsgDisp("主人公","はい！
+一流大学に入って、大成先生みたいな
+先生になるんだ……！");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,0);
+VoicePlay("D031101500_11_020");
+MsgDisp("大成","もうなれてる。");
+MsgDisp("主人公","え？");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,4);
+VoicePlay("D031101500_11_030");
+MsgDisp("大成","あいつらと自然に話してた。
+オレみたいな教師にはもうなれてるよ。");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,0);
+VoicePlay("D031101500_11_040");
+MsgDisp("大成","だから、君しかなれない先生になれって。");
+MsgDisp("主人公","大成先生……
+はい！
+勉強、今日もお願いします。");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,4);
+VoicePlay("D031101500_11_050");
+MsgDisp("大成","ああ。
+でも、今度一日休みくれないか？
+コンビニ塾。");
+MsgDisp("主人公","あ……はい。
+忙しいのに、いつもつき合ってもらって
+すみません。");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,2);
+VoicePlay("D031101500_11_060");
+MsgDisp("大成","違うよ。
+デートしたいって思って。");
+MsgDisp("主人公","え……ええっ∋");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,4);
+VoicePlay("D031101500_11_070");
+MsgDisp("大成","夏祭り、昔から好きなんだ。
+君は？
+来月の花火大会、一緒に行こう。");
+MsgDisp("主人公","（大成先生と花火大会に……
+どうしよう∋）");
+MsgSel("ぜひ、お願いします！","夏休みは遊んでいる暇はありません！");
+switch (MsgSelRsltGet()){
+    case 0:
+    MsgDisp("主人公","はい！　ぜひ、お願いします。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,0);
+    VoicePlay("D031101500_11_080");
+    MsgDisp("大成","よっし。
+じゃあ、チョコミントアイス食べてから、
+始めよう。");
+    ChEye(11,0);
+    ChMouth(11,3);
+    ChMotion(11,1);
+    VoicePlay("D031101500_11_090");
+    MsgDisp("大成","今日はキングサイズ。");
+    MsgClose();
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(11);
+    MsgDisp("主人公","（大成先生と花火大会デート……
+今年は８月６日だったよね。待ち遠しいな！
+それまでは勉強がんばるぞ！）");
+    break ;
+    case 1:
+    MsgDisp("主人公","夏休みは遊んでいる暇はありません。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,0);
+    VoicePlay("D031101500_11_100");
+    MsgDisp("大成","そうだよな。
+君ならもっと上にいける。");
+    MsgDisp("主人公","……ごめんなさい。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,2);
+    ChEyeOpenLevel(11,0);
+    VoicePlay("D031101500_11_110");
+    MsgDisp("大成","納得できるまで、
+自分を追い込みたい気持ちわかるよ。");
+    MsgDisp("主人公","はい。");
+    ChEye(11,0);
+    ChMouth(11,4);
+    ChMotion(11,4);
+    VoicePlay("D031101500_11_120");
+    MsgDisp("大成","本当は花火大会で話すつもりだったんだ。
+……コンビニ塾の役目はもう終わった。");
+    MsgDisp("主人公","え？");
+    ChEye(11,0);
+    ChMouth(11,4);
+    ChMotion(11,0);
+    VoicePlay("D031101500_11_130");
+    MsgDisp("大成","君はもっと上のレベルで勉強するべきだよ。
+オレが片手間に教えてるんじゃダメだ。");
+    MsgDisp("主人公","そんな……");
+    ChEye(11,1);
+    ChMouth(11,4);
+    ChMotion(11,2);
+    VoicePlay("D031101500_11_140");
+    MsgDisp("大成","それにな、オレを必要としてるやつらが、
+ゴロゴロしてるんだ。
+あいつらにはオレが教えないと。");
+    MsgDisp("主人公","大成先生……");
+    ChEye(11,1);
+    ChMouth(11,0);
+    ChMotion(11,3);
+    VoicePlay("D031101500_11_150");
+    MsgDisp("大成","コンビニ塾は
+あいつらにしてやらないとな。
+君は上に行けよ。");
+    MsgDisp("主人公","……はい。");
+    ChEye(11,0);
+    ChMouth(11,0);
+    ChMotion(11,2);
+    VoicePlay("D031101500_11_160");
+    MsgDisp("大成","あいつら捕まえてくる。
+勉強させるまで、
+たどり着けるかわからないけどな。");
+    MsgClose();
+    SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+    BGMStop();
+    ChClose(11);
+    MsgDisp("主人公","（大成先生……
+そうだよね、余多門高校の生徒たちのために
+わたしはコンビニ塾から卒業しよう）");
+    break ;
+    default :
+    DbgAssert(0);
+    break ;
+    }
+MsgClose();
+ScrFadeOut(0);

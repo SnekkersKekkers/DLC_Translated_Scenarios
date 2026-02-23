@@ -7,7 +7,7 @@ SEWait();
 BGMPlay("BGM_C10_TOMOE_A",0.01);
 ChOpen(10,37,3,0,5,#1,#1,0,0);
 VoicePlay("D031001400_10_010");
-MsgDisp("Tomoe","You-chan!
+MsgDisp("Tomoe","Kimi-chan!
 It's over!");
 MsgDisp("主人公","Ah, Tomoe-chan!
 How'd it go?");
@@ -27,8 +27,8 @@ SEPlay("EV_SE_692",0,0.5);
 ChOpen(10,37,0,0,0,#1,#1,0,0,0,30);
 VoicePlay("D031001400_10_030");
 MsgDisp("Tomoe","Yeah.
-You-chan can win too.
-Because You-chan is both cute and strong.");
+Kimi-chan can win too.
+Because Kimi-chan is both cute and strong.");
 MsgDisp("主人公","Hehe!
 But that describes you, Tomoe-chan?");
 ChEye(10,0);

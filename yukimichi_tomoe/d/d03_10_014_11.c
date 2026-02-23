@@ -51,7 +51,7 @@ ChEye(10,0);
 ChMouth(10,3);
 ChMotion(10,3);
 VoicePlay("D031001400_10_070");
-MsgDisp("Tomoe","You-chan, let's go!
+MsgDisp("Tomoe","Kimi-chan, let's go!
 We can go shopping on the way home.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
@@ -74,7 +74,7 @@ for him, he's been spoiled silly by your
 kindness.");
 MsgDisp("主人公","No, it's not like that...");
 VoicePlay("D031001400_10_080");
-MsgDisp("Tomoe","You-chan, let's hurry and go!");
+MsgDisp("Tomoe","Kimi-chan, let's hurry and go!");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031001400_37_060");

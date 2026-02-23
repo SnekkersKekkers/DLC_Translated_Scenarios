@@ -1,0 +1,164 @@
+ChLayout(1);
+BGOpen("ho210",0);
+ScrFadeIn(0);
+SEPlay("EV_SE_787");
+SEWait();
+MsgDisp("主人公","（あ、はばチャ編集部からだ）");
+MsgDisp("主人公","（“はばたき商店街で、
+『真冬のアイス大食い大会』が開催中なので、
+取材をお願いします”……だって）");
+MsgDisp("主人公","（お昼までか……よーし、急ごう！）");
+MsgClose();
+ScrFadeOut(0);
+SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
+SEWait();
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+BGOpen("ne100",0);
+ScrFadeIn(0);
+MsgDisp("主人公","（あぁ……アイス大食い大会、
+もう終わっちゃったみたい……）");
+VoicePlay("D031100500_36_000");
+MsgDisp("スタッフ","あ、はばチャの人？");
+MsgDisp("主人公","はい。
+遅くなってすみません……！");
+VoicePlay("D031100500_36_010");
+MsgDisp("スタッフ","ううん。
+大学生が圧勝でね、予定より前に終わったんだ。");
+VoicePlay("D031100500_36_020");
+MsgDisp("スタッフ","「冷たい！」「寒い！」っていう
+盛り上がりを期待したんだけど、
+余裕で食べちゃうもんだから。");
+MsgDisp("主人公","へぇ、すごい人がいたんですね？");
+VoicePlay("D031100500_36_030");
+MsgDisp("スタッフ","記事は盛り上がった感じでよろしくね。
+――あっ、まだあそこにいた！
+チャンピオン、取材だって！");
+MsgDisp("主人公","え……");
+MsgClose();
+ScrFadeOut(0);
+StlOpen("ev_11_02");
+StlEye(11,0,0);
+StlMouth(11,0);
+StlEyeOpenLevel(11,0,1);
+BGMPlay("BGM_C11_ONARI_A",0.01);
+ScrFadeIn(0);
+MsgDisp("主人公","（お、大成先生∋
+雰囲気がだいぶ違う∋）");
+StlEye(11,1);
+StlMouth(11,1);
+VoicePlay("D031100500_11_000");
+MsgDisp("大成","ん？
+やあ、君か。久しぶりだね。");
+MsgDisp("主人公","あ、はい。
+あの……まだアイス食べてるんですか？");
+StlEye(11,0);
+StlMouth(11,1);
+VoicePlay("D031100500_11_010");
+MsgDisp("大成","うん。
+このコンビニ限定チョコミントアイス、
+美味しいから。");
+MsgDisp("主人公","アイスの大食い大会で優勝したんですよね？
+お腹、大丈夫ですか？");
+StlEye(11,0,0);
+StlMouth(11,1);
+StlEyeOpenLevel(11,5,1);
+VoicePlay("D031100500_11_020");
+MsgDisp("大成","ベルトはきついかな？");
+StlEye(11,1);
+StlMouth(11,1);
+MsgDisp("主人公","お、お腹壊してないですか？");
+StlEye(11,1,0);
+StlMouth(11,1);
+StlEyeOpenLevel(11,5,1);
+VoicePlay("D031100500_11_030");
+MsgDisp("大成","オレ、そういうの平気。
+鈍いっていうか。");
+MsgDisp("主人公","そうなんですか……");
+MsgDisp("主人公","（ふふっ。
+お話すると、あまり変わってないなぁ）");
+MsgClose();
+ScrFadeOut(0);
+StlClose();
+BGOpen("ex350",0);
+BGMVol(0.5,2);
+ScrFadeIn(0);
+MsgClose();
+ChOpen(11,255,0,0,4,-1,-1,0,0);
+MsgDisp("主人公","わたし、はばチャのアルバイトをしてて、
+今日の大会について大成先生にインタビュー
+したいんですけど……いいですか？");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,4);
+VoicePlay("D031100500_11_040");
+MsgDisp("大成","へー、雑誌の取材。
+いいよ。");
+MsgClose();
+ScrFadeOut(0);
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+BGOpen("ne100",1);
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,0);
+ScrFadeIn(0);
+MsgDisp("主人公","……じゃあ、このあたりで。
+ありがとうございました！");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,0);
+VoicePlay("D031100500_11_050");
+MsgDisp("大成","商店街の人も気にしてたと思うけど、
+盛り上がった感じでよろしく。");
+MsgDisp("主人公","え？");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,2);
+ChEyeOpenLevel(11,8);
+VoicePlay("D031100500_11_060");
+MsgDisp("大成","オレがやると盛り上がらないんだ。
+はば学でもそうだっただろ。");
+MsgDisp("主人公","そんなことないと思いますけど……");
+ChEye(11,0);
+ChMouth(11,4);
+ChMotion(11,0);
+VoicePlay("D031100500_11_070");
+MsgDisp("大成","君は前にもそんなこと言ってくれたね……");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,4);
+VoicePlay("D031100500_11_080");
+MsgDisp("大成","そうだ、再会記念に。
+これ、コンビニのオリジナルアイス。
+チョコミント味。");
+SEPlay("EV_SE_717");
+SEWait();
+MsgDisp("主人公","あ、ありがとうございます。");
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+BGMStop();
+ChClose(11);
+MsgDisp("主人公","（……行っちゃった）");
+MsgDisp("主人公","（あ！　そういえば……
+大成先生、赴任先は決まったのかな？）");
+MsgSel("はば学に赴任してきたら嬉しいな","わたしには関係ないか……");
+switch (MsgSelRsltGet()){
+    case 0:
+    MsgDisp("主人公","（赴任先がはば学だったらいいな……
+もう一度、大成先生の授業受けたい！）");
+    break ;
+    case 1:
+    MsgDisp("主人公","（まあ、大成先生の赴任先がどこであろうと
+わたしには関係ないか……）");
+    break ;
+    default :
+    DbgAssert(0);
+    break ;
+    }
+MsgClose();
+ScrFadeOut(0);

@@ -95,16 +95,16 @@ ChMouth(10,4);
 ChMotion(10,2);
 VoicePlay("T021040000_10_120");
 MsgDisp("Tomoe","I didn't take you seriously and acted like
-you didn't matter. Without realizing it, 
-I became the sort of person I hate the most.");
+you didn't matter. Without realizing it, I
+became the sort of person I hate the most.");
 MsgDisp("主人公","Tomoe-kun...");
 ChEye(10,4);
 ChMouth(10,0);
 ChMotion(10,0);
 VoicePlay("T021040000_10_130");
 MsgDisp("Tomoe","When I saw how earnestly you were
-training, You-chan, it made me realize all
-of this. Thank you.");
+training, Kimi-chan, it made me realize
+all of this. Thank you.");
 ChEye(10,3);
 ChMouth(10,0);
 ChMotion(10,3);
@@ -167,7 +167,7 @@ ChMotion(10,4);
 ChEyeOpenLevel(10,0);
 ChCheek(10,8);
 VoicePlay("T021040000_10_210");
-MsgDisp("Tomoe","You-chan, you're so soft.
+MsgDisp("Tomoe","Kimi-chan, you're so soft.
 And you smell nice.");
 MsgDisp("主人公","......");
 ChEye(10,4);
@@ -184,11 +184,11 @@ Wait(60);
 SEPlay("EV_SE_544");
 ChOpen(10,254,7,1,4,#1,#1,10,0,0,120);
 VoicePlay("T021040000_10_230");
-MsgDisp("Tomoe","You-chan.
+MsgDisp("Tomoe","Kimi-chan.
 I really, really like you!");
 MsgDisp("主人公","!");
 ChEye(10,0);
 ChMouth(10,4);
 ChMotion(10,4);
 VoicePlay("T021040000_10_240");
-MsgDisp("Tomoe","So You-chan....do you like me too?");
+MsgDisp("Tomoe","So Kimi-chan....do you like me too?");

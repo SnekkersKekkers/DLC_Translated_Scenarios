@@ -24,7 +24,7 @@ ChMouth(10,4);
 ChMotion(10,0);
 VoicePlay("D031000912_10_010");
 MsgDisp("Tomoe","Huh?
-Is You-chan maybe...are you actually
+Is Kimi-chan maybe...are you actually
 uninterested in fashion?");
 MsgDisp("主人公","Eh?");
 ChEye(10,0);

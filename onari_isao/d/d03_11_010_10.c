@@ -1,0 +1,40 @@
+ChLayout(1);
+BGOpen("sc500",1);
+ScrFadeIn(0);
+MsgDisp("主人公","（そういえば……夏休み中、
+大成先生のコンビニ塾に行かなかったなぁ。
+帰りに、コンビニに行ってみようかな？）");
+MsgClose();
+ScrFadeOut(0);
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+BGOpen("ne100",1);
+ScrFadeIn(0);
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
+SEWait();
+ChOpen(34,254,0,1,1,-1,-1,0,0);
+VoicePlay("D031101010_34_000");
+MsgDisp("男","もうオレたちのパーティは解消だ。");
+MsgDisp("主人公","え∋
+あ、あなたは――");
+ChEye(34,0);
+ChMouth(34,1);
+VoicePlay("D031101010_34_010");
+MsgDisp("男","あまり待たせるのは良くない。
+これ、渡してくれって頼まれた。");
+MsgClose();
+SEPlay("EV_SE_662");
+SEWait();
+SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
+ChClose(34);
+MsgDisp("主人公","（“試験は受けるよ。でも、教員にはならない。
+だから、これ以上君の勉強も見られない。
+じゃあ。大成功”って……）");
+MsgDisp("主人公","（夏休み中、ここで待っててくれたんだ……
+本当に悪いことしちゃった。
+これからはひとりで勉強しないと……）");
+MsgClose();
+ScrFadeOut(0);

@@ -1,0 +1,28 @@
+MsgDisp("主人公","（ハァ……
+大成先生との約束、果たせなかったな……
+でも、ちゃんと報告はしよう）");
+MsgClose();
+ScrFadeOut(0);
+MsgDisp("","　　　　　　　　　　 ・
+　　　　　　　　　　 ・
+　　　　　　　　　　 ・");
+MsgClose();
+BGOpen("ex340",0);
+ScrFadeIn(0);
+MsgClose();
+SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
+SEWait();
+BGMPlay("BGM_C11_ONARI_A",0.01);
+ChOpen(11,40,4,0,4,-1,-1,0,0);
+VoicePlay("D031100901_11_000");
+MsgDisp("大成","オレの教え方の問題。
+君は頑張ってた。");
+MsgDisp("主人公","でも、目標には……");
+ChEye(11,0);
+ChMouth(11,0);
+ChMotion(11,0);
+VoicePlay("D031100901_11_010");
+MsgDisp("大成","君のおかげで、
+オレも誰かのきっかけくらいには
+なれるって、わかった。");
+MsgDisp("主人公","じゃあ、先生の試験も――");

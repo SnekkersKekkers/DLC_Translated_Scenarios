@@ -2,7 +2,7 @@ ChLayout(1);
 BGOpen("sc510",0);
 ScrFadeIn(0);
 VoicePlay("D031001200_10_000");
-MsgDisp("Tomoe?","You-chan.");
+MsgDisp("Tomoe?","Kimi-chan.");
 MsgClose();
 BGMPlay("BGM_HANYOU_A",0.01);
 ChOpen(10,254,7,0,0,#1,#1,0,1);
@@ -18,8 +18,8 @@ ChEye(10,0);
 ChMouth(10,0);
 ChMotion(10,0,1);
 VoicePlay("D031001200_10_010");
-MsgDisp("Tomoe","You-chan. Osako-san and I are going to the
-cafeteria. Come with us!");
+MsgDisp("Tomoe","Kimi-chan. Osako-san and I are going to
+the cafeteria. Come with us!");
 MsgDisp("主人公","Hehe, of course.");
 ChEye(37,0);
 ChMouth(37,0);
@@ -85,7 +85,7 @@ ChEye(10,0);
 ChMouth(10,0);
 ChMotion(10,4);
 VoicePlay("D031001200_10_040");
-MsgDisp("Tomoe","You-chan, you do it too!");
+MsgDisp("Tomoe","Kimi-chan, you do it too!");
 MsgDisp("主人公","Eh, me too?
 Sniff sniff...");
 ChEye(10,3);

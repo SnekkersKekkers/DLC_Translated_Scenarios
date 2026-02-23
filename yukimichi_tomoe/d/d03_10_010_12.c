@@ -21,7 +21,7 @@ ChEye(10,0);
 ChMouth(10,4);
 ChMotion(10,0);
 VoicePlay("D031001012_10_010");
-MsgDisp("Tomoe","Huh? Wait a second, You-chan. Are you
+MsgDisp("Tomoe","Huh? Wait a second, Kimi-chan. Are you
 maybe just forcing yourself to go out with
 me?");
 MsgDisp("主人公","Eh?");

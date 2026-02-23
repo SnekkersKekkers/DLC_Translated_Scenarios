@@ -31,7 +31,7 @@ ChEye(10,1);
 ChMouth(10,4);
 ChMotion(10,0);
 VoicePlay("D031001301_10_030");
-MsgDisp("Tomoe","You-chan, even though you were new to
+MsgDisp("Tomoe","Kimi-chan, even though you were new to
 judo, you got all caught up in winning or
 losing because of me. Sorry...");
 MsgDisp("主人公","That kind of thing is...");
@@ -54,7 +54,7 @@ ChMouth(10,0);
 ChMotion(10,0);
 ChEyeOpenLevel(10,0);
 VoicePlay("D031001301_10_060");
-MsgDisp("Tomoe","You-chan can do it.
+MsgDisp("Tomoe","Kimi-chan can do it.
 Bye.");
 MsgClose();
 SEPlay("EV_SE_690");
