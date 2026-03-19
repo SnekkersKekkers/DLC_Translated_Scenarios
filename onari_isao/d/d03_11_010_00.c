@@ -75,15 +75,16 @@ ChMotion(11,3);
 VoicePlay("D031101000_11_040");
 MsgDisp("Onari","The friend I mentioned at the start actually
 became real.");
-MsgDisp("主人公","That's amazing.
-You became friends with someone you just met.
-He seems to really like you too, Onari-sensei.");
+MsgDisp("主人公","That's amazing. You became friends with
+someone you just met. He seems to really
+like you too, Onari-sensei.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101000_11_050");
 MsgDisp("Onari","Really? That makes me happy.
-You said \"too,\" so that means you do as well, right?");
+You said \"too,\" so that means you do
+as well, right?");
 MsgDisp("主人公","Huh∋");
 ChEye(11,0);
 ChMouth(11,4);
@@ -92,7 +93,8 @@ VoicePlay("D031101000_11_060");
 MsgDisp("Onari","You said it yourself and you're that
 surprised?");
 MsgDisp("主人公","Um, yes. So...
-I think you should become a teacher, Onari-sensei.");
+I think you should become a teacher,
+Onari-sensei.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);

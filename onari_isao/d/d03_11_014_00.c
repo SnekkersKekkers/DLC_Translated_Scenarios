@@ -140,7 +140,7 @@ Kind of refreshing.");
     ChClose(11);
     MsgDisp("主人公","(Haah... my heart was pounding.
 But what was that... \"girlfriend\"...
-Onari-sensei really does say surprising things sometimes)");
+Onari-sensei says such surprising things...)");
     break ;
     default :
     DbgAssert(0);

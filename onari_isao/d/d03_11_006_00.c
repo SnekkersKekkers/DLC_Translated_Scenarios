@@ -27,7 +27,7 @@ Onari-san didn't pass?");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100600_37_030");
-MsgDisp("Osako","Yeah, he got the results back around December.
+MsgDisp("Osako","Yeah, he got the results back in December.
 But he's still got another shot.
 A guy like him would make a great teacher.");
 MsgClose();

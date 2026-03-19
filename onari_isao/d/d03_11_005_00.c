@@ -94,9 +94,9 @@ BGMVol(0.5,2);
 ScrFadeIn(0);
 MsgClose();
 ChOpen(11,255,0,0,4,#1,#1,0,0);
-MsgDisp("主人公","I work part-time for Habatcher, and I'd like to
-interview you about today's contest,
-Onari-san... Would that be okay?");
+MsgDisp("主人公","I work part-time for Habatcher, and
+I'd like to interview you about today's
+contest, Onari-san... Would that be okay?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
@@ -154,7 +154,8 @@ BGMStop();
 ChClose(11);
 MsgDisp("主人公","(...He's gone.)");
 MsgDisp("主人公","(Oh! Come to think of it...
-I wonder if Onari-san has been assigned a school yet?)");
+I wonder if Onari-san has been assigned
+a school yet?)");
 MsgSel("I'd love it if he came to Habataki","It's really none of my business...");
 switch (MsgSelRsltGet()){
     case 0:

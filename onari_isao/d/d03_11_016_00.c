@@ -156,9 +156,9 @@ ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101600_11_120");
-MsgDisp("Onari","The way you are now, you could aim
-higher than any top university.
-But I don't have what it takes to get you there.");
+MsgDisp("Onari","The way you are now, you could aim higher
+than any top university. But I don't have
+what it takes to get you there.");
 MsgDisp("主人公","What...?");
 ChEye(11,1);
 ChMouth(11,4);
@@ -177,9 +177,9 @@ ChEye(11,1);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101600_11_150");
-MsgDisp("Onari","Studying with you is what made me
-believe I could be a teacher.
-But you need to go higher than I can take you.");
+MsgDisp("Onari","Studying with you is what made me believe
+I could be a teacher. But you need to go
+higher than I can take you.");
 MsgDisp("主人公","But...");
 ChEye(11,1);
 ChMouth(11,0);

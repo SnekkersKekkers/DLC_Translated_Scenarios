@@ -139,8 +139,8 @@ switch (MsgSelRsltGet()){
     ChMouth(11,0);
     ChMotion(11,4);
     VoicePlay("D031100400_11_080");
-    MsgDisp("Onari","Huh. It was only two weeks, but
-it really helped having someone like you around.
+    MsgDisp("Onari","Huh. It was only two weeks, but it really
+helped having someone like you around.
 Thank you.");
     MsgClose();
     SEPlay("EV_SE_713");
@@ -157,8 +157,8 @@ I hope Onari-san gets assigned to Habataki.)");
     ChMouth(11,0);
     ChMotion(11,4);
     VoicePlay("D031100400_11_090");
-    MsgDisp("Onari","I see. It was only two weeks, but
-it really helped having someone like you around.
+    MsgDisp("Onari","I see. It was only two weeks, but it really
+helped having someone like you around.
 Thank you.");
     MsgClose();
     SEPlay("EV_SE_713");

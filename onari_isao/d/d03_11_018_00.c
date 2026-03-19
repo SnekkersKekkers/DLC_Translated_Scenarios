@@ -87,9 +87,9 @@ ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_090");
-MsgDisp("Onari","Still, I'm sorry for ending things so abruptly.
-That's just the kind of thoughtless person I am.
-Forgive me.");
+MsgDisp("Onari","Still, I'm sorry for ending things so
+abruptly. That's just the kind of
+thoughtless person I am. Forgive me.");
 MsgDisp("主人公","Onari-sensei...");
 ChEye(11,0);
 ChMouth(11,4);
@@ -168,9 +168,9 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_170");
-MsgDisp("Onari","First time, huh...
-What's wrong with me. After all those late nights
-at the cram school, I never once walked you home.");
+MsgDisp("Onari","First time, huh... What's wrong with me.
+After all those late nights at the cram
+school, I never once walked you home.");
 MsgDisp("主人公","It was so late every time.");
 ChEye(11,0);
 ChMouth(11,4);

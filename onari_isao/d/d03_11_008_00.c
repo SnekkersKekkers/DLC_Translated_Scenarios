@@ -58,8 +58,8 @@ StlEye(11,2);
 StlMouth(11,0);
 VoicePlay("D031100800_11_050");
 MsgDisp("Onari","...Until I entered Haba High and had
-Osako-sensei as my homeroom teacher,
-I had no motivation and was pretty rough around the edges.");
+Osako-sensei as my homeroom teacher, I had
+no motivation and was rough around the edges.");
 MsgDisp("主人公","Rough around the edges...");
 StlEye(11,2,0);
 StlMouth(11,0);
@@ -91,7 +91,7 @@ StlEye(11,2);
 StlMouth(11,2);
 VoicePlay("D031100800_11_100");
 MsgDisp("Onari","I started to like school and studying.
-So I thought maybe I could be like Osako-sensei
+So I thought I could be like Osako-sensei
 and help students who were like me.");
 MsgDisp("主人公","So that's why...");
 StlEye(11,0,0);
@@ -105,8 +105,8 @@ StlEye(11,0,0);
 StlMouth(11,0);
 StlEyeOpenLevel(11,0,1);
 VoicePlay("D031100800_11_120");
-MsgDisp("Onari","There aren't any kids like me at Haba High now.
-And unlike Osako-sensei,
+MsgDisp("Onari","There aren't any kids like me at Haba High
+now. And unlike Osako-sensei,
 I can't make everyone smile like he does.");
 MsgDisp("主人公","I had a lot of fun, though.");
 StlEye(11,2);
@@ -115,8 +115,8 @@ VoicePlay("D031100800_11_130");
 MsgDisp("Onari","...Huh?
 You said that seeing me made you want to try
 harder yourself, right?");
-MsgDisp("主人公","Yes. Thanks to you, Onari-sensei,
-I even set the goal of ranking at the top of my class on finals.
+MsgDisp("主人公","Yes. Thanks to you, Onari-sensei, I even set
+the goal of ranking first on finals.
 Studying is actually fun for me now.");
 StlEye(11,2);
 StlMouth(11,0);

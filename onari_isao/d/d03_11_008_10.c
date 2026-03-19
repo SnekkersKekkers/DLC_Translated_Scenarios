@@ -1,8 +1,8 @@
 ChLayout(1);
 BGOpen("sc500",0);
 ScrFadeIn(0);
-MsgDisp("主人公","(The finals are almost here.
-I haven't been going to the cram school much, but...
+MsgDisp("主人公","(The finals are almost here. I haven't been
+going to the cram school much, but...
 I wonder if Onari-sensei is there today?)");
 MsgClose();
 ScrFadeOut(0);
@@ -32,15 +32,15 @@ ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031100810_11_020");
-MsgDisp("Onari","It's fine.
-Good luck on your finals.
-I need to think things over and decide for myself. See you.");
+MsgDisp("Onari","It's fine. Good luck on your finals.
+I need to think things over and decide
+for myself. See you.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
 MsgDisp("主人公","(He was waiting for me here every day.
-I really let him down...
-I'll just do my best on the finals on my own...)");
+I really let him down... I'll just do my
+best on the finals on my own...)");
 MsgClose();
 ScrFadeOut(0);

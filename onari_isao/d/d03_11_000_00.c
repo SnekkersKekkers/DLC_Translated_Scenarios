@@ -58,7 +58,9 @@ I think it was brown back then...");
     BGMStop();
     ChClose(11);
     MsgDisp("主人公","Ah, uhm...");
-    MsgDisp("主人公","(...He left. I guess he's a Haba High alumni. What a strange person. What was that \"GREAT SUCCESS\" thing about...?)");
+    MsgDisp("主人公","(...He left. I guess he's a Haba High alumni.
+What a strange person. What was that
+\"GREAT SUCCESS\" thing about...?)");
     break ;
     case 1:
     MsgDisp("主人公","(Yeah, I only have one high school life!

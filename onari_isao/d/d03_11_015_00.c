@@ -127,8 +127,8 @@ ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101500_11_070");
 MsgDisp("Onari","I've always loved summer festivals.
-What about you?
-Come to the fireworks show with me next month.");
+What about you? Come to the fireworks
+show with me next month.");
 MsgDisp("主人公","(Going to the fireworks show with
 Onari-sensei...
 What do I do∋)");
@@ -152,9 +152,9 @@ get started.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","(A date with Onari-sensei at the fireworks show...
-It's on August 6th this year, right? I can't wait!
-I'm going to study extra hard until then!)");
+    MsgDisp("主人公","(A date with Onari-sensei at the fireworks
+show... It's August 6th this year, right?
+I can't wait! I'll study hard until then!)");
     break ;
     case 1:
     MsgDisp("主人公","I don't have time to play during summer
@@ -218,7 +218,7 @@ point of studying, though.");
     BGMStop();
     ChClose(11);
     MsgDisp("主人公","(Onari-sensei...
-You're right — for the sake of the Yotakado students,
+You're right ― for the Yotakado students,
 I should graduate from the cram school)");
     break ;
     default :

@@ -2,8 +2,8 @@ ChLayout(1);
 BGOpen("sc510",0);
 ScrFadeIn(0);
 MsgDisp("主人公","(Sigh...
-I couldn't live up to Onari-sensei's expectations.
-I can't even face him...)");
+I couldn't live up to Onari-sensei's
+expectations. I can't even face him...)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・

@@ -37,8 +37,8 @@ VoicePlay("D031100200_11_040");
 MsgDisp("Onari","Yeah, I'm not great at talking, it seems.
 So I practice.");
 MsgDisp("主人公","I see...
-But what's with the \"I will wake up early\" thing...
-Trying not to oversleep?");
+But what's with the \"I will wake up early\"
+thing... Trying not to oversleep?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,5);
@@ -63,8 +63,8 @@ way Osako-san does.");
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","(He left...
-Osako-san is that energetic teacher from the middle school, right?
-He and Onari-san are definitely different types...)");
+MsgDisp("主人公","(He left... Osako-san is that energetic
+teacher from the middle school, right? He and
+Onari-san are definitely different types...)");
 MsgClose();
 ScrFadeOut(0);

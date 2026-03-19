@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc500",1);
 ScrFadeIn(0);
-MsgDisp("主人公","(Come to think of it...
-I never went to Onari-sensei's convenience store cram school
-during summer break. Maybe I should stop by on my way home?)");
+MsgDisp("主人公","(Come to think of it... I never went to
+Onari-sensei's cram school over summer.
+Maybe I should stop by on my way home?)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -31,8 +31,8 @@ SEPlay("EV_SE_662");
 SEWait();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(34);
-MsgDisp("主人公","(\"I'm taking the exam. But I won't become a teacher.
-So I can't help you study anymore.
+MsgDisp("主人公","(\"I'm taking the exam. But I won't become
+a teacher. So I can't help you study anymore.
 See you. Success\"...is what it says...)");
 MsgDisp("主人公","(\"I'll take the exam. But I won't become a
 teacher. So I can't tutor you anymore.

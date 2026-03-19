@@ -99,19 +99,20 @@ VoicePlay("D031100100_37_010");
 MsgDisp("Osako?","Hey now!
 Who're you calling a middle schooler～?");
 MsgDisp("主人公","(Huh? That person on the left...
-That's the guy from the park the other day, right?)");
+That's the guy from the park
+the other day, right?)");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100100_37_020");
 MsgDisp("Osako?","Ossu∈
-I'm Osako, a teacher from the Haba High middle school.
+I'm Osako, a Haba High middle school teacher.
 The teaching intern is this guy right here.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100100_37_030");
-MsgDisp("Osako","Starting today, he'll be teaching in the high school
-for two weeks. He's a Haba High alum,
-so he's technically your senior.");
+MsgDisp("Osako","Starting today, he'll be teaching in the
+high school for two weeks. He's a Haba High
+alum, so he's technically your senior.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
@@ -195,8 +196,8 @@ MsgDisp("Onari","Even failure can lead to GREAT SUCCESS!
 A 100% success rate!
 I'm Onari... Great Success.");
 SEPlay("EV_SE_GAYA_017",0,0.8);
-MsgDisp("主人公","(...Oh!
-The \"Great Success\" thing he was saying in the park ―
+MsgDisp("主人公","(...Oh! The \"Great Success\" thing
+he was saying in the park ―
 it was practice for his self-introduction!)");
 VoicePlay("D031100100_42_140");
 MsgDisp("Boy A","Is that your go-to bit, sir?");

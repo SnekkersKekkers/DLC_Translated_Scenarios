@@ -48,9 +48,9 @@ ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("T021140000_11_060");
-MsgDisp("Onari","Someone like that wanting to be a teacher,
-and aiming to be like Osako-sensei of all people —
-he feels like the most out-of-reach person in the world to me.");
+MsgDisp("Onari","Someone like that wanting to be a teacher
+and aspiring to be like Osako-sensei ―
+he feels utterly out of reach to me.");
 MsgDisp("主人公","But... you were always trying so hard,
 working toward your ideal
 of what a teacher should be.");

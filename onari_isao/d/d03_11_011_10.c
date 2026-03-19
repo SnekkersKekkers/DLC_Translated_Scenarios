@@ -39,8 +39,8 @@ ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031101110_11_030");
 MsgDisp("Onari","But I'll keep thinking a little longer
-about whether I'll actually become one.
-That kind of thinking is something I picked up from our time together.");
+about whether I'll become one. That kind of
+thinking I picked up from our time together.");
 ChEye(11,3);
 ChMouth(11,0);
 ChMotion(11,0);

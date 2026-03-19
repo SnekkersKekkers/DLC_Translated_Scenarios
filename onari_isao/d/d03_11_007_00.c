@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc310",0);
 ScrFadeIn(0);
-MsgDisp("主人公","(I'll stop by that convenience store on my way home.
-I've been going there a bunch, but I still
-haven't managed to run into Onari-san...)");
+MsgDisp("主人公","(I'll stop by that convenience store on
+my way home. I've been going there a bunch,
+but I still haven't run into Onari-san...)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -80,9 +80,9 @@ ChMotion(11,2);
 VoicePlay("D031100700_11_060");
 MsgDisp("Onari","Huh, really?
 How come?");
-MsgDisp("主人公","I think it's because...
-I kept seeing you in the park, practicing
-your introductions and lessons so earnestly...");
+MsgDisp("主人公","I think it's because... I kept seeing you
+in the park, practicing your introductions
+and lessons so earnestly...");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
@@ -157,8 +157,8 @@ here I come!)");
     ChMotion(11,3);
     VoicePlay("D031100700_11_140");
     MsgDisp("Onari","It's okay.
-No need to rush— you'll find something worth working hard for.
-See you around.");
+No need to rush ― you'll find something
+worth working hard for. See you around.");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();

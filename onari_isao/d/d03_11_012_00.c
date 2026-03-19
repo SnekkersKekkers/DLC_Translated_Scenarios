@@ -193,9 +193,9 @@ It's Yotakado High School.");
     MsgDisp("Osako","That's right. Yotakado Technical High School.");
     MsgClose();
     ScrFadeOut(0);
-    MsgDisp("主人公","(So it's not Habataki... That means
-I won't get to see Onari-sensei anymore.
-It's lonely, but I guess it can't be helped...)");
+    MsgDisp("主人公","(So it's not Habataki... That means I won't
+get to see Onari-sensei anymore.
+It's lonely, but it can't be helped...)");
     break ;
     default :
     DbgAssert(0);
