@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc310",0);
 ScrFadeIn(0);
-MsgDisp("主人公","(Next class is Onari-san's Modern Japanese.
-He was practicing in the park, so this should
-be fun!)");
+MsgDisp("主人公","(Next class is Onari-sensei's Modern
+Japanese. He was practicing in the park,
+so this should be fun!)");
 MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・
 　　　　　　　　　　 ・");

@@ -3,7 +3,7 @@ BGOpen("sc310",0);
 ScrFadeIn(0);
 MsgDisp("主人公","(I'll stop by that convenience store on
 my way home. I've been going there a bunch,
-but I still haven't run into Onari-san...)");
+but I still haven't run into Onari-sensei...)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -15,8 +15,8 @@ ScrFadeIn(0);
 MsgDisp("主人公","(He's not here today either～...
 Maybe bumping into him by chance is just
 impossible.)");
-MsgDisp("主人公","(...Onari-san's favorite chocolate mint ice
-cream was really good, though.
+MsgDisp("主人公","(...Onari-sensei's favorite chocolate mint
+ice cream was really good, though.
 I'll grab one before I head home.)");
 MsgClose();
 ScrFadeOut(0);
@@ -28,7 +28,7 @@ BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,255,4,0,4,#1,#1,0,0);
 VoicePlay("D031100700_11_000");
 MsgDisp("Onari","Hey.");
-MsgDisp("主人公","Onari-san∈");
+MsgDisp("主人公","Onari-sensei∈");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -52,7 +52,8 @@ ChEyeOpenLevel(11,0);
 VoicePlay("D031100700_11_030");
 MsgDisp("Onari","Well, that saves me the explanation.
 So yeah, I'm not a teacher.");
-MsgDisp("主人公","(Onari-san seems a little different again...)");
+MsgDisp("主人公","(Onari-sensei seems a little different
+again...)");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -72,7 +73,7 @@ ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100700_11_050");
 MsgDisp("Onari","Hm?");
-MsgDisp("主人公","Seeing you work so hard, Onari-san...
+MsgDisp("主人公","Seeing you work so hard, Onari-sensei...
 it made me want to try harder too.");
 ChEye(11,0);
 ChMouth(11,4);
@@ -99,13 +100,13 @@ MsgDisp("Onari","I see. Heh, well, thanks anyway.
 I'm glad someone like you was there.
 The student teaching alone was worth it.");
 MsgDisp("主人公","(What do I do...
-At this rate, Onari-san might give up on
+At this rate, Onari-sensei might give up on
 becoming a teacher for good.)");
 MsgSel("I'll study hard too. So please...","But there's nothing I can say...");
 switch (MsgSelRsltGet()){
     case 0:
     MsgDisp("主人公","I'll work really hard at studying too.
-So please, Onari-san, don't give up on the
+So please, Onari-sensei, don't give up on the
 teaching exam.");
     ChEye(11,0);
     ChMouth(11,0);
@@ -147,8 +148,8 @@ The next one's in July, right?");
     BGMStop();
     ChClose(11);
     MsgDisp("主人公","(All right!
-Onari-san's convenience store cram school—
-here I come!)");
+Onari-sensei's convenience store cram
+school— here I come!)");
     break ;
     case 1:
     MsgDisp("主人公","............");

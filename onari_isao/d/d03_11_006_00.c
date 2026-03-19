@@ -11,7 +11,7 @@ MsgDisp("Osako","Ossu!
 Long time no see～");
 MsgDisp("主人公","Osako-san, hello!
 It's been since that time we ran into you and
-Onari-san at the cafeteria.");
+Onari-sensei at the cafeteria.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100600_37_010");
@@ -24,7 +24,7 @@ VoicePlay("D031100600_37_020");
 MsgDisp("Osako","Onari— hate to say it, but he failed the
 teaching certification exam.");
 MsgDisp("主人公","What∋
-Onari-san didn't pass?");
+Onari-sensei didn't pass?");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100600_37_030");
@@ -38,14 +38,14 @@ ChClose(37);
 MsgDisp("主人公","(If it was back in December, then during the
 ice cream contest he already knew...
 Is that why he seemed a little off?)");
-MsgDisp("主人公","(...I want to see Onari-san again
+MsgDisp("主人公","(...I want to see Onari-sensei again
 and talk to him...)");
 MsgSel("I should check that convenience store!","There's no way I'd just run into him...");
 switch (MsgSelRsltGet()){
     case 0:
     MsgDisp("主人公","(I'll swing by that convenience store.
-Onari-san seems to love the ice cream there,
-so maybe I'll run into him!)");
+Onari-sensei seems to love the ice cream
+there, so maybe I'll run into him!)");
     break ;
     case 1:
     MsgDisp("主人公","(But there's no way I'd just run into him...

@@ -56,7 +56,7 @@ SEPlay("EV_SE_604",0.5,0.2);
 ScrFadeIn(0);
 VoicePlay("D031101600_11_030");
 MsgDisp("Onari","Extra sauce with a fried egg on top,
-sorry for the wait~.");
+sorry for the wait〜.");
 VoicePlay("D031101600_45_000");
 MsgDisp("Customer","Here you go, one Rich.");
 StlEye(11,1);

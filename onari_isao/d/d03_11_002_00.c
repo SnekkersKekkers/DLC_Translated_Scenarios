@@ -7,7 +7,7 @@ MsgDisp("Onari?","I will wake up early.
 I will wake up early?
 I will wake up early!");
 MsgDisp("主人公","(That voice...)");
-MsgDisp("主人公","Onari-san?");
+MsgDisp("主人公","Onari-sensei?");
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,254,0,0,4,#1,#1,0,0);
@@ -64,7 +64,7 @@ SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
 MsgDisp("主人公","(He left... Osako-san is that energetic
-teacher from the middle school, right? He and
-Onari-san are definitely different types...)");
+middle school teacher, right?
+He and Onari-sensei are totally different...)");
 MsgClose();
 ScrFadeOut(0);

@@ -227,7 +227,7 @@ MsgDisp("主人公","(Hehe.
 He's a little unusual, but he seems like a
 kind teacher.)");
 SEStop("EV_SE_GAYA_022",2);
-MsgDisp("主人公","(What would I rate Onari-san's
+MsgDisp("主人公","(What would I rate Onari-sensei's
 self-introduction...?)");
 MsgSel("Yep, Great Success!","Hmm, maybe a failure?");
 switch (MsgSelRsltGet()){

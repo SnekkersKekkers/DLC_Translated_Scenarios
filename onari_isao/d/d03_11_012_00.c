@@ -70,7 +70,7 @@ MsgDisp("主人公","Oh... yes!");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031101200_37_040");
-MsgDisp("Osako","Sounds like someone had quite the youth~.");
+MsgDisp("Osako","Sounds like someone had quite the youth〜.");
 MsgDisp("主人公","My youth?");
 ChEye(37,1);
 ChMouth(37,0);
@@ -132,7 +132,7 @@ MsgDisp("主人公","What?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031101200_37_110");
-MsgDisp("Osako","Think about it~.
+MsgDisp("Osako","Think about it〜.
 Career guidance is coming up soon, right?");
 MsgDisp("主人公","(Me... a teacher?)");
 MsgSel("Aim for an elite university and become a teacher!","That's probably impossible for me...");
@@ -146,14 +146,14 @@ a teacher here at Habataki!");
     VoicePlay("D031101200_37_120");
     MsgDisp("Osako","Hahaha!
 Now that's the spirit.
-Go for it~!");
+Go for it〜!");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(37);
     VoicePlay("D031101200_37_130");
     MsgDisp("Osako","Oh, Onari's posting isn't at Habataki, by the
-way~.
+way〜.
 It's Yotakado.");
     MsgDisp("主人公","Huh?
 ...Yotakado?");
@@ -173,7 +173,7 @@ I don't think that's possible for me.");
     ChMouth(37,0);
     VoicePlay("D031101200_37_150");
     MsgDisp("Osako","It's not up to anyone else to decide
-what's possible for you~.");
+what's possible for you〜.");
     MsgDisp("主人公","...Yes.");
     ChEye(37,0);
     ChMouth(37,0);
@@ -189,7 +189,7 @@ when you're ready. See ya.");
 school?");
     VoicePlay("D031101200_37_170");
     MsgDisp("Osako","Hmm?
-Onari's posting isn't at Habataki~.
+Onari's posting isn't at Habataki〜.
 It's Yotakado High School.");
     MsgDisp("主人公","Yotakado?");
     VoicePlay("D031101200_37_180");

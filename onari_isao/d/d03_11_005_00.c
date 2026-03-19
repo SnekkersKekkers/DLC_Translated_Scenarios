@@ -49,7 +49,7 @@ StlMouth(11,0);
 StlEyeOpenLevel(11,0,1);
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ScrFadeIn(0);
-MsgDisp("主人公","(Oh, it's Onari-san∋
+MsgDisp("主人公","(Oh, it's Onari-sensei∋
 He looks pretty different now∋)");
 StlEye(11,1);
 StlMouth(11,1);
@@ -96,7 +96,7 @@ MsgClose();
 ChOpen(11,255,0,0,4,#1,#1,0,0);
 MsgDisp("主人公","I work part-time for Habatcher, and
 I'd like to interview you about today's
-contest, Onari-san... Would that be okay?");
+contest, Onari-sensei... Would that be okay?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
@@ -154,17 +154,17 @@ BGMStop();
 ChClose(11);
 MsgDisp("主人公","(...He's gone.)");
 MsgDisp("主人公","(Oh! Come to think of it...
-I wonder if Onari-san has been assigned
+I wonder if Onari-sensei has been assigned
 a school yet?)");
 MsgSel("I'd love it if he came to Habataki","It's really none of my business...");
 switch (MsgSelRsltGet()){
     case 0:
     MsgDisp("主人公","(If he got assigned to Habataki, that'd be
-great...
-I'd love to take Onari-san's classes again!)");
+great... I'd love to take Onari-sensei's
+classes again!)");
     break ;
     case 1:
-    MsgDisp("主人公","(Well, wherever Onari-san gets assigned,
+    MsgDisp("主人公","(Well, wherever Onari-sensei gets assigned,
 it's really none of my business...)");
     break ;
     default :
