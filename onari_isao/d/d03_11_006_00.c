@@ -20,7 +20,7 @@ MsgDisp("主人公","Okay.");
 ChEye(37,2);
 ChMouth(37,0);
 VoicePlay("D031100600_37_020");
-MsgDisp("Osako","Onari -- hate to say it, but he failed the
+MsgDisp("Osako","Onari— hate to say it, but he failed the
 teaching certification exam.");
 MsgDisp("主人公","What∋
 Onari-san didn't pass?");

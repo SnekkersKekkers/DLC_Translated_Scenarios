@@ -3,7 +3,7 @@ BGOpen("ho210",0);
 ScrFadeIn(0);
 SEPlay("EV_SE_787");
 SEWait();
-MsgDisp("主人公","(Oh, a message from the Haba-Cha editorial
+MsgDisp("主人公","(Oh, a message from the Habatcher editorial
 team.)");
 MsgDisp("主人公","(\"A Midwinter Ice Cream Eating Contest
 is being held on the Habataki shopping street.
@@ -24,7 +24,7 @@ MsgDisp("主人公","(Aww...
 It looks like the ice cream eating contest
 already ended...)");
 VoicePlay("D031100500_36_000");
-MsgDisp("Staff","Oh, you're from Haba-Cha?");
+MsgDisp("Staff","Oh, you're from Habatcher?");
 MsgDisp("主人公","Yes.
 Sorry I'm late...!");
 VoicePlay("D031100500_36_010");
@@ -38,7 +38,7 @@ but he just plowed through it like it was nothing.");
 MsgDisp("主人公","Wow, sounds like quite the competitor.");
 VoicePlay("D031100500_36_030");
 MsgDisp("Staff","Make the article sound exciting, okay?
--- Oh, he's still over there!
+Oh, he's still over there!
 Hey, champ! Someone's here to interview you!");
 MsgDisp("主人公","Huh...");
 MsgClose();
@@ -94,7 +94,7 @@ BGMVol(0.5,2);
 ScrFadeIn(0);
 MsgClose();
 ChOpen(11,255,0,0,4,-1,-1,0,0);
-MsgDisp("主人公","I work part-time for Haba-Cha, and I'd like to
+MsgDisp("主人公","I work part-time for Habatcher, and I'd like to
 interview you about today's contest,
 Onari-san... Would that be okay?");
 ChEye(11,0);
@@ -142,7 +142,7 @@ ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031100500_11_080");
-MsgDisp("Onari","Oh, here -- a little reunion gift.
+MsgDisp("Onari","Oh, here— a little reunion gift.
 It's a convenience store original ice cream.
 Chocolate mint flavor.");
 SEPlay("EV_SE_717");

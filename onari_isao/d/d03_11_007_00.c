@@ -147,7 +147,7 @@ The next one's in July, right?");
     BGMStop();
     ChClose(11);
     MsgDisp("主人公","(All right!
-Onari-san's convenience store cram school --
+Onari-san's convenience store cram school—
 here I come!)");
     break ;
     case 1:
@@ -157,7 +157,7 @@ here I come!)");
     ChMotion(11,3);
     VoicePlay("D031100700_11_140");
     MsgDisp("Onari","It's okay.
-No need to rush -- you'll find something worth working hard for.
+No need to rush— you'll find something worth working hard for.
 See you around.");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
