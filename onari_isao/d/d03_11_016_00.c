@@ -40,7 +40,8 @@ MsgDisp("主人公","(Is Onari-sensei really
 getting all the syrups?)");
 VoicePlay("D031101600_11_020");
 MsgDisp("Onari","Extra sauce on mine!");
-MsgDisp("主人公","(Huh? Sauce on shaved ice?∋
+MsgDisp("主人公","(Huh?
+Sauce on shaved ice?∋
 That's a bit much...)");
 SEPlay("EV_SE_672");
 MsgClose();

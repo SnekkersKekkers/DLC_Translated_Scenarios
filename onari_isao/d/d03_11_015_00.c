@@ -194,8 +194,8 @@ anymore.");
     ChMouth(11,4);
     ChMotion(11,2);
     VoicePlay("D031101500_11_140");
-    MsgDisp("Onari","And besides, there are kids who need me
-all over the place.
+    MsgDisp("Onari","And besides, there are kids who need me all
+over the place.
 I have to be the one to teach them.");
     MsgDisp("主人公","Onari-sensei...");
     ChEye(11,1);

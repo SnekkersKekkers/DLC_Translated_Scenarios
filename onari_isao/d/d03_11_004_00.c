@@ -48,8 +48,8 @@ StlMouth(37,0);
 StlEyeOpenLevel(37,0,1);
 VoicePlay("D031100400_37_010");
 MsgDisp("Osako","Oh yeah, you always were.
-And it's not just spice, you're a huge
-eater, too.");
+And it's not just spice, you're a huge eater,
+too.");
 MsgDisp("主人公","(Onari-san loves spicy food and eats a ton.
 That's kind of unexpected...)");
 StlEye(11,0);

@@ -42,8 +42,8 @@ ChMotion(11,2);
 ChEyeOpenLevel(11,0);
 VoicePlay("T021140000_11_050");
 MsgDisp("Onari","Not just myself, but other people too.
-What makes someone who they are...
-that was always hard for me...");
+What makes someone who they are... that was
+always hard for me...");
 ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,0);

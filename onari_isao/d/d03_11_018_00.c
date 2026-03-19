@@ -134,7 +134,8 @@ SEPlay("EV_SE_544");
 ChOpen(11,255,4,0,4,-1,-1,0,0);
 VoicePlay("D031101800_11_150");
 MsgDisp("Onari","There, that's better.
-Phew... What's wrong with me?");
+Phew...
+What's wrong with me?");
 VoicePlay("D031101800_45_000");
 MsgDisp("Little Girl","Look, those two are so lovey-dovey!");
 VoicePlay("D031101800_49_000");
