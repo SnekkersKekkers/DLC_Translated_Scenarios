@@ -22,7 +22,7 @@ VoicePlay("D031101400_39_010");
 MsgDisp("Yotakado C","Oh, it's the transfer girl.
 Come over here before Success shows up.");
 MsgDisp("主人公","Huh?");
-MsgDisp("主人公","(Oh, that's what Onari-sensei said, wasn't it.
+MsgDisp("主人公","(Oh, that's what Onari-sensei said.
 \"Don't run away,
 just step right in\"...)");
 VoicePlay("D031101400_39_020");

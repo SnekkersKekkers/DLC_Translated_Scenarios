@@ -177,7 +177,8 @@ ChOpen(11,254,3,0,4,#1,#1,0,0);
 VoicePlay("D031100100_42_120");
 MsgDisp("Boy A","...Great Success?");
 VoicePlay("D031100100_41_130");
-MsgDisp("Boy B","Sir, what's been so \"Great Success\" this whole time?");
+MsgDisp("Boy B","Sir, what's been so \"Great Success\" this
+whole time?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -228,7 +229,8 @@ self-introduction...?)");
 MsgSel("Yep, Great Success!","Hmm, maybe a failure?");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","(Yeah, it was funny, so it's definitely a \"Great Success\"!
+    MsgDisp("主人公","(Yeah, it was funny, so it's definitely a
+\"Great Success\"!
 After all, he practiced so hard for it.)");
     break ;
     case 1:

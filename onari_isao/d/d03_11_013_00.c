@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc500",1);
 ScrFadeIn(0);
-MsgDisp("主人公","(I should go tell Onari-sensei
-that I put down an elite university
-for my career guidance and that I want to be a teacher!)");
+MsgDisp("主人公","(I should go tell Onari-sensei that I put
+down an elite university for my career
+guidance and that I want to be a teacher!)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・

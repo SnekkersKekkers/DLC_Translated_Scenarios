@@ -51,8 +51,8 @@ StlEye(11,0,0);
 StlMouth(11,0);
 StlEyeOpenLevel(11,5,1);
 VoicePlay("D031100800_11_040");
-MsgDisp("Onari","So studying more won't help, and
-even if I practice for the interview and pass—");
+MsgDisp("Onari","So studying more won't help, and even if I
+practice for the interview and pass—");
 MsgDisp("主人公","?");
 StlEye(11,2);
 StlMouth(11,0);
@@ -77,8 +77,8 @@ I used to be kind of a rough kid.");
 StlEye(11,0);
 StlMouth(11,2);
 VoicePlay("D031100800_11_080");
-MsgDisp("Onari","But the interview examiners
-can probably tell that kind of thing right away.");
+MsgDisp("Onari","But the interview examiners can probably tell
+that kind of thing right away.");
 MsgDisp("主人公","Onari-sensei...");
 StlEye(11,0,0);
 StlMouth(11,2);

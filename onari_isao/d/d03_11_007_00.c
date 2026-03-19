@@ -126,8 +126,8 @@ finals.");
     ChMouth(11,0);
     ChMotion(11,3);
     VoicePlay("D031100700_11_110");
-    MsgDisp("Onari","If you make it to the top,
-then maybe my teaching isn't so bad after all.");
+    MsgDisp("Onari","If you make it to the top, then maybe my
+teaching isn't so bad after all.");
     MsgDisp("主人公","Then you won't give up on the teaching exam?");
     ChEye(11,0);
     ChMouth(11,4);

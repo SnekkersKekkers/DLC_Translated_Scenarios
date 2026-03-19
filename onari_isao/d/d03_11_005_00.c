@@ -5,8 +5,8 @@ SEPlay("EV_SE_787");
 SEWait();
 MsgDisp("主人公","(Oh, a message from the Habatcher editorial
 team.)");
-MsgDisp("主人公","(\"A Midwinter Ice Cream Eating Contest
-is being held on the Habataki shopping street.
+MsgDisp("主人公","(\"A Midwinter Ice Cream Eating Contest is
+being held on the Habataki shopping street.
 Please come cover it\"... it says.)");
 MsgDisp("主人公","(It's only until noon...
 Okay, I'd better hurry!)");
@@ -32,9 +32,9 @@ MsgDisp("Staff","No worries.
 A college student won by a landslide, so it
 ended earlier than planned.");
 VoicePlay("D031100500_36_020");
-MsgDisp("Staff","We were hoping for reactions like
-\"It's so cold!\" and \"Brain freeze!\"
-but he just plowed through it like it was nothing.");
+MsgDisp("Staff","We were hoping for reactions like \"It's so
+cold!\" and \"Brain freeze!\" but he just plowed
+through it like it was nothing.");
 MsgDisp("主人公","Wow, sounds like quite the competitor.");
 VoicePlay("D031100500_36_030");
 MsgDisp("Staff","Make the article sound exciting, okay?

@@ -96,9 +96,9 @@ ChMotion(11,4);
 VoicePlay("T021140000_11_120");
 MsgDisp("Onari","You patiently taught me, over and over again.
 What only I could do.");
-MsgDisp("主人公","And because of you, Onari-sensei,
-I started thinking seriously about the future —
-about becoming a wonderful teacher...");
+MsgDisp("主人公","And because of you, Onari-sensei, I started
+thinking seriously about the future — about
+becoming a wonderful teacher...");
 ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,0);

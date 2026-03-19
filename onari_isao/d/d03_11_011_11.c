@@ -61,8 +61,8 @@ MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","(If only I had studied harder
-and gotten better grades, Onari-sensei might've had
-more confidence in himself...)");
+MsgDisp("主人公","(If only I had studied harder and gotten
+better grades, Onari-sensei might've had more
+confidence in himself...)");
 MsgClose();
 ScrFadeOut(0);

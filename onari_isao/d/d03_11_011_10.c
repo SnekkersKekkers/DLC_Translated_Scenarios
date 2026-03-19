@@ -31,8 +31,8 @@ ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101110_11_020");
-MsgDisp("Onari","Thanks to you,
-I've started to see what kind of teacher I want to be.");
+MsgDisp("Onari","Thanks to you, I've started to see what kind
+of teacher I want to be.");
 MsgDisp("主人公","Onari-sensei...");
 ChEye(11,0);
 ChMouth(11,0);
