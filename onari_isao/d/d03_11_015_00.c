@@ -36,7 +36,7 @@ SEWait();
 VoicePlay("D031101500_34_020");
 MsgDisp("Yotakado A","She forgot you.");
 MsgDisp("主人公","Oh!
-Stray-san, hi.");
+Nora-san, hi.");
 ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031101500_34_030");

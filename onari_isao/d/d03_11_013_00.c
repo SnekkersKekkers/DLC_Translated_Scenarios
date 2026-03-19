@@ -91,7 +91,7 @@ ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101300_11_040");
 MsgDisp("Onari","Yeah, when I introduced myself in class,
-that Stray guy was sitting in the back.");
+Nora was sitting in the back.");
 MsgDisp("主人公","That guy with the sunglasses was
 actually a student at Yotakado...?");
 ChEye(11,0);

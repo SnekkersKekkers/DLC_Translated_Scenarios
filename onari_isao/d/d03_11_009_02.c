@@ -41,7 +41,7 @@ Hey, don't cause trouble!");
 ChEye(34,1);
 ChMouth(34,1);
 VoicePlay("D031100902_34_050");
-MsgDisp("Man","I'm more of a solo player, though...");
+MsgDisp("Man","I'm a solo player Nora, though...");
 VoicePlay("D031100902_47_030");
 MsgDisp("Customer","Is he really your friend?");
 MsgDisp("主人公","Uhh...
@@ -55,7 +55,7 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100902_11_010");
-MsgDisp("Onari","A solo player, huh?
+MsgDisp("Onari","Nora, huh?
 You're always on your own.");
 SEStop("EV_SE_FOOT_WALK_AWAY_ALONE",2);
 ChEye(34,0);

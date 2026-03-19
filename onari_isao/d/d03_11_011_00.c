@@ -67,7 +67,7 @@ ChEyeOpenLevel(11,8);
 VoicePlay("D031101100_11_060");
 MsgDisp("Onari","It's thanks to you.
 The time we spent together at the convenience
-store, and that stray friend of ours, too.");
+store, and our friend Nora, too.");
 MsgDisp("主人公","Ahaha!
 I had such a wonderful experience too.
 Every day became so much fun.");
