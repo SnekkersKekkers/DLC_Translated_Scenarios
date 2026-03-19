@@ -73,7 +73,8 @@ MsgClose();
 ChOpen(11,40,0,1,4,#1,#1,0,0);
 ScrFadeIn(0);
 VoicePlay("D031101300_11_020");
-MsgDisp("Onari","Sorry about that. You okay?");
+MsgDisp("Onari","Sorry about that.
+You okay?");
 MsgDisp("主人公","Y-yes.
 It was a bit of a surprise, but...");
 ChEye(11,0);
@@ -90,7 +91,7 @@ ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101300_11_040");
 MsgDisp("Onari","Yeah, when I introduced myself in class,
-that Nora guy was sitting in the back.");
+that Stray guy was sitting in the back.");
 MsgDisp("主人公","That guy with the sunglasses was
 actually a student at Yotakado...?");
 ChEye(11,0);

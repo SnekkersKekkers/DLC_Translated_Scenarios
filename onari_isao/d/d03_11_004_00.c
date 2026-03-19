@@ -7,7 +7,8 @@ MsgDisp("Girl A","Hey, what should we get?");
 MsgDisp("主人公","Hmm, everything looks so good,
 it's hard to decide.");
 VoicePlay("D031100400_45_000");
-MsgDisp("Girl B","That's amazing! Onari-san!");
+MsgDisp("Girl B","That's amazing!
+Onari-san!");
 VoicePlay("D031100400_42_020");
 MsgDisp("Boy","You can do it, both of you!");
 MsgDisp("主人公","?");
@@ -20,7 +21,8 @@ StlEye(37,0);
 StlMouth(37,0);
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ScrFadeIn(0);
-MsgDisp("主人公","(That's... Onari-san and Osako-san∋)");
+MsgDisp("主人公","(That's...
+Onari-san and Osako-san∋)");
 StlEye(37,0);
 StlMouth(37,0);
 VoicePlay("D031100400_37_000");
@@ -35,7 +37,8 @@ StlMouth(37,0);
 VoicePlay("D031100400_42_030");
 MsgDisp("Boy","Even the regular ultra-spicy mapo is brutal,
 and that was ten times the heat?");
-MsgDisp("主人公","What?! Ten times the spiciness∋");
+MsgDisp("主人公","What?!
+Ten times the spiciness∋");
 VoicePlay("D031100400_44_010");
 MsgDisp("Girl A","That's seriously insane, Onari-san.");
 StlEye(11,1,0);
@@ -71,7 +74,8 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100400_11_030");
-MsgDisp("Onari","Yeah. Why?");
+MsgDisp("Onari","Yeah.
+Why?");
 ChEye(37,2);
 ChMouth(37,0);
 VoicePlay("D031100400_37_020");
@@ -94,7 +98,8 @@ Wait(30,0);
 SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
 ChClose(37);
 VoicePlay("D031100400_37_040");
-MsgDisp("Osako","Excuse me! Can I get some water?!");
+MsgDisp("Osako","Excuse me!
+Can I get some water?!");
 VoicePlay("D031100400_44_030");
 MsgDisp("Girl A","Are you okay~?
 The water's over there.");
@@ -130,7 +135,8 @@ ChMotion(11,0);
 VoicePlay("D031100400_11_070");
 MsgDisp("Onari","?
 ...Wait, shouldn't you be with your friends?");
-MsgDisp("主人公","Huh? Well, I...");
+MsgDisp("主人公","Huh?
+Well, I...");
 MsgSel("I have more fun with you, Onari-san.","My friends are waiting, so I should go.");
 switch (MsgSelRsltGet()){
     case 0:

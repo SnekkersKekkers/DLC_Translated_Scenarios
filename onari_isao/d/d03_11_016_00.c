@@ -150,7 +150,8 @@ ChMouth(11,4);
 ChMotion(11,0);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101600_11_110");
-MsgDisp("Onari","Yeah. Today's the last day.");
+MsgDisp("Onari","Yeah.
+Today's the last day.");
 MsgDisp("主人公","The last day?");
 ChEye(11,1);
 ChMouth(11,4);

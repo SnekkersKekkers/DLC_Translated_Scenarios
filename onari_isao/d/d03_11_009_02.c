@@ -27,7 +27,8 @@ VoicePlay("D031100902_34_030");
 MsgDisp("Man","This is my base camp.
 I'm just making my rounds.");
 VoicePlay("D031100902_47_020");
-MsgDisp("Customer","Huh? What are you even talking about?");
+MsgDisp("Customer","Huh?
+What are you even talking about?");
 ChPosition(34,1);
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
@@ -43,7 +44,8 @@ VoicePlay("D031100902_34_050");
 MsgDisp("Man","I'm more of a solo player, though...");
 VoicePlay("D031100902_47_030");
 MsgDisp("Customer","Is he really your friend?");
-MsgDisp("主人公","Uhh... Oh, yes.");
+MsgDisp("主人公","Uhh...
+Oh, yes.");
 VoicePlay("D031100902_47_040");
 MsgDisp("Customer","Is that so?
 I guess he wasn't following me then.
@@ -60,7 +62,8 @@ ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031100902_34_080");
 MsgDisp("Man","Unaffiliated with any party...");
-MsgDisp("主人公","Um... Do you two know each other?");
+MsgDisp("主人公","Um...
+Do you two know each other?");
 ChEye(11,0);
 ChMouth(11,3);
 ChMotion(11,4);

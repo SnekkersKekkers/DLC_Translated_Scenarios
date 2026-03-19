@@ -14,8 +14,8 @@ BGOpen("sc300",0);
 Wait(40);
 ScrFadeIn(0);
 VoicePlay("D031100300_11_000");
-MsgDisp("Onari","...As you can see,
-language changes with the times.");
+MsgDisp("Onari","...As you can see, language changes 
+with the times.");
 VoicePlay("D031100300_11_010");
 MsgDisp("Onari","A familiar example: question marks and
 exclamation marks.
@@ -61,11 +61,10 @@ SEPlay("EV_SE_GAYA_023");
 SEPlay("EV_SE_788",0.1,0.6);
 VoicePlay("D031100300_42_040");
 MsgDisp("Boy A","Sir, today's lesson was barely a success,
-maybe?");
+though?");
 VoicePlay("D031100300_38_010");
-MsgDisp("Students","Hahahah!");
-MsgDisp("主人公","(Yep, I'd say that was
-a total Great Success!)");
+MsgDisp("Students","Hahaha!");
+MsgDisp("主人公","(Yep, that was totally a Great Success!)");
 SEStop("EV_SE_GAYA_023",1);
 SEStop("EV_SE_788",1);
 BGMStop();

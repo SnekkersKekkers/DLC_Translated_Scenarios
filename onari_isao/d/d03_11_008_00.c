@@ -68,7 +68,8 @@ VoicePlay("D031100800_11_060");
 MsgDisp("Onari","But Osako-sensei was incredible.
 He set me straight without ever laying a hand
 on me.");
-MsgDisp("主人公","Lay a... Wait, what∋");
+MsgDisp("主人公","Lay a...
+Wait, what∋");
 StlEye(11,2);
 StlMouth(11,2);
 VoicePlay("D031100800_11_070");
@@ -91,8 +92,8 @@ StlEye(11,2);
 StlMouth(11,2);
 VoicePlay("D031100800_11_100");
 MsgDisp("Onari","I started to like school and studying.
-So I thought I could be like Osako-sensei
-and help students who were like me.");
+So I thought I could be like Osako-sensei and
+help students who were like me.");
 MsgDisp("主人公","So that's why...");
 StlEye(11,0,0);
 StlMouth(11,0);

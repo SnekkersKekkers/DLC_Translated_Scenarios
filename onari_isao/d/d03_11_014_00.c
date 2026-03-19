@@ -105,7 +105,8 @@ I'm glad I was brave!)");
     SEPlay("EV_SE_544");
     ChOpen(11,40,3,0,0,#1,#1,0,0);
     VoicePlay("D031101400_11_050");
-    MsgDisp("Onari","Heh. You held your ground.");
+    MsgDisp("Onari","Heh.
+You held your ground.");
     MsgClose();
     ScrFadeOut(0);
     SEPlay("EV_SE_682",0,0.5);

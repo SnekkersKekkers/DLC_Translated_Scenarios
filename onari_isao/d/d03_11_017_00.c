@@ -19,7 +19,8 @@ VoicePlay("D031101700_42_010");
 MsgDisp("Boy","There's someone sketchy hanging around the
 school gate.");
 VoicePlay("D031101700_44_000");
-MsgDisp("Girl","Seriously? That's scary.");
+MsgDisp("Girl","Seriously?
+That's scary.");
 MsgDisp("主人公","Scary and sketchy...
 Could it be――");
 MsgClose();

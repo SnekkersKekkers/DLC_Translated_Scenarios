@@ -6,7 +6,8 @@ VoicePlay("T021140000_11_000");
 MsgDisp("Onari?","So this is how it turned out...");
 MsgClear();
 Wait(60);
-MsgDisp("主人公","Huh... Onari-sensei?∋");
+MsgDisp("主人公","Huh...
+Onari-sensei?∋");
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE");
 SEWait();
 BGMPlay("BGM_C11_ONARI_KOKU",0.01);

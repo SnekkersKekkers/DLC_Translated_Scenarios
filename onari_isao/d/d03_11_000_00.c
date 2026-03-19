@@ -2,7 +2,8 @@ ChLayout(1);
 BGOpen("sc100",0);
 ScrFadeIn(0);
 MsgDisp("主人公","(It's already May but I haven't joined any
-clubs yet...Maybe I should try something?)");
+clubs yet...
+Maybe I should try something?)");
 MsgSel("But what should I choose...","I'll figure it out on my own!");
 switch (MsgSelRsltGet()){
     case 0:
@@ -15,7 +16,8 @@ switch (MsgSelRsltGet()){
     MsgClose();
     BGOpen("ex000",1);
     ScrFadeIn(0);
-    MsgDisp("主人公","(Phew...The day is already over, huh?)");
+    MsgDisp("主人公","(Phew...
+The day is already over, huh?)");
     VoicePlay("D031100000_11_000");
     MsgDisp("？大成","You were born to succeed!
 ...No, that's not quite right.");
@@ -37,7 +39,9 @@ What is he talking about...?)");
     ChMouth(11,4);
     ChMotion(11,0);
     VoicePlay("D031100000_11_030");
-    MsgDisp("？大成","Hm? Huh...A Habataki High student?");
+    MsgDisp("？大成","Hm?
+Huh...
+A Habataki High student?");
     MsgDisp("主人公","Eh... 
 Ah, yes. 
 You're right.");

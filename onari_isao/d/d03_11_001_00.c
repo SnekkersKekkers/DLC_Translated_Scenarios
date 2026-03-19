@@ -74,7 +74,8 @@ SEWait();
 SEPlay("EV_SE_566",1,0.2);
 SEPlay("EV_SE_860",1,0.7);
 VoicePlay("D031100100_45_000");
-MsgDisp("Girl B","Huh? There's two of them?");
+MsgDisp("Girl B","Huh?
+There's two of them?");
 VoicePlay("D031100100_41_050");
 MsgDisp("Boy B","Are they really teaching interns?");
 VoicePlay("D031100100_44_010");
@@ -128,7 +129,8 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100100_11_010");
-MsgDisp("Onari?","Oh, yes. I'm Great Success.");
+MsgDisp("Onari?","Oh, yes.
+I'm Great Success.");
 MsgDisp("主人公","(Great Success?
 I knew it, it's him!)");
 VoicePlay("D031100100_42_080");

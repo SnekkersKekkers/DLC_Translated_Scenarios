@@ -21,7 +21,8 @@ MsgClose();
 BGMPlay("BGM_HANYOU_A",0.01);
 ChOpen(37,254,0,0,0,#1,#1,0,0);
 VoicePlay("D031101200_37_000");
-MsgDisp("Osako","Hey! Long time no see.");
+MsgDisp("Osako","Hey!
+Long time no see.");
 MsgDisp("主人公","Osako-sensei, hello.
 Do you have business with the high school?");
 ChEye(37,1);
@@ -99,7 +100,8 @@ MsgDisp("Onari","Excuse me, Osako-sensei.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031101200_37_070");
-MsgDisp("Osako","Sure, see ya. Good luck!");
+MsgDisp("Osako","Sure, see ya.
+Good luck!");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(11);
@@ -156,7 +158,8 @@ It's Yotakado.");
     MsgDisp("主人公","Huh?
 ...Yotakado?");
     VoicePlay("D031101200_37_140");
-    MsgDisp("Osako","That's right. Yotakado Technical High School.");
+    MsgDisp("Osako","That's right.
+Yotakado Technical High School.");
     MsgClose();
     ScrFadeOut(0);
     MsgDisp("主人公","(Ehhhh∋
@@ -190,7 +193,8 @@ Onari's posting isn't at Habataki~.
 It's Yotakado High School.");
     MsgDisp("主人公","Yotakado?");
     VoicePlay("D031101200_37_180");
-    MsgDisp("Osako","That's right. Yotakado Technical High School.");
+    MsgDisp("Osako","That's right.
+Yotakado Technical High School.");
     MsgClose();
     ScrFadeOut(0);
     MsgDisp("主人公","(So it's not Habataki... That means I won't

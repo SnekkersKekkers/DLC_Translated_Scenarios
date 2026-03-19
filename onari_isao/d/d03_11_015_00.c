@@ -26,7 +26,8 @@ VoicePlay("D031101500_33_010");
 MsgDisp("Yotakado B?","Huh? You don't get it?
 The thread of fate connecting us
 is way thicker than the one with Success.");
-MsgDisp("主人公","Oh! From Yotakado?");
+MsgDisp("主人公","Oh!
+From Yotakado?");
 ChPosition(33,1);
 MsgClose();
 SEPlay("EV_SE_544",0,0.6);
@@ -34,7 +35,8 @@ ChOpen(34,254,0,1,0,#1,#1,0,2);
 SEWait();
 VoicePlay("D031101500_34_020");
 MsgDisp("Yotakado A","She forgot you.");
-MsgDisp("主人公","Oh! Nora-san, hi.");
+MsgDisp("主人公","Oh!
+Stray-san, hi.");
 ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031101500_34_030");
@@ -135,7 +137,8 @@ What do I do∋)");
 MsgSel("I'd love to, please!","I don't have time to play during summer break!");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","Yes! I'd love to.");
+    MsgDisp("主人公","Yes!
+I'd love to.");
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,0);
@@ -218,8 +221,8 @@ point of studying, though.");
     BGMStop();
     ChClose(11);
     MsgDisp("主人公","(Onari-sensei...
-You're right ― for the Yotakado students,
-I should graduate from the cram school)");
+You're right ― for the Yotakado students, I
+should graduate from the cram school)");
     break ;
     default :
     DbgAssert(0);

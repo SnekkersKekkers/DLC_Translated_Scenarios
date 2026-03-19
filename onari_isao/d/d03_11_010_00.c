@@ -13,13 +13,15 @@ SEWait();
 ChOpen(34,254,0,0,1,#1,#1,0,0);
 VoicePlay("D031101000_34_000");
 MsgDisp("Man","Success isn't here today?");
-MsgDisp("主人公","Huh? S-Success...?");
+MsgDisp("主人公","Huh?
+S-Success...?");
 ChEye(34,0);
 ChMouth(34,2);
 VoicePlay("D031101000_34_010");
 MsgDisp("Man","Yeah, pretty good handle, right?
 I came up with it.");
-MsgDisp("主人公","Don't tell me... Great Success?");
+MsgDisp("主人公","Don't tell me...
+Great Success?");
 ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031101000_34_020");

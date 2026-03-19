@@ -139,7 +139,8 @@ What's wrong with me?");
 VoicePlay("D031101800_45_000");
 MsgDisp("Little Girl","Look, those two are so lovey-dovey!");
 VoicePlay("D031101800_49_000");
-MsgDisp("Mother","Don't stare, dear. Come on.");
+MsgDisp("Mother","Don't stare, dear.
+Come on.");
 MsgDisp("主人公","Um...
 People are watching us...");
 ChEye(11,4);
