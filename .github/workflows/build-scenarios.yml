@@ -10,7 +10,7 @@ on:
 
 env:
   TOOLS_REPO: SnekkersKekkers/tmgsscenariospipeline
-  ASSETBUNDLES_REPO: SnekkersKekkers/original_jp_assetbundles
+  ASSETBUNDLES_REPO: SnekkersKekkers/dlc_original_jp_assetbundles
   DOMAIN: TMGS4
 
 jobs:
@@ -24,8 +24,10 @@ jobs:
         character:
           - name: onari_isao
             label: Onari Isao
+            assetbundles_dir: onari_isao_assetbundles_jp
           - name: yukimichi_tomoe
             label: Yukimichi Tomoe
+            assetbundles_dir: yukimichi_tomoe_assetbundles_jp
 
     steps:
     - name: Checkout scripts repository
@@ -338,17 +340,18 @@ jobs:
           exit 0
         }
 
-        if (-not (Test-Path "original_assetbundles")) {
-          Write-Host "Original asset bundles not available. Skipping asset bundle creation."
+        $assetbundlesDir = "original_assetbundles/assetbundles/${{ matrix.character.assetbundles_dir }}"
+        if (-not (Test-Path $assetbundlesDir)) {
+          Write-Host "Original asset bundles not available at $assetbundlesDir. Skipping asset bundle creation."
           exit 0
         }
 
         Write-Host "Creating asset bundles (parallel processing)..."
         Write-Host "(Only for .bytes files that have a matching original .assetbundle)"
 
-        # Get all available original asset bundles
+        # Get all available original asset bundles for this character
         $availableBundles = @{}
-        Get-ChildItem -Path "original_assetbundles" -Recurse -Filter "*.assetbundle" | ForEach-Object {
+        Get-ChildItem -Path $assetbundlesDir -Recurse -Filter "*.assetbundle" | ForEach-Object {
           $availableBundles[$_.BaseName] = $_.FullName
         }
         Write-Host "Found $($availableBundles.Count) original asset bundles"
