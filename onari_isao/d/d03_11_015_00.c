@@ -221,7 +221,7 @@ point of studying, though.");
 You're right — for the sake of the Yotakado students,
 I should graduate from the cram school)");
     break ;
-    default ;
+    default :
     DbgAssert(0);
     break ;
     }
