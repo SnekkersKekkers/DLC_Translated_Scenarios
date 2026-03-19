@@ -27,7 +27,7 @@ What are they like?");
 VoicePlay("D031100100_42_020");
 MsgDisp("Boy A","Is it a lady teacher?");
 VoicePlay("D031100100_44_000");
-MsgDisp("Girl A","I hope he's cute～.");
+MsgDisp("Girl A","I hope it's a cute guy～.");
 ChEye(7,0);
 ChMouth(7,3);
 ChMotion(7,1);
