@@ -17,7 +17,7 @@ MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
 BGMPlay("BGM_C07_MIKAGE_A",0.01);
-ChOpen(7,254,0,0,0,-1,-1,0,0);
+ChOpen(7,254,0,0,0,#1,#1,0,0);
 VoicePlay("D031100100_07_010");
 MsgDisp("Mikage","...Today I've got a surprise for you.
 We're getting teaching interns.");
@@ -93,8 +93,8 @@ MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_TWO");
 SEWait();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(37,254,0,1,1,-1,-1,0,2,0,30);
-ChOpen(11,254,0,0,4,7,-1,0,1,0,30);
+ChOpen(37,254,0,1,1,#1,#1,0,2,0,30);
+ChOpen(11,254,0,0,4,7,#1,0,1,0,30);
 VoicePlay("D031100100_37_010");
 MsgDisp("Osako?","Hey now!
 Who're you calling a middle schooler～?");
@@ -173,7 +173,7 @@ SEWait();
 BGOpen("sc322",0);
 ScrFadeIn(0);
 MsgClose();
-ChOpen(11,254,3,0,4,-1,-1,0,0);
+ChOpen(11,254,3,0,4,#1,#1,0,0);
 VoicePlay("D031100100_42_120");
 MsgDisp("Boy A","...Great Success?");
 VoicePlay("D031100100_41_130");

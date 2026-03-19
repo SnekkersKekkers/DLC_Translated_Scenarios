@@ -10,7 +10,7 @@ MsgDisp("主人公","(That voice...)");
 MsgDisp("主人公","Onari-san?");
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,254,0,0,4,-1,-1,0,0);
+ChOpen(11,254,0,0,4,#1,#1,0,0);
 VoicePlay("D031100200_11_010");
 MsgDisp("Onari","Hey.");
 MsgDisp("主人公","Hello.

@@ -19,7 +19,7 @@ ScrFadeIn(0);
 MsgDisp("主人公","(Huh... is that――)");
 MsgClose();
 BGMPlay("BGM_HANYOU_A",0.01);
-ChOpen(37,254,0,0,0,-1,-1,0,0);
+ChOpen(37,254,0,0,0,#1,#1,0,0);
 VoicePlay("D031101200_37_000");
 MsgDisp("Osako","Hey! Long time no see.");
 MsgDisp("主人公","Osako-sensei, hello.
@@ -45,7 +45,7 @@ SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 ChPosition(37,1);
 MsgClose();
 SEWait();
-ChOpen(11,254,4,0,4,-1,-1,0,2);
+ChOpen(11,254,4,0,4,#1,#1,0,2);
 MsgDisp("主人公","Onari-sensei∋");
 ChEye(11,0);
 ChMouth(11,0);

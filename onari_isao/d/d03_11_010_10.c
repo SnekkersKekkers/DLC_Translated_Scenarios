@@ -15,7 +15,7 @@ ScrFadeIn(0);
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
-ChOpen(34,254,0,1,1,-1,-1,0,0);
+ChOpen(34,254,0,1,1,#1,#1,0,0);
 VoicePlay("D031101010_34_000");
 MsgDisp("Man","Our party is dissolved.");
 MsgDisp("主人公","Huh∋

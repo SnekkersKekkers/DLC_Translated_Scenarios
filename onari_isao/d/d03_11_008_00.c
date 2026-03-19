@@ -13,7 +13,7 @@ MsgDisp("","　　　　　　　　　　 ・
 MsgClose();
 ScrFadeIn(0);
 MsgClose();
-ChOpen(11,40,0,0,4,-1,-1,0,0);
+ChOpen(11,40,0,0,4,#1,#1,0,0);
 VoicePlay("D031100800_11_000");
 MsgDisp("Onari","You couldn't solve that problem last time.");
 MsgDisp("主人公","That's because you taught me the trick to it.");

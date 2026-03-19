@@ -18,7 +18,7 @@ BGOpen("ex350",0);
 Wait(40);
 ScrFadeIn(0);
 MsgClose();
-ChOpen(34,254,0,0,0,-1,-1,0,0);
+ChOpen(34,254,0,0,0,#1,#1,0,0);
 VoicePlay("D031100902_47_010");
 MsgDisp("Customer","You've been following me since the station!");
 ChEye(34,0);
@@ -32,7 +32,7 @@ ChPosition(34,1);
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
-ChOpen(11,40,4,1,3,-1,-1,0,2);
+ChOpen(11,40,4,1,3,#1,#1,0,2);
 VoicePlay("D031100902_11_000");
 MsgDisp("Onari","Sorry about that.
 This guy's a friend of ours.

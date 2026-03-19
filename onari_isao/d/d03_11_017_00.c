@@ -30,7 +30,7 @@ ScrFadeIn(0);
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
-ChOpen(34,254,0,0,1,-1,-1,0,0);
+ChOpen(34,254,0,0,1,#1,#1,0,0);
 VoicePlay("D031101700_34_030");
 MsgDisp("Yotakado A","Found you.
 Success's HP won't recover.");
@@ -69,7 +69,7 @@ MsgDisp("主人公","Onari-sensei!
 Are you okay?");
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,40,0,0,4,-1,-1,0,0);
+ChOpen(11,40,0,0,4,#1,#1,0,0);
 VoicePlay("D031101700_11_010");
 MsgDisp("Onari","Are you okay?");
 MsgDisp("主人公","Nora came to find me and said
@@ -129,7 +129,7 @@ MsgClose();
 ChClose(11);
 ChLayout(0);
 SEPlay("EV_SE_544");
-ChOpen(11,40,0,0,0,-1,-1,0,0);
+ChOpen(11,40,0,0,0,#1,#1,0,0);
 Wait(60);
 MsgClose();
 ScrFadeOut(0);

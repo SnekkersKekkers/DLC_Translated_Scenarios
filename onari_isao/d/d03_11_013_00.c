@@ -70,7 +70,7 @@ StlClose();
 BGMVol(0.5,2);
 BGOpen("ex361",1);
 MsgClose();
-ChOpen(11,40,0,1,4,-1,-1,0,0);
+ChOpen(11,40,0,1,4,#1,#1,0,0);
 ScrFadeIn(0);
 VoicePlay("D031101300_11_020");
 MsgDisp("Onari","Sorry about that. You okay?");

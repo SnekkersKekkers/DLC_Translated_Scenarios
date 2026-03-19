@@ -14,7 +14,7 @@ BGOpen("ex340",0);
 ScrFadeIn(0);
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,40,0,0,0,-1,-1,0,0);
+ChOpen(11,40,0,0,0,#1,#1,0,0);
 VoicePlay("D031100810_11_000");
 MsgDisp("Onari","Hey.
 I assumed we were doing this every day, but I

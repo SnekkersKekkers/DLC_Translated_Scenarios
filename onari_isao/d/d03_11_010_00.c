@@ -10,7 +10,7 @@ It's the usual time, but he's not here...)");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
-ChOpen(34,254,0,0,1,-1,-1,0,0);
+ChOpen(34,254,0,0,1,#1,#1,0,0);
 VoicePlay("D031101000_34_000");
 MsgDisp("Man","Success isn't here today?");
 MsgDisp("主人公","Huh? S-Success...?");
@@ -29,7 +29,7 @@ ChPosition(34,1);
 MsgClose();
 SEWait();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,40,0,0,4,-1,-1,0,2);
+ChOpen(11,40,0,0,4,#1,#1,0,2);
 VoicePlay("D031101000_11_000");
 MsgDisp("Onari","Hey, sorry to keep you waiting.
 What's this, two students today?");

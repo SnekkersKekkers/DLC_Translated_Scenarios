@@ -29,7 +29,7 @@ What is he talking about...?)");
     SEPlay("EV_SE_625");
     SEWait();
     BGMPlay("BGM_C11_ONARI_I",0.01);
-    ChOpen(11,254,2,0,4,7,-1,0,0);
+    ChOpen(11,254,2,0,4,7,#1,0,0);
     VoicePlay("D031100000_11_020");
     MsgDisp("？大成","Let's go with that.");
     MsgDisp("主人公","∋");

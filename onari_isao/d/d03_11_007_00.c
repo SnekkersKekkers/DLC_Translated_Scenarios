@@ -25,7 +25,7 @@ BGOpen("ex340",0);
 ScrFadeIn(0);
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,255,4,0,4,-1,-1,0,0);
+ChOpen(11,255,4,0,4,#1,#1,0,0);
 VoicePlay("D031100700_11_000");
 MsgDisp("Onari","Hey.");
 MsgDisp("主人公","Onari-san∈");

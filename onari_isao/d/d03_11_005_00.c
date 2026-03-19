@@ -93,7 +93,7 @@ BGOpen("ex350",0);
 BGMVol(0.5,2);
 ScrFadeIn(0);
 MsgClose();
-ChOpen(11,255,0,0,4,-1,-1,0,0);
+ChOpen(11,255,0,0,4,#1,#1,0,0);
 MsgDisp("主人公","I work part-time for Habatcher, and I'd like to
 interview you about today's contest,
 Onari-san... Would that be okay?");

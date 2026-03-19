@@ -4,7 +4,7 @@ ScrFadeIn(0);
 MsgDisp("主人公","(Hm? Is that someone I know over there...)");
 MsgClose();
 BGMPlay("BGM_C37_OSAKO_A",0.01);
-ChOpen(37,254,0,0,0,-1,-1,0,0);
+ChOpen(37,254,0,0,0,#1,#1,0,0);
 VoicePlay("D031100600_37_000");
 MsgDisp("Osako","Ossu!
 Long time no see～");

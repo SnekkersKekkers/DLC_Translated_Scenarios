@@ -15,7 +15,7 @@ ScrFadeIn(0);
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE");
 Wait(70,0);
-ChOpen(33,254,0,1,0,-1,-1,0,0);
+ChOpen(33,254,0,1,0,#1,#1,0,0);
 VoicePlay("D031101500_33_000");
 MsgDisp("Yotakado B?","We meet again.
 This must be karma from a past life.");
@@ -30,7 +30,7 @@ MsgDisp("主人公","Oh! From Yotakado?");
 ChPosition(33,1);
 MsgClose();
 SEPlay("EV_SE_544",0,0.6);
-ChOpen(34,254,0,1,0,-1,-1,0,2);
+ChOpen(34,254,0,1,0,#1,#1,0,2);
 SEWait();
 VoicePlay("D031101500_34_020");
 MsgDisp("Yotakado A","She forgot you.");
@@ -69,7 +69,7 @@ BGOpen("ex340",0);
 ScrFadeIn(0);
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,40,4,0,4,-1,-1,0,0);
+ChOpen(11,40,4,0,4,#1,#1,0,0);
 VoicePlay("D031101500_11_000");
 MsgDisp("Onari","Hey.");
 MsgDisp("主人公","Onari-sensei!

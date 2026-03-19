@@ -13,7 +13,7 @@ MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,40,4,0,4,-1,-1,0,0);
+ChOpen(11,40,4,0,4,#1,#1,0,0);
 VoicePlay("D031100901_11_000");
 MsgDisp("Onari","That's on my teaching, not you.
 You worked hard.");

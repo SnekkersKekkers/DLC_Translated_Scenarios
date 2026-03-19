@@ -1,4 +1,4 @@
-ChEyeOpenLevel(11,-1);
+ChEyeOpenLevel(11,#1);
 ChCheek(11,0);
 MsgDisp("主人公","You're important to me too, Onari-sensei.");
 ChEye(11,0);

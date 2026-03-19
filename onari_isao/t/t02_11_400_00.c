@@ -10,7 +10,7 @@ MsgDisp("主人公","Huh... Onari-sensei?∋");
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE");
 SEWait();
 BGMPlay("BGM_C11_ONARI_KOKU",0.01);
-ChOpen(11,254,0,0,0,-1,-1,0,0);
+ChOpen(11,254,0,0,0,#1,#1,0,0);
 VoicePlay("T021140000_11_010");
 MsgDisp("Onari","Hey, congratulations on graduating.");
 MsgDisp("主人公","Thank you.
@@ -152,7 +152,7 @@ ChClose(11);
 ChCustomLayout(11,5,0,-2.5);
 Wait(60);
 SEPlay("EV_SE_544");
-ChOpen(11,254,0,4,4,-1,-1,0,0,0,120);
+ChOpen(11,254,0,4,4,#1,#1,0,0,0,120);
 VoicePlay("T021140000_11_200");
 MsgDisp("Onari","That's you.");
 ChEye(11,4);

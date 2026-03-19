@@ -18,7 +18,7 @@ Onari-sensei!
 What are you doing here?");
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
-ChOpen(11,255,4,0,0,-1,-1,0,0);
+ChOpen(11,255,4,0,0,#1,#1,0,0);
 VoicePlay("D031101800_11_010");
 MsgDisp("Onari","Everyone's taking exams today.
 If I wait here, they'll come back through.");
@@ -131,7 +131,7 @@ ChClose(11);
 ChLayout(0);
 MsgClose();
 SEPlay("EV_SE_544");
-ChOpen(11,255,4,0,4,-1,-1,0,0);
+ChOpen(11,255,4,0,4,#1,#1,0,0);
 VoicePlay("D031101800_11_150");
 MsgDisp("Onari","There, that's better.
 Phew...
@@ -161,7 +161,7 @@ ChClose(11,0,0);
 BGOpen("ho000",0);
 ScrFadeIn(0);
 MsgClose();
-ChOpen(11,255,7,0,4,-1,-1,0,0);
+ChOpen(11,255,7,0,4,#1,#1,0,0);
 MsgDisp("主人公","Thank you for walking me home.
 This is the first time, isn't it?");
 ChEye(11,0);
