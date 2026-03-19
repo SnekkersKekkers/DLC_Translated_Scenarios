@@ -16,24 +16,24 @@ EnvPlay("SE_ENV_BG_SC131_CW1",0.5);
 ScrFadeIn(0);
 MsgClose();
 VoicePlay("D031101400_33_000");
-MsgDisp("Yotakado Student B","Just as I thought, you came back.
+MsgDisp("Yotakado B","Just as I thought, you came back.
 I told you — you can't fight destiny.");
 VoicePlay("D031101400_39_010");
-MsgDisp("Yotakado Student C","Oh, it's the transfer girl.
+MsgDisp("Yotakado C","Oh, it's the transfer girl.
 Come over here before Success shows up.");
 MsgDisp("主人公","Huh?");
 MsgDisp("主人公","(Oh, that's what Onari-sensei said, wasn't it.
 \"Don't run away,
 just step right in\"...)");
 VoicePlay("D031101400_39_020");
-MsgDisp("Yotakado Student C","Don't be scared, don't be scared.");
+MsgDisp("Yotakado C","Don't be scared, don't be scared.");
 MsgDisp("主人公","(Okay, here goes...)");
 MsgSel("Take me to the staff room","Actually, I'm a little scared...");
 switch (MsgSelRsltGet()){
     case 0:
     MsgDisp("主人公","Sure, then take me to the staff room.");
     VoicePlay("D031101400_33_030");
-    MsgDisp("Yotakado Student B","Ah, that's an unlucky direction.
+    MsgDisp("Yotakado B","Ah, that's an unlucky direction.
 It's the demon gate.");
     MsgClose();
     SEWait();
@@ -59,11 +59,11 @@ You guys lose.");
     MsgDisp("主人公","(Oh...
 Onari-sensei just patted me on the head...)");
     VoicePlay("D031101400_33_040");
-    MsgDisp("Yotakado Student B","Hey, Success.
+    MsgDisp("Yotakado B","Hey, Success.
 Should you really be doing that
 at the school gate? Let's go.");
     VoicePlay("D031101400_39_050");
-    MsgDisp("Yotakado Student C","Ugh, honestly.");
+    MsgDisp("Yotakado C","Ugh, honestly.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_MANY",0,0.4);
     BGOpen("ex361",1);
     ChEye(11,0);
@@ -90,7 +90,7 @@ I'm glad I was brave!)");
     case 1:
     MsgDisp("主人公","(Actually, I'm a little scared...)");
     VoicePlay("D031101400_34_060");
-    MsgDisp("Yotakado Student A","That's Success's girlfriend.");
+    MsgDisp("Yotakado A","That's Success's girlfriend.");
     MsgClose();
     SEWait();
     BGMPlay("BGM_C11_ONARI_A",0.01);
@@ -114,10 +114,10 @@ I'm glad I was brave!)");
 Onari-sensei just patted me on the head...)");
     ScrFadeIn(0);
     VoicePlay("D031101400_34_070");
-    MsgDisp("Yotakado Student A","Should a teacher really be doing that
+    MsgDisp("Yotakado A","Should a teacher really be doing that
 at the school gate...?");
     VoicePlay("D031101400_39_080");
-    MsgDisp("Yotakado Student C","Ugh, honestly.
+    MsgDisp("Yotakado C","Ugh, honestly.
 Let's go.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_MANY",0,0.4);
     BGOpen("ex361",1);

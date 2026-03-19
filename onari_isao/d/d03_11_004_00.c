@@ -3,13 +3,13 @@ BGOpen("ex080",0);
 ScrFadeIn(0);
 MsgDisp("主人公","(Today I'm having lunch in the cafeteria.)");
 VoicePlay("D031100400_44_000");
-MsgDisp("Female Student A","Hey, what should we get?");
+MsgDisp("Girl A","Hey, what should we get?");
 MsgDisp("主人公","Hmm, everything looks so good,
 it's hard to decide.");
 VoicePlay("D031100400_45_000");
-MsgDisp("Female Student B","That's amazing! Onari-san!");
+MsgDisp("Girl B","That's amazing! Onari-san!");
 VoicePlay("D031100400_42_020");
-MsgDisp("Male Student","You can do it, both of you!");
+MsgDisp("Boy","You can do it, both of you!");
 MsgDisp("主人公","?");
 MsgClose();
 ScrFadeOut(0);
@@ -33,11 +33,11 @@ MsgDisp("Onari","That was some delicious mapo tofu.");
 StlEye(37,1);
 StlMouth(37,0);
 VoicePlay("D031100400_42_030");
-MsgDisp("Male Student","Even the regular ultra-spicy mapo is brutal,
+MsgDisp("Boy","Even the regular ultra-spicy mapo is brutal,
 and that was ten times the heat?");
 MsgDisp("主人公","What?! Ten times the spiciness∋");
 VoicePlay("D031100400_44_010");
-MsgDisp("Female Student A","That's seriously insane, Onari-san.");
+MsgDisp("Girl A","That's seriously insane, Onari-san.");
 StlEye(11,1,0);
 StlMouth(11,0);
 StlEyeOpenLevel(11,5,1);
@@ -79,10 +79,10 @@ MsgDisp("Osako","Hee, hoo...
 I can't keep up with you.
 The heat is coming back to haunt me.");
 VoicePlay("D031100400_42_050");
-MsgDisp("Male Student","Ha ha ha!
+MsgDisp("Boy","Ha ha ha!
 Your face is all red, little teach.");
 VoicePlay("D031100400_44_020");
-MsgDisp("Female Student A","Hehe, kinda cute, maybe?");
+MsgDisp("Girl A","Hehe, kinda cute, maybe?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031100400_37_030");
@@ -96,10 +96,10 @@ ChClose(37);
 VoicePlay("D031100400_37_040");
 MsgDisp("Osako","Excuse me! Can I get some water?!");
 VoicePlay("D031100400_44_030");
-MsgDisp("Female Student A","Are you okay~?
+MsgDisp("Girl A","Are you okay~?
 The water's over there.");
 VoicePlay("D031100400_42_080");
-MsgDisp("Male Student","Ha ha ha!");
+MsgDisp("Boy","Ha ha ha!");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);

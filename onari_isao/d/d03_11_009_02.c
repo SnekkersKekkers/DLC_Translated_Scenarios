@@ -1,5 +1,5 @@
 VoicePlay("D031100902_47_000");
-MsgDisp("Female Customer","Stop following me.");
+MsgDisp("Customer","Stop following me.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
@@ -20,14 +20,14 @@ ScrFadeIn(0);
 MsgClose();
 ChOpen(34,254,0,0,0,-1,-1,0,0);
 VoicePlay("D031100902_47_010");
-MsgDisp("Female Customer","You've been following me since the station!");
+MsgDisp("Customer","You've been following me since the station!");
 ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031100902_34_030");
 MsgDisp("Man","This is my base camp.
 I'm just making my rounds.");
 VoicePlay("D031100902_47_020");
-MsgDisp("Female Customer","Huh? What are you even talking about?");
+MsgDisp("Customer","Huh? What are you even talking about?");
 ChPosition(34,1);
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
@@ -42,10 +42,10 @@ ChMouth(34,1);
 VoicePlay("D031100902_34_050");
 MsgDisp("Man","I'm more of a solo player, though...");
 VoicePlay("D031100902_47_030");
-MsgDisp("Female Customer","Is he really your friend?");
+MsgDisp("Customer","Is he really your friend?");
 MsgDisp("主人公","Uhh... Oh, yes.");
 VoicePlay("D031100902_47_040");
-MsgDisp("Female Customer","Is that so?
+MsgDisp("Customer","Is that so?
 I guess he wasn't following me then.
 Just don't talk to me again.");
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");

@@ -25,9 +25,9 @@ VoicePlay("D031100100_38_010");
 MsgDisp("Students","Yay!
 What are they like?");
 VoicePlay("D031100100_42_020");
-MsgDisp("Male Student A","Is it a lady teacher?");
+MsgDisp("Boy A","Is it a lady teacher?");
 VoicePlay("D031100100_44_000");
-MsgDisp("Female Student A","I hope he's cute～.");
+MsgDisp("Girl A","I hope he's cute～.");
 ChEye(7,0);
 ChMouth(7,3);
 ChMotion(7,1);
@@ -74,14 +74,14 @@ SEWait();
 SEPlay("EV_SE_566",1,0.2);
 SEPlay("EV_SE_860",1,0.7);
 VoicePlay("D031100100_45_000");
-MsgDisp("Female Student B","Huh? There's two of them?");
+MsgDisp("Girl B","Huh? There's two of them?");
 VoicePlay("D031100100_41_050");
-MsgDisp("Male Student B","Are they really teaching interns?");
+MsgDisp("Boy B","Are they really teaching interns?");
 VoicePlay("D031100100_44_010");
-MsgDisp("Female Student A","They don't really look like college
+MsgDisp("Girl A","They don't really look like college
 students...");
 VoicePlay("D031100100_45_010");
-MsgDisp("Female Student B","Yeah... more like middle schoolers?");
+MsgDisp("Girl B","Yeah... more like middle schoolers?");
 SEStop("EV_SE_566",0.3);
 SEStop("EV_SE_860",0.3);
 MsgClose();
@@ -131,7 +131,7 @@ MsgDisp("Onari?","Oh, yes. I'm Great Success.");
 MsgDisp("主人公","(Great Success?
 I knew it, it's him!)");
 VoicePlay("D031100100_42_080");
-MsgDisp("Male Student A","What's \"Great Success\" mean?");
+MsgDisp("Boy A","What's \"Great Success\" mean?");
 ChEye(37,0);
 ChMouth(37,0);
 ChEyeOpenLevel(37,8);
@@ -148,11 +148,11 @@ SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(37);
 ChPosition(11,0);
 VoicePlay("D031100100_42_090");
-MsgDisp("Male Student A","Ah, the short teacher left.");
+MsgDisp("Boy A","Ah, the short teacher left.");
 VoicePlay("D031100100_41_100");
-MsgDisp("Male Student B","And the intern is totally frozen, isn't he?");
+MsgDisp("Boy B","And the intern is totally frozen, isn't he?");
 VoicePlay("D031100100_44_020");
-MsgDisp("Female Student A","Yeah.
+MsgDisp("Girl A","Yeah.
 But he's kind of cute, maybe?");
 MsgDisp("主人公","(He's not saying anything at all...
 Is he gonna be okay...?)");
@@ -175,9 +175,9 @@ ScrFadeIn(0);
 MsgClose();
 ChOpen(11,254,3,0,4,-1,-1,0,0);
 VoicePlay("D031100100_42_120");
-MsgDisp("Male Student A","...Great Success?");
+MsgDisp("Boy A","...Great Success?");
 VoicePlay("D031100100_41_130");
-MsgDisp("Male Student B","Sir, what's been so \"Great Success\" this whole time?");
+MsgDisp("Boy B","Sir, what's been so \"Great Success\" this whole time?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -198,9 +198,9 @@ MsgDisp("主人公","(...Oh!
 The \"Great Success\" thing he was saying in the park ―
 it was practice for his self-introduction!)");
 VoicePlay("D031100100_42_140");
-MsgDisp("Male Student A","Is that your go-to bit, sir?");
+MsgDisp("Boy A","Is that your go-to bit, sir?");
 VoicePlay("D031100100_41_150");
-MsgDisp("Male Student B","Hmm, it kinda fell flat, though.");
+MsgDisp("Boy B","Hmm, it kinda fell flat, though.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
@@ -209,7 +209,7 @@ MsgDisp("Onari","Really...
 Maybe I should've gone with this one instead?
 Great Failure.");
 VoicePlay("D031100100_42_160");
-MsgDisp("Male Student A","You're already failing right out the gate!");
+MsgDisp("Boy A","You're already failing right out the gate!");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
@@ -217,7 +217,7 @@ VoicePlay("D031100100_11_060");
 MsgDisp("Onari","Yeah, you've got a point.");
 SEPlay("EV_SE_GAYA_022");
 VoicePlay("D031100100_41_170");
-MsgDisp("Male Student B","See, that's no good either.
+MsgDisp("Boy B","See, that's no good either.
 You gotta sell it with more energy～.");
 MsgDisp("主人公","(Hehe.
 He's a little unusual, but he seems like a

@@ -57,7 +57,7 @@ VoicePlay("D031101600_11_030");
 MsgDisp("Onari","Extra sauce with a fried egg on top,
 sorry for the wait~.");
 VoicePlay("D031101600_45_000");
-MsgDisp("Female Customer","Here you go, one Rich.");
+MsgDisp("Customer","Here you go, one Rich.");
 StlEye(11,1);
 StlMouth(11,0);
 MsgDisp("主人公","O-Onari-sensei?∋
@@ -71,7 +71,7 @@ a bit.");
 SEPlay("EV_SE_671",0,0.9);
 Wait(90,1);
 VoicePlay("D031101600_39_010");
-MsgDisp("Festival Vendor","You're a lifesaver!
+MsgDisp("Vendor","You're a lifesaver!
 Thanks. ...Hey, wait!
 You put way too much sauce on that!");
 StlEye(11,0,0);

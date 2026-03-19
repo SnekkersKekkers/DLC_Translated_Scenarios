@@ -13,13 +13,13 @@ MsgClose();
 BGOpen("sc500",1);
 ScrFadeIn(0);
 VoicePlay("D031101700_42_000");
-MsgDisp("Male Student","Hey, you might not want to go out right now.");
+MsgDisp("Boy","Hey, you might not want to go out right now.");
 MsgDisp("主人公","Hm?");
 VoicePlay("D031101700_42_010");
-MsgDisp("Male Student","There's someone sketchy hanging around the
+MsgDisp("Boy","There's someone sketchy hanging around the
 school gate.");
 VoicePlay("D031101700_44_000");
-MsgDisp("Female Student","Seriously? That's scary.");
+MsgDisp("Girl","Seriously? That's scary.");
 MsgDisp("主人公","Scary and sketchy...
 Could it be――");
 MsgClose();
@@ -32,14 +32,14 @@ SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
 ChOpen(34,254,0,0,1,-1,-1,0,0);
 VoicePlay("D031101700_34_030");
-MsgDisp("Yotakado Student A","Found you.
+MsgDisp("Yotakado A","Found you.
 Success's HP won't recover.");
 MsgDisp("主人公","Nora!
 Is something wrong with Onari-sensei?");
 ChEye(34,1);
 ChMouth(34,1);
 VoicePlay("D031101700_34_040");
-MsgDisp("Yotakado Student A","Near death.
+MsgDisp("Yotakado A","Near death.
 Get him some chocolate mint ice cream, stat.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
@@ -48,9 +48,9 @@ MsgDisp("主人公","(Onari-sensei...!)");
 SEPlay("EV_SE_FOOT_RUN_COME_TWO");
 SEWait();
 VoicePlay("D031101700_42_050");
-MsgDisp("Male Student","Whoa, she actually scared them off.");
+MsgDisp("Boy","Whoa, she actually scared them off.");
 VoicePlay("D031101700_44_010");
-MsgDisp("Female Student","You okay?");
+MsgDisp("Girl","You okay?");
 MsgDisp("主人公","Y-yeah.
 I really have to go!");
 SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");

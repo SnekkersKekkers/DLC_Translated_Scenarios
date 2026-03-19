@@ -19,11 +19,11 @@ MsgDisp("主人公","(So this is Yotakado Technical High School.
 It has a kind of... unapproachable feel...
 Maybe I should just go home)");
 VoicePlay("D031101300_39_000");
-MsgDisp("Yotakado Student C","Aw, you're leaving already?
+MsgDisp("Yotakado C","Aw, you're leaving already?
 Why don't you come over here?");
 MsgDisp("主人公","What!");
 VoicePlay("D031101300_33_010");
-MsgDisp("Yotakado Student B","That's right.
+MsgDisp("Yotakado B","That's right.
 To cross through this gate — that is your
 destiny.");
 MsgDisp("主人公","I-I'm sorry!
@@ -33,7 +33,7 @@ SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
 ScrFadeOut(0);
 SEWait();
 VoicePlay("D031101300_34_020");
-MsgDisp("Yotakado Student A","Hey, that's Success's girlfriend.");
+MsgDisp("Yotakado A","Hey, that's Success's girlfriend.");
 SEPlay("EV_SE_544",0,0.5);
 MsgDisp("主人公","(Huh... \"Success\"?)");
 MsgClose();
@@ -49,10 +49,10 @@ MsgDisp("主人公","Y-yes.
 I have something to report to you,
 Onari-sensei...");
 VoicePlay("D031101300_39_030");
-MsgDisp("Yotakado Student C","Sensei?
+MsgDisp("Yotakado C","Sensei?
 Is she a transfer student?");
 VoicePlay("D031101300_33_040");
-MsgDisp("Yotakado Student B","Come on over.
+MsgDisp("Yotakado B","Come on over.
 You can't fight destiny.");
 MsgDisp("主人公","Ugh...
 What do I do, Onari-sensei...?");
@@ -61,9 +61,9 @@ MsgDisp("Onari","You change your destiny through studying.
 You guys should come too.
 Remedial lessons at the convenience store.");
 VoicePlay("D031101300_39_050");
-MsgDisp("Yotakado Student C","As if.");
+MsgDisp("Yotakado C","As if.");
 VoicePlay("D031101300_33_060");
-MsgDisp("Yotakado Student B","I can't fight destiny.");
+MsgDisp("Yotakado B","I can't fight destiny.");
 MsgClose();
 ScrFadeOut(0);
 StlClose();

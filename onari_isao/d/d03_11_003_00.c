@@ -31,7 +31,7 @@ SEWait();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ScrFadeIn(0);
 VoicePlay("D031100300_42_000");
-MsgDisp("Male Student A","It says Onari Isao, right?
+MsgDisp("Boy A","It says Onari Isao, right?
 We already know your name!");
 SEPlay("EV_SE_GAYA_016",0.01,0.5);
 SEPlay("EV_SE_788",0.1,0.6);
@@ -50,9 +50,9 @@ SEWait();
 BGOpen("sc323",0);
 ScrFadeIn(0);
 VoicePlay("D031100300_42_020");
-MsgDisp("Male Student A","Great Success!");
+MsgDisp("Boy A","Great Success!");
 VoicePlay("D031100300_41_030");
-MsgDisp("Male Student B","Yeah, that's definitely Great Success!");
+MsgDisp("Boy B","Yeah, that's definitely Great Success!");
 MsgClose();
 ChOpen(11,254,3,1,3,-1,-1,0,0);
 VoicePlay("D031100300_11_030");
@@ -60,7 +60,7 @@ MsgDisp("Onari","With an exclamation mark, it's much clearer.");
 SEPlay("EV_SE_GAYA_023");
 SEPlay("EV_SE_788",0.1,0.6);
 VoicePlay("D031100300_42_040");
-MsgDisp("Male Student A","Sir, today's lesson was barely a success,
+MsgDisp("Boy A","Sir, today's lesson was barely a success,
 maybe?");
 VoicePlay("D031100300_38_010");
 MsgDisp("Students","Hahahah!");

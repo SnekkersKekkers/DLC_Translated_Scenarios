@@ -17,13 +17,13 @@ SEPlay("EV_SE_FOOT_WALK_COME_ALONE");
 Wait(70,0);
 ChOpen(33,254,0,1,0,-1,-1,0,0);
 VoicePlay("D031101500_33_000");
-MsgDisp("Yotakado Student B?","We meet again.
+MsgDisp("Yotakado B?","We meet again.
 This must be karma from a past life.");
 MsgDisp("主人公","Umm...");
 ChEye(33,0);
 ChMouth(33,1);
 VoicePlay("D031101500_33_010");
-MsgDisp("Yotakado Student B?","Huh? You don't get it?
+MsgDisp("Yotakado B?","Huh? You don't get it?
 The thread of fate connecting us
 is way thicker than the one with Success.");
 MsgDisp("主人公","Oh! From Yotakado?");
@@ -33,22 +33,22 @@ SEPlay("EV_SE_544",0,0.6);
 ChOpen(34,254,0,1,0,-1,-1,0,2);
 SEWait();
 VoicePlay("D031101500_34_020");
-MsgDisp("Yotakado Student A","She forgot you.");
+MsgDisp("Yotakado A","She forgot you.");
 MsgDisp("主人公","Oh! Nora-san, hi.");
 ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031101500_34_030");
-MsgDisp("Yotakado Student A","She remembers me.");
+MsgDisp("Yotakado A","She remembers me.");
 ChEye(33,1);
 ChMouth(33,1);
 VoicePlay("D031101500_33_040");
-MsgDisp("Yotakado Student B","Shut it.
+MsgDisp("Yotakado B","Shut it.
 She'll remember me from today.");
 MsgDisp("主人公","Yes.");
 ChEye(33,0);
 ChMouth(33,0);
 VoicePlay("D031101500_33_050");
-MsgDisp("Yotakado Student B","Alright, we're off to find our destiny in the
+MsgDisp("Yotakado B","Alright, we're off to find our destiny in the
 city.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
@@ -57,7 +57,7 @@ MsgDisp("主人公","Finding your destiny...?");
 ChEye(34,2);
 ChMouth(34,0);
 VoicePlay("D031101500_34_060");
-MsgDisp("Yotakado Student A","Picking up girls.");
+MsgDisp("Yotakado A","Picking up girls.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(34);
