@@ -166,7 +166,7 @@ I'd love to take Onari-san's classes again!)");
     MsgDisp("主人公","(Well, wherever Onari-san gets assigned,
 it's really none of my business...)");
     break ;
-    default ;
+    default :
     DbgAssert(0);
     break ;
     }
