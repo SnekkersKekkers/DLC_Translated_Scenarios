@@ -1,8 +1,8 @@
 ChLayout(1);
 BGOpen("sc370",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（はぁ……
-できるだけのことはやったよね）");
+MsgDisp("主人公","(Haa...
+I gave it everything I had.)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -12,28 +12,29 @@ MsgClose();
 BGOpen("ne000",0);
 ScrFadeIn(0);
 VoicePlay("D031101800_11_000");
-MsgDisp("？大成","やあ、いい顔してるな。");
-MsgDisp("主人公","えっ∋　大成先生！
-どうしてここに？");
+MsgDisp("Onari?","Hey, you look great.");
+MsgDisp("主人公","Huh?∋
+Onari-sensei!
+What are you doing here?");
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,255,4,0,0,-1,-1,0,0);
 VoicePlay("D031101800_11_010");
-MsgDisp("大成","今日はみんな受験だ。
-ここで、待ってれば帰ってくる。");
+MsgDisp("Onari","Everyone's taking exams today.
+If I wait here, they'll come back through.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101800_11_020");
-MsgDisp("大成","君は大丈夫そうだな。");
-MsgDisp("主人公","本当……ですか？");
+MsgDisp("Onari","You seem like you're doing fine.");
+MsgDisp("主人公","Do you really think so?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031101800_11_030");
-MsgDisp("大成","間違いないよ。
-そうだ、ちょっと付き合ってくれ。");
-MsgDisp("主人公","あ、はい。");
+MsgDisp("Onari","Absolutely.
+Hey, come with me for a bit.");
+MsgDisp("主人公","Oh, sure.");
 MsgClose();
 ScrFadeOut(0);
 ChEye(11,0);
@@ -46,85 +47,85 @@ MsgClose();
 BGOpen("wf110",0);
 BGMVol(0.5,2);
 ScrFadeIn(0);
-MsgDisp("主人公","いい眺めですね。
-……大成先生、スカイラウンジに
-来たかったんですか？");
+MsgDisp("主人公","What a view.
+...Did you want to come to the sky lounge,
+Onari-sensei?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101800_11_040");
-MsgDisp("大成","デートっぽいだろ。");
-MsgDisp("主人公","……そうですか？");
+MsgDisp("Onari","Feels like a date, right?");
+MsgDisp("主人公","...Does it?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_050");
-MsgDisp("大成","デート、嫌か？");
-MsgDisp("主人公","いえ。
-でも大成先生、花火大会の時も
-デートって言ってたから……");
+MsgDisp("Onari","You don't like dates?");
+MsgDisp("主人公","No, it's not that.
+It's just that you said it was a date at the
+fireworks too...");
 ChEye(11,2);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101800_11_060");
-MsgDisp("大成","一方的に悪かったよな。
-でも、そこから君はひとりでやり切った。");
+MsgDisp("Onari","Sorry for being so one-sided about it.
+But you pushed through it all on your own.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,2);
 VoicePlay("D031101800_11_070");
-MsgDisp("大成","うちの生徒も、
-最近はやっとコンビニ塾に来てくれる。
-勉強って言えるもんじゃないけどな。");
-MsgDisp("主人公","そうなんですね。");
+MsgDisp("Onari","My students are finally starting to come to
+the cram school too.
+It's barely what you'd call studying, though.");
+MsgDisp("主人公","That's good to hear.");
 ChEye(11,1);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101800_11_080");
-MsgDisp("大成","焦らずやってるよ……");
+MsgDisp("Onari","Taking it one step at a time...");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_090");
-MsgDisp("大成","でも、一方的に終わりにして悪かったな。
-オレ、そういう無神経なヤツだから。
-ごめんな。");
-MsgDisp("主人公","大成先生……");
+MsgDisp("Onari","Still, I'm sorry for ending things so abruptly.
+That's just the kind of thoughtless person I am.
+Forgive me.");
+MsgDisp("主人公","Onari-sensei...");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101800_11_100");
-MsgDisp("大成","……な、なぁ。
-あんまりそっち行くなよ。");
-MsgDisp("主人公","えっ、急にどうしたんですか？");
+MsgDisp("Onari","...H-hey.
+Don't go so close to the edge.");
+MsgDisp("主人公","What's the matter, all of a sudden?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_110");
-MsgDisp("大成","落ちたら危ない……");
-MsgDisp("主人公","？？？
-大成先生って、高所恐怖症でしたっけ？");
+MsgDisp("Onari","You could fall...");
+MsgDisp("主人公","???
+Are you afraid of heights, Onari-sensei?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,5);
 VoicePlay("D031101800_11_120");
-MsgDisp("大成","ううん、そんなの感じたことない。");
+MsgDisp("Onari","No, I've never felt that way before.");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,2);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101800_11_130");
-MsgDisp("大成","でも、なんだこの感じ？
-大切な人が、危ない所にいるって
-こんなに嫌なもんか……");
-MsgDisp("主人公","大成先生……？");
+MsgDisp("Onari","But what is this feeling?
+Seeing someone precious near the edge...
+Is this what that feels like?");
+MsgDisp("主人公","Onari-sensei...?");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,1);
 VoicePlay("D031101800_11_140");
-MsgDisp("大成","いいから端に行くな。
-もっと、こっち。");
-MsgDisp("主人公","あ、はい。");
+MsgDisp("Onari","Just stay away from the edge.
+Come over here.");
+MsgDisp("主人公","Oh, okay.");
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 ChClose(11);
 ChLayout(0);
@@ -132,21 +133,21 @@ MsgClose();
 SEPlay("EV_SE_544");
 ChOpen(11,255,4,0,4,-1,-1,0,0);
 VoicePlay("D031101800_11_150");
-MsgDisp("大成","これで安心。
-ふぅ……オレ、どうしたんだ？");
+MsgDisp("Onari","There, that's better.
+Phew... What's wrong with me?");
 VoicePlay("D031101800_45_000");
-MsgDisp("女の子","見て、あの人たちアツアツだね？");
+MsgDisp("Little Girl","Look, those two are so lovey-dovey!");
 VoicePlay("D031101800_49_000");
-MsgDisp("お母さん","見ちゃダメよ。こっち。");
-MsgDisp("主人公","あの……
-周りの人が、見てます……");
+MsgDisp("Mother","Don't stare, dear. Come on.");
+MsgDisp("主人公","Um...
+People are watching us...");
 ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101800_11_160");
-MsgDisp("大成","君が離れて危ないよりは、
-この方がいいよ。");
-MsgDisp("主人公","（ええっ∋）");
+MsgDisp("Onari","Better this than you drifting over to the
+edge.");
+MsgDisp("主人公","(Wha?∋)");
 BGMStop();
 MsgClose();
 ScrFadeOut(0);
@@ -160,55 +161,56 @@ BGOpen("ho000",0);
 ScrFadeIn(0);
 MsgClose();
 ChOpen(11,255,7,0,4,-1,-1,0,0);
-MsgDisp("主人公","送ってくれてありがとうございます。
-初めてですね？");
+MsgDisp("主人公","Thank you for walking me home.
+This is the first time, isn't it?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_170");
-MsgDisp("大成","初めてか……
-オレはどうかしている。コンビニ塾の帰り、
-一度も送ってやらなかった。");
-MsgDisp("主人公","遅かったですし。");
+MsgDisp("Onari","First time, huh...
+What's wrong with me. After all those late nights
+at the cram school, I never once walked you home.");
+MsgDisp("主人公","It was so late every time.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101800_11_180");
-MsgDisp("大成","尚更だろう。
-今日は気づいたら、ここまで来てた。");
+MsgDisp("Onari","All the more reason I should have.
+Today my feet just... carried me here.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 VoicePlay("D031101800_11_190");
-MsgDisp("大成","今日のオレがおかしいのか、
-今までのオレがおかしいのか……");
-MsgDisp("主人公","ふふっ。");
+MsgDisp("Onari","Is it today's version of me that's strange,
+or has it always been the other version...?");
+MsgDisp("主人公","Hehe.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101800_11_200");
-MsgDisp("大成","オレも変わったのか？");
-MsgDisp("主人公","え？");
+MsgDisp("Onari","Am I changing?");
+MsgDisp("主人公","Hm?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,5);
 VoicePlay("D031101800_11_210");
-MsgDisp("大成","いや、いいんだ。
-そうだ、合格おめでとう。");
-MsgDisp("主人公","もう、受験が終わったのは今日。
-まだ早いですよ？");
+MsgDisp("Onari","Never mind.
+Oh right — congratulations on passing.");
+MsgDisp("主人公","The exam just ended today.
+Isn't it a bit early for that?");
 ChEye(11,3);
 ChMouth(11,3);
 ChMotion(11,3);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101800_11_220");
-MsgDisp("大成","一番に言うことに意味がある。
-じゃあな。");
+MsgDisp("Onari","Being the first to say it is what matters.
+See you.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(11);
-MsgDisp("主人公","（大成先生……
-今日、少し感じが違ってた気がする……）");
+MsgDisp("主人公","(Onari-sensei...
+He seemed a little different today
+somehow...)");
 MsgClose();
 ScrFadeOut(0);

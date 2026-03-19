@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc500",1);
 ScrFadeIn(0);
-MsgDisp("主人公","（大成先生に、進路指導で
-一流大学を希望したことと、
-教師を目指すことを報告に行こう！）");
+MsgDisp("主人公","(I should go tell Onari-sensei
+that I put down an elite university
+for my career guidance and that I want to be a teacher!)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -11,30 +11,31 @@ MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
 MsgClose();
 Wait(40,0);
-MsgDisp("主人公","（えーと……
-あそこ、だよね……？）");
+MsgDisp("主人公","(Let's see... it's over there, right...?)");
 MsgClose();
 BGOpen("ex360",1);
 ScrFadeIn(0);
-MsgDisp("主人公","（ここが余多門工業高校。
-なんだか、近寄り難い雰囲気……
-やっぱり帰ろう）");
+MsgDisp("主人公","(So this is Yotakado Technical High School.
+It has a kind of... unapproachable feel...
+Maybe I should just go home)");
 VoicePlay("D031101300_39_000");
-MsgDisp("余多門生Ｃ","何だ帰っちゃうのぉ？
-こっちおいでよ？");
-MsgDisp("主人公","えっ！");
+MsgDisp("Yotakado Student C","Aw, you're leaving already?
+Why don't you come over here?");
+MsgDisp("主人公","What!");
 VoicePlay("D031101300_33_010");
-MsgDisp("余多門生Ｂ","そう、この門をくぐる、それが運命だ。");
-MsgDisp("主人公","ご、ごめんなさい！
-間違えました∈");
+MsgDisp("Yotakado Student B","That's right.
+To cross through this gate — that is your
+destiny.");
+MsgDisp("主人公","I-I'm sorry!
+I must have the wrong place∈");
 MsgClose();
 SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
 ScrFadeOut(0);
 SEWait();
 VoicePlay("D031101300_34_020");
-MsgDisp("余多門生Ａ","あれ、サクセスのカノジョだよ。");
+MsgDisp("Yotakado Student A","Hey, that's Success's girlfriend.");
 SEPlay("EV_SE_544",0,0.5);
-MsgDisp("主人公","（えっ……「さくせす」？）");
+MsgDisp("主人公","(Huh... \"Success\"?)");
 MsgClose();
 StlOpen("ev_11_01");
 StlEye(11,0);
@@ -42,26 +43,27 @@ StlMouth(11,0);
 BGMPlay("BGM_C11_ONARI_B",0.01);
 ScrFadeIn(0);
 VoicePlay("D031101300_11_000");
-MsgDisp("大成","やあ。
-迎えに来てくれたのか。");
-MsgDisp("主人公","は、はい。
-大成先生に報告があって……");
+MsgDisp("Onari","Hey.
+Did you come to meet me?");
+MsgDisp("主人公","Y-yes.
+I have something to report to you,
+Onari-sensei...");
 VoicePlay("D031101300_39_030");
-MsgDisp("余多門生Ｃ","先生ぇ？
-転校生ちゃんか？");
+MsgDisp("Yotakado Student C","Sensei?
+Is she a transfer student?");
 VoicePlay("D031101300_33_040");
-MsgDisp("余多門生Ｂ","こっちにおいで。
-運命に逆らったらダメだ。");
-MsgDisp("主人公","うう……
-大成先生、どうしよう……");
+MsgDisp("Yotakado Student B","Come on over.
+You can't fight destiny.");
+MsgDisp("主人公","Ugh...
+What do I do, Onari-sensei...?");
 VoicePlay("D031101300_11_010");
-MsgDisp("大成","勉強で運命変えるんだよ。
-おまえらも来いよ。
-コンビニで補修。");
+MsgDisp("Onari","You change your destiny through studying.
+You guys should come too.
+Remedial lessons at the convenience store.");
 VoicePlay("D031101300_39_050");
-MsgDisp("余多門生Ｃ","アホくさぁ。");
+MsgDisp("Yotakado Student C","As if.");
 VoicePlay("D031101300_33_060");
-MsgDisp("余多門生Ｂ","運命に逆らうなんてできない。");
+MsgDisp("Yotakado Student B","I can't fight destiny.");
 MsgClose();
 ScrFadeOut(0);
 StlClose();
@@ -71,62 +73,65 @@ MsgClose();
 ChOpen(11,40,0,1,4,-1,-1,0,0);
 ScrFadeIn(0);
 VoicePlay("D031101300_11_020");
-MsgDisp("大成","ごめんな。大丈夫か。");
-MsgDisp("主人公","は、はい。
-びっくりしましたけど……");
+MsgDisp("Onari","Sorry about that. You okay?");
+MsgDisp("主人公","Y-yes.
+It was a bit of a surprise, but...");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031101300_11_030");
-MsgDisp("大成","あいつら、悪いヤツじゃないんだ。
-いいヤツかは怪しいけどさ。");
-MsgDisp("主人公","ふふっ。
-大成先生、サクセスって呼ばれてるんですね？");
+MsgDisp("Onari","They're not bad guys, those two.
+Whether they're good guys is another
+question.");
+MsgDisp("主人公","Hehe.
+They call you 'Success,' Onari-sensei?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101300_11_040");
-MsgDisp("大成","ああ、教室で自己紹介したら、
-あの野良が後ろの方に座ってた。");
-MsgDisp("主人公","あのサングラスの人、
-余多門高校の生徒だったんだ……");
+MsgDisp("Onari","Yeah, when I introduced myself in class,
+that Nora guy was sitting in the back.");
+MsgDisp("主人公","That guy with the sunglasses was
+actually a student at Yotakado...?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,2);
 VoicePlay("D031101300_11_050");
-MsgDisp("大成","うん。
-ここにいるヤツらは、みんな似てる。
-オレも役に立てそうだ。");
-MsgDisp("主人公","大成先生。
-わたし、一流大学に入って
-先生みたいになりたいです！");
+MsgDisp("Onari","Yep.
+The kids here are all kind of the same.
+I think I can actually be useful to them.");
+MsgDisp("主人公","Onari-sensei.
+I want to get into an elite university and
+become a teacher, just like you!");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101300_11_060");
-MsgDisp("大成","進路希望、出したのか？");
-MsgDisp("主人公","はい。");
+MsgDisp("Onari","You already put it in your career guidance
+form?");
+MsgDisp("主人公","Yes.");
 ChEye(11,3);
 ChMouth(11,3);
 ChMotion(11,3);
 VoicePlay("D031101300_11_070");
-MsgDisp("大成","うん、なれるに決まってる。
-そしたら、うちの学校に来いよ。");
-MsgDisp("主人公","えっ∋
-それは……");
+MsgDisp("Onari","Of course you'll make it.
+And when you do, come teach at our school.");
+MsgDisp("主人公","What∋
+But...");
 ChEye(11,3);
 ChMouth(11,3);
 ChMotion(11,0);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101300_11_080");
-MsgDisp("大成","はは、大丈夫。
-逃げないで踏み込んで行けばいいんだ。
-行こう。");
+MsgDisp("Onari","Ha, you'll be fine.
+Don't run away, just step right in.
+Come on.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","（よしっ！
-これからもコンビニ塾で勉強、がんばるぞ！）");
+MsgDisp("主人公","(Alright!
+I'm going to keep studying hard at the cram
+school!)");
 MsgClose();
 ScrFadeOut(0);

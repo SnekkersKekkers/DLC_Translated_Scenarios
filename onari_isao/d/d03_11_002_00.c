@@ -1,69 +1,70 @@
 ChLayout(1);
 BGOpen("ex000",1);
 ScrFadeIn(0);
-MsgDisp("主人公","（うーん、
-今日も一日終わっちゃったな……）");
+MsgDisp("主人公","(Hmm, another day come and gone...)");
 VoicePlay("D031100200_11_000");
-MsgDisp("？大成","早起きをする。
-早起きをする？
-早起きをする！");
-MsgDisp("主人公","（この声……）");
-MsgDisp("主人公","大成先生？");
+MsgDisp("Onari?","I will wake up early.
+I will wake up early?
+I will wake up early!");
+MsgDisp("主人公","(That voice...)");
+MsgDisp("主人公","Onari-san?");
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,254,0,0,4,-1,-1,0,0);
 VoicePlay("D031100200_11_010");
-MsgDisp("大成","やあ。");
-MsgDisp("主人公","こんにちは。
-何してるんですか？");
+MsgDisp("Onari","Hey.");
+MsgDisp("主人公","Hello.
+What are you doing out here?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 VoicePlay("D031100200_11_020");
-MsgDisp("大成","次の授業の練習。");
+MsgDisp("Onari","Practicing for my next class.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031100200_11_030");
-MsgDisp("大成","ああ、そう言えば
-前にもここで、君にあったね。");
-MsgDisp("主人公","はい。
-あの時は、自己紹介の練習だったんですね。");
+MsgDisp("Onari","Oh, come to think of it,
+I ran into you here before, didn't I?");
+MsgDisp("主人公","Yes.
+So that time, you were practicing your
+self-introduction, right?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031100200_11_040");
-MsgDisp("大成","そう、話するの苦手みたいで。
-だから練習。");
-MsgDisp("主人公","なるほど……
-でも、「早起きする」って……
-寝坊しないようにですか？");
+MsgDisp("Onari","Yeah, I'm not great at talking, it seems.
+So I practice.");
+MsgDisp("主人公","I see...
+But what's with the \"I will wake up early\" thing...
+Trying not to oversleep?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,5);
 VoicePlay("D031100200_11_050");
-MsgDisp("大成","次の授業のお楽しみだよ。
-ネタバレしたら、君が楽しめない。");
+MsgDisp("Onari","That's a surprise for the next class.
+If I spoil it, you won't be able to enjoy it.");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,1);
 VoicePlay("D031100200_11_060");
-MsgDisp("大成","次こそ大成功しないと。");
-MsgDisp("主人公","自己紹介、すごく面白かったですよ。
-次の授業も楽しみにしてます。");
+MsgDisp("Onari","I have to make the next one a Great Success.");
+MsgDisp("主人公","Your self-introduction was really fun, you
+know.
+I'm looking forward to the next class, too.");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,2);
 VoicePlay("D031100200_11_070");
-MsgDisp("大成","そうならよかった。
-でもやっぱり、大迫先生みたいに
-話せないのはわかったから。");
+MsgDisp("Onari","Glad to hear that.
+But still, I realized I just can't talk the
+way Osako-san does.");
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","（行っちゃった……
-大迫先生って、中等部の元気な先生だよね？
-たしかに大成先生とはタイプが違うよね……）");
+MsgDisp("主人公","(He left...
+Osako-san is that energetic teacher from the middle school, right?
+He and Onari-san are definitely different types...)");
 MsgClose();
 ScrFadeOut(0);

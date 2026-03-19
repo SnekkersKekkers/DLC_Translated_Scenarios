@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc500",1);
 ScrFadeIn(0);
-MsgDisp("主人公","（そうだ。
-今日は余多門高校まで行ってみよう。
-大成先生に会えるかな？）");
+MsgDisp("主人公","(Oh, right.
+Let me head over to Yotakado today.
+Maybe I'll get to see Onari-sensei!)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -16,33 +16,33 @@ EnvPlay("SE_ENV_BG_SC131_CW1",0.5);
 ScrFadeIn(0);
 MsgClose();
 VoicePlay("D031101400_33_000");
-MsgDisp("余多門生Ｂ","やっぱり戻ってきた。
-運命には逆らえないって、言っただろ。");
+MsgDisp("Yotakado Student B","Just as I thought, you came back.
+I told you — you can't fight destiny.");
 VoicePlay("D031101400_39_010");
-MsgDisp("余多門生Ｃ","お、転校生ちゃん。
-サクセスが来る前に、こっちおいでよ。");
-MsgDisp("主人公","えっ？");
-MsgDisp("主人公","（あ、大成先生が言ってたよね。
-“逃げないでこっちから
-踏み込んでいってやればいい”って……）");
+MsgDisp("Yotakado Student C","Oh, it's the transfer girl.
+Come over here before Success shows up.");
+MsgDisp("主人公","Huh?");
+MsgDisp("主人公","(Oh, that's what Onari-sensei said, wasn't it.
+\"Don't run away,
+just step right in\"...)");
 VoicePlay("D031101400_39_020");
-MsgDisp("余多門生Ｃ","怖くない、怖くない。");
-MsgDisp("主人公","（うん、よし……）");
-MsgSel("職員室まで連れて行って","やっぱり、怖いかも……");
+MsgDisp("Yotakado Student C","Don't be scared, don't be scared.");
+MsgDisp("主人公","(Okay, here goes...)");
+MsgSel("Take me to the staff room","Actually, I'm a little scared...");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","うん、じゃあ職員室まで連れて行って。");
+    MsgDisp("主人公","Sure, then take me to the staff room.");
     VoicePlay("D031101400_33_030");
-    MsgDisp("余多門生Ｂ","あ、あそこは、方角が悪い。
-鬼門だ。");
+    MsgDisp("Yotakado Student B","Ah, that's an unlucky direction.
+It's the demon gate.");
     MsgClose();
     SEWait();
     BGMPlay("BGM_C11_ONARI_A",0.01);
     ChOpen(11,40,0,3,3,-1,-1,0,0);
     VoicePlay("D031101400_11_000");
-    MsgDisp("大成","ははっ、君の勝ちだ。
-おまえらの負け。");
-    MsgDisp("主人公","大成先生！");
+    MsgDisp("Onari","Ha, she wins.
+You guys lose.");
+    MsgDisp("主人公","Onari-sensei!");
     MsgClose();
     ChClose(11,0,30);
     ChLayout(0);
@@ -50,54 +50,54 @@ switch (MsgSelRsltGet()){
     SEPlay("EV_SE_544");
     ChOpen(11,40,3,0,0,-1,-1,0,0);
     VoicePlay("D031101400_11_010");
-    MsgDisp("大成","よくできました。");
+    MsgDisp("Onari","Well done.");
     MsgClose();
     ScrFadeOut(0);
     SEPlay("EV_SE_682",0,0.5);
-    MsgDisp("","（ポンポン）");
+    MsgDisp("","(pat pat)");
     ScrFadeIn(0);
-    MsgDisp("主人公","（あ……
-大成先生、わたしの頭を撫でてくれた……）");
+    MsgDisp("主人公","(Oh...
+Onari-sensei just patted me on the head...)");
     VoicePlay("D031101400_33_040");
-    MsgDisp("余多門生Ｂ","おい、サクセス。
-校門でそんなことしていいのかよ。
-行こうぜ。");
+    MsgDisp("Yotakado Student B","Hey, Success.
+Should you really be doing that
+at the school gate? Let's go.");
     VoicePlay("D031101400_39_050");
-    MsgDisp("余多門生Ｃ","あーあ、あほらし。");
+    MsgDisp("Yotakado Student C","Ugh, honestly.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_MANY",0,0.4);
     BGOpen("ex361",1);
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,4);
     VoicePlay("D031101400_11_020");
-    MsgDisp("大成","ははっ、あいつらに注意されたの初めてだよ。
-新鮮。");
-    MsgDisp("主人公","ふふっ。");
+    MsgDisp("Onari","Ha, first time they've ever told me off.
+Kind of refreshing.");
+    MsgDisp("主人公","Hehe.");
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,0);
     VoicePlay("D031101400_11_030");
-    MsgDisp("大成","ふっ……
-じゃあ、勉強しにいくか？");
+    MsgDisp("Onari","Heh...
+So, shall we go study?");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","（ちょっとびっくりしたけど、
-大成先生の手、あったかかった……
-うん、勇気を出してよかった！）");
+    MsgDisp("主人公","(That was a bit of a surprise, but...
+Onari-sensei's hand was warm...
+I'm glad I was brave!)");
     break ;
     case 1:
-    MsgDisp("主人公","（やっぱり、怖いかも……）");
+    MsgDisp("主人公","(Actually, I'm a little scared...)");
     VoicePlay("D031101400_34_060");
-    MsgDisp("余多門生Ａ","サクセスのカノジョだぜ？");
+    MsgDisp("Yotakado Student A","That's Success's girlfriend.");
     MsgClose();
     SEWait();
     BGMPlay("BGM_C11_ONARI_A",0.01);
     ChOpen(11,40,4,1,3,-1,-1,0,0);
     VoicePlay("D031101400_11_040");
-    MsgDisp("大成","オレのカノジョになんか用？");
-    MsgDisp("主人公","カノジョ∋");
+    MsgDisp("Onari","You got a problem with my girlfriend?");
+    MsgDisp("主人公","Girlfriend∋");
     MsgClose();
     ChClose(11,0,30);
     ChLayout(0);
@@ -105,41 +105,42 @@ switch (MsgSelRsltGet()){
     SEPlay("EV_SE_544");
     ChOpen(11,40,3,0,0,-1,-1,0,0);
     VoicePlay("D031101400_11_050");
-    MsgDisp("大成","ふん、よくがんばった。");
+    MsgDisp("Onari","Heh. You held your ground.");
     MsgClose();
     ScrFadeOut(0);
     SEPlay("EV_SE_682",0,0.5);
-    MsgDisp("","（ポンポン）");
-    MsgDisp("主人公","（あ……
-大成先生、わたしの頭を撫でてくれた……）");
+    MsgDisp("","(pat pat)");
+    MsgDisp("主人公","(Oh...
+Onari-sensei just patted me on the head...)");
     ScrFadeIn(0);
     VoicePlay("D031101400_34_070");
-    MsgDisp("余多門生Ａ","校門で教師が
-そんなことしていいのかよ……");
+    MsgDisp("Yotakado Student A","Should a teacher really be doing that
+at the school gate...?");
     VoicePlay("D031101400_39_080");
-    MsgDisp("余多門生Ｃ","あーあ、あほらし。
-行こうぜ。");
+    MsgDisp("Yotakado Student C","Ugh, honestly.
+Let's go.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_MANY",0,0.4);
     BGOpen("ex361",1);
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,4);
     VoicePlay("D031101400_11_060");
-    MsgDisp("大成","あいつに注意されたの初めてかもな。
-新鮮。");
-    MsgDisp("主人公","ふふっ。");
+    MsgDisp("Onari","Might be the first time he's ever told me
+off.
+Kind of refreshing.");
+    MsgDisp("主人公","Hehe.");
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,0);
     VoicePlay("D031101400_11_070");
-    MsgDisp("大成","じゃあ、勉強しにいくか。");
+    MsgDisp("Onari","Well then, shall we go study.");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","（はぁ……ドキドキした。
-でも、さっきの「カノジョ」って……
-大成先生って時々ビックリすること言うよね）");
+    MsgDisp("主人公","(Haah... my heart was pounding.
+But what was that... \"girlfriend\"...
+Onari-sensei really does say surprising things sometimes)");
     break ;
     default :
     DbgAssert(0);

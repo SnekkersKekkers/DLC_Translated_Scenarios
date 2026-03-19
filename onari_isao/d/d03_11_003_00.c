@@ -1,8 +1,9 @@
 ChLayout(1);
 BGOpen("sc310",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（次の授業は大成先生の現文だ。
-公園で練習してたし、楽しみだな！）");
+MsgDisp("主人公","(Next class is Onari-san's Modern Japanese.
+He was practicing in the park, so this should
+be fun!)");
 MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
@@ -13,11 +14,12 @@ BGOpen("sc300",0);
 Wait(40);
 ScrFadeIn(0);
 VoicePlay("D031100300_11_000");
-MsgDisp("大成","……このように、
-言葉は時代とともに変化しています。");
+MsgDisp("Onari","...As you can see,
+language changes with the times.");
 VoicePlay("D031100300_11_010");
-MsgDisp("大成","身近な例では、疑問符や感嘆符。
-昔は無かった。");
+MsgDisp("Onari","A familiar example: question marks and
+exclamation marks.
+They didn't exist in the old days.");
 MsgClose();
 ScrFadeOut(0);
 BGOpen("sc322",0);
@@ -29,17 +31,17 @@ SEWait();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ScrFadeIn(0);
 VoicePlay("D031100300_42_000");
-MsgDisp("男子生徒Ａ","オオナリイサオでしょ。
-もう名前はわかってるって！");
+MsgDisp("Male Student A","It says Onari Isao, right?
+We already know your name!");
 SEPlay("EV_SE_GAYA_016",0.01,0.5);
 SEPlay("EV_SE_788",0.1,0.6);
 VoicePlay("D031100300_38_000");
-MsgDisp("生徒たち","はははっ！");
+MsgDisp("Students","Hahahah!");
 ChEye(11,1);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031100300_11_020");
-MsgDisp("大成","でも、こうすると？");
+MsgDisp("Onari","But what about like this?");
 ChClose(11);
 MsgClose();
 ScrFadeOut(0);
@@ -48,21 +50,22 @@ SEWait();
 BGOpen("sc323",0);
 ScrFadeIn(0);
 VoicePlay("D031100300_42_020");
-MsgDisp("男子生徒Ａ","ダイセイコウ！");
+MsgDisp("Male Student A","Great Success!");
 VoicePlay("D031100300_41_030");
-MsgDisp("男子生徒Ｂ","うん、これは確かにダイセイコウ！");
+MsgDisp("Male Student B","Yeah, that's definitely Great Success!");
 MsgClose();
 ChOpen(11,254,3,1,3,-1,-1,0,0);
 VoicePlay("D031100300_11_030");
-MsgDisp("大成","感嘆符があるとわかりやすい。");
+MsgDisp("Onari","With an exclamation mark, it's much clearer.");
 SEPlay("EV_SE_GAYA_023");
 SEPlay("EV_SE_788",0.1,0.6);
 VoicePlay("D031100300_42_040");
-MsgDisp("男子生徒Ａ","先生、今日の授業はギリギリ成功くらい？");
+MsgDisp("Male Student A","Sir, today's lesson was barely a success,
+maybe?");
 VoicePlay("D031100300_38_010");
-MsgDisp("生徒たち","はははっ！");
-MsgDisp("主人公","（うんっ、わたしは
-バッチリ大成功だと思う！）");
+MsgDisp("Students","Hahahah!");
+MsgDisp("主人公","(Yep, I'd say that was
+a total Great Success!)");
 SEStop("EV_SE_GAYA_023",1);
 SEStop("EV_SE_788",1);
 BGMStop();

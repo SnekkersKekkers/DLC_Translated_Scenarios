@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc510",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（ハァ……
-大成先生の期待に応えられなかった。
-合わせる顔がないよ……）");
+MsgDisp("主人公","(Sigh...
+I couldn't live up to Onari-sensei's expectations.
+I can't even face him...)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -18,50 +18,51 @@ SEWait();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,255,0,0,4,-1,-1,0,0);
 VoicePlay("D031101111_11_000");
-MsgDisp("大成","やあ。");
-MsgDisp("主人公","大成先生……
-あんなに勉強をみてもらったのに、
-期末テスト、全然ダメでした。");
+MsgDisp("Onari","Hey.");
+MsgDisp("主人公","Onari-sensei...
+Even though you helped me study so much, I
+totally bombed my finals.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101111_11_010");
-MsgDisp("大成","オレの教え方が悪い。
-こんなに真面目やってる君が
-身につかないんだから。");
-MsgDisp("主人公","いえ、わたしが悪いんです……");
+MsgDisp("Onari","It's my teaching that's the problem.
+You worked so hard at it—if it didn't stick,
+that's on me.");
+MsgDisp("主人公","No, it's my fault...");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 VoicePlay("D031101111_11_020");
-MsgDisp("大成","はぁ……");
+MsgDisp("Onari","Haah...");
 ChEye(11,1);
 ChMouth(11,1);
 ChMotion(11,0);
 VoicePlay("D031101111_11_030");
-MsgDisp("大成","君にそんなこと言わせるオレに腹が立つ。
-ぶん殴りたい……");
-MsgDisp("主人公","え？");
+MsgDisp("Onari","I'm furious at myself for making you say
+that.
+I just want to punch me...");
+MsgDisp("主人公","What?");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,4);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101111_11_040");
-MsgDisp("大成","そもそも教師に向いていない。
-試験には合格したけど、これまでにしておくよ。");
+MsgDisp("Onari","I'm just not cut out to be a teacher.
+I passed the exam, but I'm done here.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101111_11_050");
-MsgDisp("大成","役に立たないコンビニ塾だったけど、
-オレは考える力をもらった。
-ありがとう。じゃあ。");
+MsgDisp("Onari","It was a pretty useless cram school, but
+I gained the ability to think things through.
+Thank you. See you around.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","（ああ……わたしがもっと勉強して
-いい成績をとっていたら、大成先生にも
-自信もってもらえたんだよね……）");
+MsgDisp("主人公","(If only I had studied harder
+and gotten better grades, Onari-sensei might've had
+more confidence in himself...)");
 MsgClose();
 ScrFadeOut(0);

@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc510",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（満足できる成績だった。
-大成先生に報告したいな。
-でも……）");
+MsgDisp("主人公","(I'm satisfied with my grades.
+I'd love to tell Onari-sensei.
+But...)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -13,14 +13,15 @@ MsgClose();
 BGOpen("sc500",1);
 ScrFadeIn(0);
 VoicePlay("D031101700_42_000");
-MsgDisp("男子生徒","おい、今は出て行かないほうがいいぞ。");
-MsgDisp("主人公","え？");
+MsgDisp("Male Student","Hey, you might not want to go out right now.");
+MsgDisp("主人公","Hm?");
 VoicePlay("D031101700_42_010");
-MsgDisp("男子生徒","ヤバそうなのが、校門うろついてる。");
+MsgDisp("Male Student","There's someone sketchy hanging around the
+school gate.");
 VoicePlay("D031101700_44_000");
-MsgDisp("女子生徒","ええ？　怖い。");
-MsgDisp("主人公","怖くて、ヤバそうな人……
-もしかして――");
+MsgDisp("Female Student","Seriously? That's scary.");
+MsgDisp("主人公","Scary and sketchy...
+Could it be――");
 MsgClose();
 ScrFadeOut(0);
 BGOpen("sc130",1);
@@ -31,27 +32,27 @@ SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 SEWait();
 ChOpen(34,254,0,0,1,-1,-1,0,0);
 VoicePlay("D031101700_34_030");
-MsgDisp("余多門生Ａ","いた。
-サクセスのＨＰが回復しねぇ。");
-MsgDisp("主人公","野良さん！
-大成先生がどうかしたんですか？");
+MsgDisp("Yotakado Student A","Found you.
+Success's HP won't recover.");
+MsgDisp("主人公","Nora!
+Is something wrong with Onari-sensei?");
 ChEye(34,1);
 ChMouth(34,1);
 VoicePlay("D031101700_34_040");
-MsgDisp("余多門生Ａ","瀕死。
-早くチョコミントアイスくわせて。");
+MsgDisp("Yotakado Student A","Near death.
+Get him some chocolate mint ice cream, stat.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(34);
-MsgDisp("主人公","（大成先生……！）");
+MsgDisp("主人公","(Onari-sensei...!)");
 SEPlay("EV_SE_FOOT_RUN_COME_TWO");
 SEWait();
 VoicePlay("D031101700_42_050");
-MsgDisp("男子生徒","すげぇ、追っ払った。");
+MsgDisp("Male Student","Whoa, she actually scared them off.");
 VoicePlay("D031101700_44_010");
-MsgDisp("女子生徒","大丈夫だった？");
-MsgDisp("主人公","う、うん。
-わたし急ぐから！");
+MsgDisp("Female Student","You okay?");
+MsgDisp("主人公","Y-yeah.
+I really have to go!");
 SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
 MsgClose();
 ScrFadeOut(0);
@@ -61,67 +62,69 @@ MsgDisp("","　　　　　　　　　　 ・
 MsgClose();
 BGOpen("ex350",0);
 ScrFadeIn(0);
-MsgDisp("主人公","ハァ、ハァ……");
+MsgDisp("主人公","Hah... hah...");
 VoicePlay("D031101700_11_000");
-MsgDisp("？大成","君……");
-MsgDisp("主人公","大成先生！
-大丈夫ですか？");
+MsgDisp("Onari?","You...");
+MsgDisp("主人公","Onari-sensei!
+Are you okay?");
 MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,40,0,0,4,-1,-1,0,0);
 VoicePlay("D031101700_11_010");
-MsgDisp("大成","大丈夫？");
-MsgDisp("主人公","野良さんが、
-大成先生が大変だって……");
+MsgDisp("Onari","Are you okay?");
+MsgDisp("主人公","Nora came to find me and said
+something was wrong with you...");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101700_11_020");
-MsgDisp("大成","！
-あいつ……");
+MsgDisp("Onari","!
+That kid...");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101700_11_030");
-MsgDisp("大成","オレには勉強したいから、
-ここに来いって。");
-MsgDisp("主人公","ええ？
-……じゃあ、大成先生が元気がないって
-いうのは――");
+MsgDisp("Onari","He told me he wanted to study,
+so I should come here.");
+MsgDisp("主人公","What?
+...But then, that part about Onari-sensei
+being unwell――");
 ChEye(11,2);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101700_11_040");
-MsgDisp("大成","あいつに、心配させるくらい
-落ち込んでたみたいだ。");
+MsgDisp("Onari","I guess I was down enough
+that it worried him.");
 ChEye(11,2);
 ChMouth(11,4);
 ChMotion(11,5);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101700_11_050");
-MsgDisp("大成","自分でおしまいにして、
-落ち込んで、生徒に心配されてる。
-情けな……");
-MsgDisp("主人公","落ち込んでたんですか？");
+MsgDisp("Onari","I ended things on my own, got all depressed,
+and now my student's worried about me.
+How pathetic...");
+MsgDisp("主人公","You've been down?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101700_11_060");
-MsgDisp("大成","ああ、そうみたいだ。
-君との塾がないだけで。");
+MsgDisp("Onari","Yeah, apparently.
+All because our cram school ended.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,3);
 VoicePlay("D031101700_11_070");
-MsgDisp("大成","でも会えた。
-だから、あとはチョコミントで全回復かな？");
-MsgDisp("主人公","ふふっ。");
+MsgDisp("Onari","But I got to see you.
+So I just need some chocolate mint to be back
+to full HP, right?");
+MsgDisp("主人公","Hehe.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101700_11_080");
-MsgDisp("大成","あ、勉強はどう？");
-MsgDisp("主人公","今日、期末テストの結果、いい成績でした――");
+MsgDisp("Onari","Oh, how's the studying going?");
+MsgDisp("主人公","I got my end-of-term results today —
+I did really well――");
 MsgClose();
 ChClose(11);
 ChLayout(0);
@@ -131,40 +134,41 @@ Wait(60);
 MsgClose();
 ScrFadeOut(0);
 SEPlay("EV_SE_682",0,0.6);
-MsgDisp("","（ポンポン）");
-MsgDisp("主人公","（大成先生……）");
+MsgDisp("","(pat pat)");
+MsgDisp("主人公","(Onari-sensei...)");
 ScrFadeIn(0);
 ChEye(11,3);
 ChMouth(11,0);
 ChMotion(11,0);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101700_11_090");
-MsgDisp("大成","よくできた。");
-MsgDisp("主人公","わたし……
-大成先生に報告したいなって思ってた。
-そしたら、野良さんが来てくれたんです。");
+MsgDisp("Onari","Well done.");
+MsgDisp("主人公","I...
+I wanted to tell you.
+And then Nora showed up.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101700_11_100");
-MsgDisp("大成","あいつ、そんなことできるんだ。
-はば学、騒ぎにならなかったか？");
-MsgDisp("主人公","大丈夫ですよ。
-心配するようなことは、何も");
+MsgDisp("Onari","He actually pulled that off.
+I hope he didn't cause a scene at your
+school.");
+MsgDisp("主人公","It's fine, really.
+There's nothing to worry about.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101700_11_110");
-MsgDisp("大成","そうか。
-あいつらが変わってきたなら、嬉しいな。");
-MsgDisp("主人公","ふふ！");
+MsgDisp("Onari","Is that so.
+If they're starting to change, I'm glad.");
+MsgDisp("主人公","Hehe!");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101700_11_120");
-MsgDisp("大成","もう全回復だ。
-チョコミント、いらなかった……");
+MsgDisp("Onari","I'm already back to full.
+Didn't even need the chocolate mint...");
 BGMStop();
 MsgClose();
 ScrFadeOut(0);
@@ -172,9 +176,9 @@ MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
 MsgClose();
-MsgDisp("主人公","（久しぶりに大成先生に会えたら
-わたしも気持ちが落ち着いたみたい……
-これで受験まで、がんばれそう！）");
+MsgDisp("主人公","(Seeing Onari-sensei again after so long
+seems to have calmed me down too...
+I think I can make it all the way to exams now!)");
 MsgClose();
 ScrFadeOut(0);
 ChLayout(1);

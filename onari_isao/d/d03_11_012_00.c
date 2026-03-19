@@ -1,8 +1,8 @@
 ChLayout(1);
 BGOpen("sc310",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（今日は日直だから、職員室に
-クラス日誌を取りにいかないと）");
+MsgDisp("主人公","(I'm on class duty today, so I need to go to
+the staff room to pick up the class journal)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -11,185 +11,191 @@ MsgDisp("","　　　　　　　　　　 ・
 MsgClose();
 SEPlay("EV_SE_DOOR_024");
 SEWait();
-MsgDisp("主人公","失礼します。");
+MsgDisp("主人公","Excuse me.");
 SEPlay("EV_SE_DOOR_019");
 BGOpen("sc360",0);
 Wait(35,0);
 ScrFadeIn(0);
-MsgDisp("主人公","（え……あそこにいるのって――）");
+MsgDisp("主人公","(Huh... is that――)");
 MsgClose();
 BGMPlay("BGM_HANYOU_A",0.01);
 ChOpen(37,254,0,0,0,-1,-1,0,0);
 VoicePlay("D031101200_37_000");
-MsgDisp("大迫","オッス！　久しぶりだな。");
-MsgDisp("主人公","大迫先生、こんにちは。
-高等部にご用ですか？");
+MsgDisp("Osako","Hey! Long time no see.");
+MsgDisp("主人公","Osako-sensei, hello.
+Do you have business with the high school?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031101200_37_010");
-MsgDisp("大迫","オッスオッス！　ちょっとな。
-それよりおまえ、
-勉強がんばってるみたいじゃないか。");
-MsgDisp("主人公","はい。
-でもどうして大迫先生が……？");
+MsgDisp("Osako","Hey hey! Just a little.
+More importantly, looks like
+you've been working hard at studying.");
+MsgDisp("主人公","Yes.
+But how did you know, Osako-sensei...?");
 ChEye(37,1);
 ChMouth(37,0);
 ChEyeOpenLevel(37,8);
 VoicePlay("D031101200_37_020");
-MsgDisp("大迫","ふふん。
-おーい、こっちだ。");
+MsgDisp("Osako","Heh heh.
+Hey, over here.");
 VoicePlay("D031101200_11_000");
-MsgDisp("？大成","やあ。");
-MsgDisp("主人公","！");
+MsgDisp("Onari?","Hey.");
+MsgDisp("主人公","!");
 SEPlay("EV_SE_FOOT_WALK_COME_ALONE_SHORT");
 ChPosition(37,1);
 MsgClose();
 SEWait();
 ChOpen(11,254,4,0,4,-1,-1,0,2);
-MsgDisp("主人公","大成先生∋");
+MsgDisp("主人公","Onari-sensei∋");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101200_11_010");
-MsgDisp("大成","赴任先が決まったから、挨拶にきた。");
+MsgDisp("Onari","I got my posting, so I came to say hello.");
 ChEye(37,0);
 ChMouth(37,0);
 ChEyeOpenLevel(37,8);
 VoicePlay("D031101200_37_030");
-MsgDisp("大迫","ははっ、一年遅れだぞぉ。
-相変わらずマイペースでいいな。");
+MsgDisp("Osako","Ha, you're a whole year behind everyone else.
+Always at your own pace —
+I love it.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031101200_11_020");
-MsgDisp("大成","その分、いい勉強できましたよ。
-……ね？");
-MsgDisp("主人公","あ……はい！");
+MsgDisp("Onari","That time was good for me, though.
+...Right?");
+MsgDisp("主人公","Oh... yes!");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031101200_37_040");
-MsgDisp("大迫","たっぷり青春したらしいな～。");
-MsgDisp("主人公","青春？");
+MsgDisp("Osako","Sounds like someone had quite the youth~.");
+MsgDisp("主人公","My youth?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031101200_37_050");
-MsgDisp("大迫","そうだぁ、甘酸っぱい青春だぁ。");
+MsgDisp("Osako","Yes indeed, sweet and bittersweet youth.");
 SEPlay("EV_SE_587",0,0.6);
 SEWait();
 ChEye(37,2);
 ChMouth(37,0);
 VoicePlay("D031101200_37_060");
-MsgDisp("大迫","あ、す、すみません。");
-MsgDisp("主人公","ふふっ。
-大成先生、おめでとうございます！");
+MsgDisp("Osako","Ah, s-sorry about that.");
+MsgDisp("主人公","Hehe.
+Congratulations, Onari-sensei!");
 ChEye(11,3);
 ChMouth(11,0);
 ChMotion(11,1);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101200_11_030");
-MsgDisp("大成","うん。
-じゃあオレ、校長先生と教頭先生に
-挨拶してくるから。");
+MsgDisp("Onari","Thanks.
+Well, I'm going to go greet the principal and
+vice principal.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101200_11_040");
-MsgDisp("大成","大迫先生、失礼します。");
+MsgDisp("Onari","Excuse me, Osako-sensei.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031101200_37_070");
-MsgDisp("大迫","おう、じゃな。がんばれよ！");
+MsgDisp("Osako","Sure, see ya. Good luck!");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(11);
 ChPosition(37,0);
-MsgDisp("主人公","（やった！
-大成先生の授業をまた受けられるんだ……）");
+MsgDisp("主人公","(Yes!
+I get to be in Onari-sensei's class again...)");
 ChEye(37,0);
 ChMouth(37,0);
 ChEyeOpenLevel(37,8);
 VoicePlay("D031101200_37_080");
-MsgDisp("大迫","あいつ、変わったな。
-おまえのおかげかぁ？");
-MsgDisp("主人公","えっ、そんなことないです。");
+MsgDisp("Osako","That guy's changed.
+Was that thanks to you?");
+MsgDisp("主人公","Oh, I don't think I had anything to do with
+it.");
 ChEye(37,0);
 ChMouth(37,0);
 ChEyeOpenLevel(37,0);
 VoicePlay("D031101200_37_090");
-MsgDisp("大迫","いや、先生にはできなかったことだ。
-……ありがとうな。");
-MsgDisp("主人公","大迫先生……");
+MsgDisp("Osako","No, it's something a teacher couldn't do.
+...Thank you.");
+MsgDisp("主人公","Osako-sensei...");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031101200_37_100");
-MsgDisp("大迫","そうだ！
-おまえも教師になったらどうだ？");
-MsgDisp("主人公","え？");
+MsgDisp("Osako","Oh, that's right!
+Why don't you become a teacher too?");
+MsgDisp("主人公","What?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031101200_37_110");
-MsgDisp("大迫","考えてみろ～。
-進路指導もうすぐだろ？");
-MsgDisp("主人公","（わたしが……先生に？）");
-MsgSel("一流大学に入って教師を目指そう！","わたしには無理かな……");
+MsgDisp("Osako","Think about it~.
+Career guidance is coming up soon, right?");
+MsgDisp("主人公","(Me... a teacher?)");
+MsgSel("Aim for an elite university and become a teacher!","That's probably impossible for me...");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","よしっ、わたしも大成先生みたいに
-一流大学に入って、はば学の先生に
-なれるようにがんばります！");
+    MsgDisp("主人公","Alright! I'll work hard to get into an elite
+university like Onari-sensei and become
+a teacher here at Habataki!");
     ChEye(37,0);
     ChMouth(37,0);
     VoicePlay("D031101200_37_120");
-    MsgDisp("大迫","はははっ！　やる気だな。
-がんばれ～！");
+    MsgDisp("Osako","Hahaha!
+Now that's the spirit.
+Go for it~!");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(37);
     VoicePlay("D031101200_37_130");
-    MsgDisp("大迫","ああ、大成の赴任先ははば学じゃないぞぉ？
-余多門だ。");
-    MsgDisp("主人公","え？
-……ヨタカド？");
+    MsgDisp("Osako","Oh, Onari's posting isn't at Habataki, by the
+way~.
+It's Yotakado.");
+    MsgDisp("主人公","Huh?
+...Yotakado?");
     VoicePlay("D031101200_37_140");
-    MsgDisp("大迫","そうだ、余多門工業高等学校。");
+    MsgDisp("Osako","That's right. Yotakado Technical High School.");
     MsgClose();
     ScrFadeOut(0);
-    MsgDisp("主人公","（えぇぇ∋
-大成先生の赴任先、はば学じゃないんだ……
-余多門高校って、どこにあるんだろう？）");
+    MsgDisp("主人公","(Ehhhh∋
+Onari-sensei's posting isn't at Habataki...
+I wonder where Yotakado High School even is?)");
     break ;
     case 1:
-    MsgDisp("主人公","先生になるなんて……
-わたしには無理です。");
+    MsgDisp("主人公","Become a teacher...
+I don't think that's possible for me.");
     ChEye(37,1);
     ChMouth(37,0);
     VoicePlay("D031101200_37_150");
-    MsgDisp("大迫","無理かどうか決めるのは自分だぞぉ？");
-    MsgDisp("主人公","……はい。");
+    MsgDisp("Osako","It's not up to anyone else to decide
+what's possible for you~.");
+    MsgDisp("主人公","...Yes.");
     ChEye(37,0);
     ChMouth(37,0);
     VoicePlay("D031101200_37_160");
-    MsgDisp("大迫","大成もおまえも似ているからな。
-ゆっくり考えて納得して決めればいい。
-じゃあな。");
+    MsgDisp("Osako","You and Onari are a lot alike, you know.
+Take your time, think it through, and decide
+when you're ready. See ya.");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(37);
-    MsgDisp("主人公","あ、大成先生は高等部に赴任されるんですか？");
+    MsgDisp("主人公","Oh, is Onari-sensei being posted to the high
+school?");
     VoicePlay("D031101200_37_170");
-    MsgDisp("大迫","ん？　オオナリの赴任先は
-はば学じゃないぞぉ？
-余多門高校だ。");
-    MsgDisp("主人公","よたかど？");
+    MsgDisp("Osako","Hmm?
+Onari's posting isn't at Habataki~.
+It's Yotakado High School.");
+    MsgDisp("主人公","Yotakado?");
     VoicePlay("D031101200_37_180");
-    MsgDisp("大迫","そうだ、余多門工業高等学校。");
+    MsgDisp("Osako","That's right. Yotakado Technical High School.");
     MsgClose();
     ScrFadeOut(0);
-    MsgDisp("主人公","（はば学じゃないのか……じゃあ、
-もう大成先生にも会えなくなっちゃうんだ。
-寂しいけど、仕方ないよね……）");
+    MsgDisp("主人公","(So it's not Habataki... That means
+I won't get to see Onari-sensei anymore.
+It's lonely, but I guess it can't be helped...)");
     break ;
     default :
     DbgAssert(0);

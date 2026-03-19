@@ -1,11 +1,11 @@
 ChLayout(1);
 BGOpen("sc510",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（ハァ……コンビニ塾で
-勉強できなくなってすぐにこんな成績じゃ、
-大成先生に報告なんてできないよ……）");
-MsgDisp("主人公","（一流大学も、教員の夢も
-考え直した方がいいよね……
-大成先生、ごめんなさい……）");
+MsgDisp("主人公","(Ugh... to get grades like this right after
+losing the cram school...
+I can't face Onari-sensei with this...)");
+MsgDisp("主人公","(Maybe I should rethink the whole
+top university thing, and the teaching dream too...
+I'm so sorry, Onari-sensei...)");
 MsgClose();
 ScrFadeOut(0);

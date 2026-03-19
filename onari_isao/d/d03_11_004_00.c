@@ -1,16 +1,16 @@
 ChLayout(1);
 BGOpen("ex080",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（今日は、学食でランチだ）");
+MsgDisp("主人公","(Today I'm having lunch in the cafeteria.)");
 VoicePlay("D031100400_44_000");
-MsgDisp("女子生徒Ａ","ね、何にしようか？");
-MsgDisp("主人公","うーん、どれもおいしそうで
-悩んじゃうなぁ。");
+MsgDisp("Female Student A","Hey, what should we get?");
+MsgDisp("主人公","Hmm, everything looks so good,
+it's hard to decide.");
 VoicePlay("D031100400_45_000");
-MsgDisp("女子生徒Ｂ","すごい！　大成先生！");
+MsgDisp("Female Student B","That's amazing! Onari-san!");
 VoicePlay("D031100400_42_020");
-MsgDisp("男子生徒","二人とも、がんばれ！");
-MsgDisp("主人公","？");
+MsgDisp("Male Student","You can do it, both of you!");
+MsgDisp("主人公","?");
 MsgClose();
 ScrFadeOut(0);
 StlOpen("ev_11_04");
@@ -20,41 +20,42 @@ StlEye(37,0);
 StlMouth(37,0);
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ScrFadeIn(0);
-MsgDisp("主人公","（あれは……大成先生と大迫先生∋）");
+MsgDisp("主人公","(That's... Onari-san and Osako-san∋)");
 StlEye(37,0);
 StlMouth(37,0);
 VoicePlay("D031100400_37_000");
-MsgDisp("大迫","大成、やるな～。
-全然余裕じゃないか？");
+MsgDisp("Osako","Not bad, Onari~
+You're not even breaking a sweat, are you?");
 StlEye(11,0);
 StlMouth(11,1);
 VoicePlay("D031100400_11_000");
-MsgDisp("大成","美味しい麻婆でした。");
+MsgDisp("Onari","That was some delicious mapo tofu.");
 StlEye(37,1);
 StlMouth(37,0);
 VoicePlay("D031100400_42_030");
-MsgDisp("男子生徒","通常の激辛麻婆でもキツいのに、
-辛さ１０倍だよ？");
-MsgDisp("主人公","ええっ！　辛さ１０倍∋");
+MsgDisp("Male Student","Even the regular ultra-spicy mapo is brutal,
+and that was ten times the heat?");
+MsgDisp("主人公","What?! Ten times the spiciness∋");
 VoicePlay("D031100400_44_010");
-MsgDisp("女子生徒Ａ","まじでヤバイ、大成先生。");
+MsgDisp("Female Student A","That's seriously insane, Onari-san.");
 StlEye(11,1,0);
 StlMouth(11,0);
 StlEyeOpenLevel(11,5,1);
 VoicePlay("D031100400_11_010");
-MsgDisp("大成","オレ、ヤバイのかな？");
+MsgDisp("Onari","Am I... insane?");
 StlEye(37,0,0);
 StlMouth(37,0);
 StlEyeOpenLevel(37,0,1);
 VoicePlay("D031100400_37_010");
-MsgDisp("大迫","ああ、昔からヤバかった。
-辛さだけじゃなくて、大食いもな。");
-MsgDisp("主人公","（大成先生は辛党で大食いなんだ。
-ちょっと意外……）");
+MsgDisp("Osako","Oh yeah, you always were.
+And it's not just spice, you're a huge
+eater, too.");
+MsgDisp("主人公","(Onari-san loves spicy food and eats a ton.
+That's kind of unexpected...)");
 StlEye(11,0);
 StlMouth(11,0);
 VoicePlay("D031100400_11_020");
-MsgDisp("大成","満腹にならないってだけです。");
+MsgDisp("Onari","I just never feel full, that's all.");
 MsgClose();
 ScrFadeOut(0);
 StlClose();
@@ -65,105 +66,107 @@ ChOpen(37,254,0,0,0,-1,-1,0,2,0,30);
 ChOpen(11,254,4,0,4,0,-1,0,1,0,30);
 BGMVol(0.5,2);
 ScrFadeIn(0);
-MsgDisp("主人公","大成先生、お腹大丈夫ですか？");
+MsgDisp("主人公","Onari-san, is your stomach okay?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100400_11_030");
-MsgDisp("大成","うん。なんで？");
+MsgDisp("Onari","Yeah. Why?");
 ChEye(37,2);
 ChMouth(37,0);
 VoicePlay("D031100400_37_020");
-MsgDisp("大迫","ヒー、フー……おまえには敵わない。
-辛さが戻ってきたぞぉ。");
+MsgDisp("Osako","Hee, hoo...
+I can't keep up with you.
+The heat is coming back to haunt me.");
 VoicePlay("D031100400_42_050");
-MsgDisp("男子生徒","はははっ！
-小さい先生、顔が赤いよ。");
+MsgDisp("Male Student","Ha ha ha!
+Your face is all red, little teach.");
 VoicePlay("D031100400_44_020");
-MsgDisp("女子生徒Ａ","ふふっ、かわいいかも？");
+MsgDisp("Female Student A","Hehe, kinda cute, maybe?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031100400_37_030");
-MsgDisp("大迫","コラァ、おまえたち。
-先生はな、なりは小さくても大迫力、
-大迫力だぁ～！");
+MsgDisp("Osako","Hey, you brats!
+I may be small, but I pack a big punch!
+A BIG punch~!");
 SEPlay("EV_SE_621");
 Wait(30,0);
 SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
 ChClose(37);
 VoicePlay("D031100400_37_040");
-MsgDisp("大迫","すみません！　水をください！");
+MsgDisp("Osako","Excuse me! Can I get some water?!");
 VoicePlay("D031100400_44_030");
-MsgDisp("女子生徒Ａ","大丈夫ですか～？
-水はあっちですよ。");
+MsgDisp("Female Student A","Are you okay~?
+The water's over there.");
 VoicePlay("D031100400_42_080");
-MsgDisp("男子生徒","はははっ！");
+MsgDisp("Male Student","Ha ha ha!");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 ChEyeOpenLevel(11,7);
 VoicePlay("D031100400_11_040");
-MsgDisp("大成","……やっぱり敵わないな。");
-MsgDisp("主人公","え？");
+MsgDisp("Onari","...I really can't compete with him.");
+MsgDisp("主人公","Huh?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031100400_11_050");
-MsgDisp("大成","さっきの「なりは小さくても大迫力」ってやつ、
-自己紹介でマネしたんだけど。");
-MsgDisp("主人公","あ……「大失敗でも大成功」？");
+MsgDisp("Onari","That thing Osako-san says -- \"I may be small,
+but I pack a big punch.\" I tried copying it
+for my self-introduction.");
+MsgDisp("主人公","Oh... \"Even failure can lead to Great Success\"?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,3);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031100400_11_060");
-MsgDisp("大成","そう。
-激辛勝負にも勝った。
-でも結局、大迫先生の周りの方が盛り上がる。");
+MsgDisp("Onari","Yeah.
+I even won the spicy food challenge.
+But in the end, everyone flocks to Osako-san.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100400_11_070");
-MsgDisp("大成","？
-……あれ、君はここにいていいの？");
-MsgDisp("主人公","え？　わたしは……");
-MsgSel("大成先生と一緒の方が楽しいです","友だちが向こうにいるので失礼します");
+MsgDisp("Onari","?
+...Wait, shouldn't you be with your friends?");
+MsgDisp("主人公","Huh? Well, I...");
+MsgSel("I have more fun with you, Onari-san.","My friends are waiting, so I should go.");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","わたしは大成先生と一緒の方が楽しいです。");
+    MsgDisp("主人公","I have more fun with you, Onari-san.");
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,4);
     VoicePlay("D031100400_11_080");
-    MsgDisp("大成","ふーん。二週間だけだったけど、
-君みたいな人がいてくれて助かった。
-ありがとう。");
+    MsgDisp("Onari","Huh. It was only two weeks, but
+it really helped having someone like you around.
+Thank you.");
     MsgClose();
     SEPlay("EV_SE_713");
     Wait(30,0);
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","（そっか、実習期間、もう終わりなんだ。
-大成先生、はば学に赴任してきて欲しいな）");
+    MsgDisp("主人公","(Oh, right... the practicum is almost over.
+I hope Onari-san gets assigned to Habataki.)");
     break ;
     case 1:
-    MsgDisp("主人公","友だちが向こうにいるので、失礼します。");
+    MsgDisp("主人公","My friends are over there, so excuse me.");
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,4);
     VoicePlay("D031100400_11_090");
-    MsgDisp("大成","そうか。２週間だけだったけど、
-君みたいな人がいてくれて助かった。
-ありがとう。");
+    MsgDisp("Onari","I see. It was only two weeks, but
+it really helped having someone like you around.
+Thank you.");
     MsgClose();
     SEPlay("EV_SE_713");
     Wait(30,0);
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","（大成先生の実習期間、終わりなんだ……
-あっという間だったな）");
+    MsgDisp("主人公","(Onari-san's practicum is ending...
+It went by so fast.)");
     break ;
     default :
     DbgAssert(0);

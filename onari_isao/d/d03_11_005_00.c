@@ -3,11 +3,13 @@ BGOpen("ho210",0);
 ScrFadeIn(0);
 SEPlay("EV_SE_787");
 SEWait();
-MsgDisp("主人公","（あ、はばチャ編集部からだ）");
-MsgDisp("主人公","（“はばたき商店街で、
-『真冬のアイス大食い大会』が開催中なので、
-取材をお願いします”……だって）");
-MsgDisp("主人公","（お昼までか……よーし、急ごう！）");
+MsgDisp("主人公","(Oh, a message from the Haba-Cha editorial
+team.)");
+MsgDisp("主人公","(\"A Midwinter Ice Cream Eating Contest
+is being held on the Habataki shopping street.
+Please come cover it\"... it says.)");
+MsgDisp("主人公","(It's only until noon...
+Okay, I'd better hurry!)");
 MsgClose();
 ScrFadeOut(0);
 SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
@@ -18,25 +20,27 @@ MsgDisp("","　　　　　　　　　　 ・
 MsgClose();
 BGOpen("ne100",0);
 ScrFadeIn(0);
-MsgDisp("主人公","（あぁ……アイス大食い大会、
-もう終わっちゃったみたい……）");
+MsgDisp("主人公","(Aww...
+It looks like the ice cream eating contest
+already ended...)");
 VoicePlay("D031100500_36_000");
-MsgDisp("スタッフ","あ、はばチャの人？");
-MsgDisp("主人公","はい。
-遅くなってすみません……！");
+MsgDisp("Staff","Oh, you're from Haba-Cha?");
+MsgDisp("主人公","Yes.
+Sorry I'm late...!");
 VoicePlay("D031100500_36_010");
-MsgDisp("スタッフ","ううん。
-大学生が圧勝でね、予定より前に終わったんだ。");
+MsgDisp("Staff","No worries.
+A college student won by a landslide, so it
+ended earlier than planned.");
 VoicePlay("D031100500_36_020");
-MsgDisp("スタッフ","「冷たい！」「寒い！」っていう
-盛り上がりを期待したんだけど、
-余裕で食べちゃうもんだから。");
-MsgDisp("主人公","へぇ、すごい人がいたんですね？");
+MsgDisp("Staff","We were hoping for reactions like
+\"It's so cold!\" and \"Brain freeze!\"
+but he just plowed through it like it was nothing.");
+MsgDisp("主人公","Wow, sounds like quite the competitor.");
 VoicePlay("D031100500_36_030");
-MsgDisp("スタッフ","記事は盛り上がった感じでよろしくね。
-――あっ、まだあそこにいた！
-チャンピオン、取材だって！");
-MsgDisp("主人公","え……");
+MsgDisp("Staff","Make the article sound exciting, okay?
+-- Oh, he's still over there!
+Hey, champ! Someone's here to interview you!");
+MsgDisp("主人公","Huh...");
 MsgClose();
 ScrFadeOut(0);
 StlOpen("ev_11_02");
@@ -45,40 +49,43 @@ StlMouth(11,0);
 StlEyeOpenLevel(11,0,1);
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ScrFadeIn(0);
-MsgDisp("主人公","（お、大成先生∋
-雰囲気がだいぶ違う∋）");
+MsgDisp("主人公","(Oh, it's Onari-san∋
+He looks pretty different now∋)");
 StlEye(11,1);
 StlMouth(11,1);
 VoicePlay("D031100500_11_000");
-MsgDisp("大成","ん？
-やあ、君か。久しぶりだね。");
-MsgDisp("主人公","あ、はい。
-あの……まだアイス食べてるんですか？");
+MsgDisp("Onari","Hm?
+Oh, hey.
+Long time no see.");
+MsgDisp("主人公","Oh, hi.
+Um... are you still eating ice cream?");
 StlEye(11,0);
 StlMouth(11,1);
 VoicePlay("D031100500_11_010");
-MsgDisp("大成","うん。
-このコンビニ限定チョコミントアイス、
-美味しいから。");
-MsgDisp("主人公","アイスの大食い大会で優勝したんですよね？
-お腹、大丈夫ですか？");
+MsgDisp("Onari","Yeah.
+This convenience store exclusive chocolate
+mint is really good.");
+MsgDisp("主人公","You just won an ice cream eating contest,
+right?
+Is your stomach okay?");
 StlEye(11,0,0);
 StlMouth(11,1);
 StlEyeOpenLevel(11,5,1);
 VoicePlay("D031100500_11_020");
-MsgDisp("大成","ベルトはきついかな？");
+MsgDisp("Onari","My belt's a little tight, maybe?");
 StlEye(11,1);
 StlMouth(11,1);
-MsgDisp("主人公","お、お腹壊してないですか？");
+MsgDisp("主人公","I-I mean, doesn't your stomach hurt?");
 StlEye(11,1,0);
 StlMouth(11,1);
 StlEyeOpenLevel(11,5,1);
 VoicePlay("D031100500_11_030");
-MsgDisp("大成","オレ、そういうの平気。
-鈍いっていうか。");
-MsgDisp("主人公","そうなんですか……");
-MsgDisp("主人公","（ふふっ。
-お話すると、あまり変わってないなぁ）");
+MsgDisp("Onari","Nah, stuff like that doesn't bother me.
+I'm kind of numb to it, I guess.");
+MsgDisp("主人公","I see...");
+MsgDisp("主人公","(Hehe.
+Talking to him, he really hasn't changed at
+all.)");
 MsgClose();
 ScrFadeOut(0);
 StlClose();
@@ -87,15 +94,15 @@ BGMVol(0.5,2);
 ScrFadeIn(0);
 MsgClose();
 ChOpen(11,255,0,0,4,-1,-1,0,0);
-MsgDisp("主人公","わたし、はばチャのアルバイトをしてて、
-今日の大会について大成先生にインタビュー
-したいんですけど……いいですか？");
+MsgDisp("主人公","I work part-time for Haba-Cha, and I'd like to
+interview you about today's contest,
+Onari-san... Would that be okay?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031100500_11_040");
-MsgDisp("大成","へー、雑誌の取材。
-いいよ。");
+MsgDisp("Onari","Oh, a magazine interview?
+Sure, why not.");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -107,56 +114,59 @@ ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 ScrFadeIn(0);
-MsgDisp("主人公","……じゃあ、このあたりで。
-ありがとうございました！");
+MsgDisp("主人公","...Well, I think that about covers it.
+Thank you so much!");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100500_11_050");
-MsgDisp("大成","商店街の人も気にしてたと思うけど、
-盛り上がった感じでよろしく。");
-MsgDisp("主人公","え？");
+MsgDisp("Onari","I'm sure the shopping street folks mentioned
+it too, but make it sound like a good time,
+okay?");
+MsgDisp("主人公","Huh?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 ChEyeOpenLevel(11,8);
 VoicePlay("D031100500_11_060");
-MsgDisp("大成","オレがやると盛り上がらないんだ。
-はば学でもそうだっただろ。");
-MsgDisp("主人公","そんなことないと思いますけど……");
+MsgDisp("Onari","Things never get exciting when I'm involved.
+It was the same at Haba High, right?");
+MsgDisp("主人公","I don't think that's true at all...");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100500_11_070");
-MsgDisp("大成","君は前にもそんなこと言ってくれたね……");
+MsgDisp("Onari","You said something like that to me before,
+too...");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031100500_11_080");
-MsgDisp("大成","そうだ、再会記念に。
-これ、コンビニのオリジナルアイス。
-チョコミント味。");
+MsgDisp("Onari","Oh, here -- a little reunion gift.
+It's a convenience store original ice cream.
+Chocolate mint flavor.");
 SEPlay("EV_SE_717");
 SEWait();
-MsgDisp("主人公","あ、ありがとうございます。");
+MsgDisp("主人公","Oh, thank you!");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","（……行っちゃった）");
-MsgDisp("主人公","（あ！　そういえば……
-大成先生、赴任先は決まったのかな？）");
-MsgSel("はば学に赴任してきたら嬉しいな","わたしには関係ないか……");
+MsgDisp("主人公","(...He's gone.)");
+MsgDisp("主人公","(Oh! Come to think of it...
+I wonder if Onari-san has been assigned a school yet?)");
+MsgSel("I'd love it if he came to Habataki","It's really none of my business...");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","（赴任先がはば学だったらいいな……
-もう一度、大成先生の授業受けたい！）");
+    MsgDisp("主人公","(If he got assigned to Habataki, that'd be
+great...
+I'd love to take Onari-san's classes again!)");
     break ;
     case 1:
-    MsgDisp("主人公","（まあ、大成先生の赴任先がどこであろうと
-わたしには関係ないか……）");
+    MsgDisp("主人公","(Well, wherever Onari-san gets assigned,
+it's really none of my business...)");
     break ;
-    default :
+    default ;
     DbgAssert(0);
     break ;
     }

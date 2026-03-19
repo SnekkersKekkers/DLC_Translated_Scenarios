@@ -4,10 +4,10 @@ ScrFadeIn(0);
 SEPlay("EV_SE_DOOR_019");
 SEWait();
 VoicePlay("D031100100_07_000");
-MsgDisp("御影","おう、おはよう。");
+MsgDisp("Mikage","Hey, mornin'.");
 VoicePlay("D031100100_38_000");
-MsgDisp("生徒たち","おはようございまーす。");
-MsgDisp("主人公","おはようございます。");
+MsgDisp("Students","Good morning!");
+MsgDisp("主人公","Good morning.");
 MsgClose();
 ScrFadeOut(0);
 BGOpen("sc320",0);
@@ -19,34 +19,34 @@ SEWait();
 BGMPlay("BGM_C07_MIKAGE_A",0.01);
 ChOpen(7,254,0,0,0,-1,-1,0,0);
 VoicePlay("D031100100_07_010");
-MsgDisp("御影","……今日はサプライズだ。
-教育実習生がやってくる。");
+MsgDisp("Mikage","...Today I've got a surprise for you.
+We're getting teaching interns.");
 VoicePlay("D031100100_38_010");
-MsgDisp("生徒たち","やったー！
-どんな人？");
+MsgDisp("Students","Yay!
+What are they like?");
 VoicePlay("D031100100_42_020");
-MsgDisp("男子生徒Ａ","女の先生？");
+MsgDisp("Male Student A","Is it a lady teacher?");
 VoicePlay("D031100100_44_000");
-MsgDisp("女子生徒Ａ","イケメンがいいな～。");
+MsgDisp("Female Student A","I hope he's cute～.");
 ChEye(7,0);
 ChMouth(7,3);
 ChMotion(7,1);
 ChEyeOpenLevel(7,8);
 VoicePlay("D031100100_07_020");
-MsgDisp("御影","どっちだろうな？
-ピチピチの大学生で――");
+MsgDisp("Mikage","Which will it be?
+A fresh-faced college student who's――");
 ChEye(7,0);
 ChMouth(7,0);
 ChMotion(7,0);
 VoicePlay("D031100100_07_030");
-MsgDisp("御影","おっと、俺の役目はここまで。
-あとは教育担当の、
-中等部の大迫先生にお任せだ。");
+MsgDisp("Mikage","Oops, my job ends here.
+I'll leave the rest to the supervising
+teacher, Osako-san from the middle school.");
 ChEye(7,0);
 ChMouth(7,0);
 ChMotion(7,2);
 VoicePlay("D031100100_07_040");
-MsgDisp("御影","じゃあ、大人しく待ってろよ。");
+MsgDisp("Mikage","So sit tight and behave, got it?");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
@@ -59,27 +59,29 @@ SEWait();
 BGOpen("sc300",0);
 Wait(40);
 ScrFadeIn(0);
-MsgDisp("主人公","（教育実習生か……
-先生を目指す大学生、どんな人かな？）");
+MsgDisp("主人公","(A teaching intern...
+A college student training to be a teacher.
+I wonder what they'll be like?)");
 MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
 MsgClose();
 VoicePlay("D031100100_37_000");
-MsgDisp("？大迫","御影先生のクラスは……
-ああ、ここだぁ～！");
+MsgDisp("Osako?","Mikage's class is...
+Oh, here it is～!");
 SEPlay("EV_SE_DOOR_019");
 SEWait();
 SEPlay("EV_SE_566",1,0.2);
 SEPlay("EV_SE_860",1,0.7);
 VoicePlay("D031100100_45_000");
-MsgDisp("女子生徒Ｂ","ええ？　二人？");
+MsgDisp("Female Student B","Huh? There's two of them?");
 VoicePlay("D031100100_41_050");
-MsgDisp("男子生徒Ｂ","ほんとうに教育実習生？");
+MsgDisp("Male Student B","Are they really teaching interns?");
 VoicePlay("D031100100_44_010");
-MsgDisp("女子生徒Ａ","大学生に見えないような……");
+MsgDisp("Female Student A","They don't really look like college
+students...");
 VoicePlay("D031100100_45_010");
-MsgDisp("女子生徒Ｂ","うん……中学生みたい？");
+MsgDisp("Female Student B","Yeah... more like middle schoolers?");
 SEStop("EV_SE_566",0.3);
 SEStop("EV_SE_860",0.3);
 MsgClose();
@@ -94,71 +96,73 @@ BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(37,254,0,1,1,-1,-1,0,2,0,30);
 ChOpen(11,254,0,0,4,7,-1,0,1,0,30);
 VoicePlay("D031100100_37_010");
-MsgDisp("？大迫","コラァ！
-誰が中学生だ～？");
-MsgDisp("主人公","（え？　あの左の人……
-この前、公園にいた人だよね）");
+MsgDisp("Osako?","Hey now!
+Who're you calling a middle schooler～?");
+MsgDisp("主人公","(Huh? That person on the left...
+That's the guy from the park the other day, right?)");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100100_37_020");
-MsgDisp("？大迫","オッス∈
-先生は、はば学中等部の大迫だ。
-教育実習生はこっち。");
+MsgDisp("Osako?","Ossu∈
+I'm Osako, a teacher from the Haba High middle school.
+The teaching intern is this guy right here.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100100_37_030");
-MsgDisp("大迫","今日から二週間、高等部で授業を
-することになった。こいつは、はば学のＯＢ
-だから、おまえたちの先輩でもある。");
+MsgDisp("Osako","Starting today, he'll be teaching in the high school
+for two weeks. He's a Haba High alum,
+so he's technically your senior.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 ChEyeOpenLevel(11,7);
 ChMouthOpenLevel(11,0);
 VoicePlay("D031100100_11_000");
-MsgDisp("？大成","…………");
+MsgDisp("Onari?","............");
 ChEye(37,0);
 ChMouth(37,2);
 VoicePlay("D031100100_37_040");
-MsgDisp("大迫","おい、大丈夫か？");
+MsgDisp("Osako","Hey, you alright?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100100_11_010");
-MsgDisp("？大成","あ、はい、大成功です。");
-MsgDisp("主人公","（ダイセイコウ？
-やっぱり、あの人だ！）");
+MsgDisp("Onari?","Oh, yes. I'm Great Success.");
+MsgDisp("主人公","(Great Success?
+I knew it, it's him!)");
 VoicePlay("D031100100_42_080");
-MsgDisp("男子生徒Ａ","ダイセイコウって何？");
+MsgDisp("Male Student A","What's \"Great Success\" mean?");
 ChEye(37,0);
 ChMouth(37,0);
 ChEyeOpenLevel(37,8);
 VoicePlay("D031100100_37_050");
-MsgDisp("大迫","ははっ。
-相変わらずマイペースなやつだな。");
+MsgDisp("Osako","Hahah.
+Same as always, doing things at your own
+pace.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100100_37_060");
-MsgDisp("大迫","まぁ、うまくやれよ。
-みんなも、頼むぞぉ～。");
+MsgDisp("Osako","Well, do your best.
+And you guys, take care of him～.");
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(37);
 ChPosition(11,0);
 VoicePlay("D031100100_42_090");
-MsgDisp("男子生徒Ａ","あ、小さい先生、行っちゃったよ。");
+MsgDisp("Male Student A","Ah, the short teacher left.");
 VoicePlay("D031100100_41_100");
-MsgDisp("男子生徒Ｂ","実習生の方は、フリーズしてね？");
+MsgDisp("Male Student B","And the intern is totally frozen, isn't he?");
 VoicePlay("D031100100_44_020");
-MsgDisp("女子生徒Ａ","うん。
-でもちょっとカッコイイかも。");
-MsgDisp("主人公","（全然しゃべらないけど、大丈夫かな……？）");
+MsgDisp("Female Student A","Yeah.
+But he's kind of cute, maybe?");
+MsgDisp("主人公","(He's not saying anything at all...
+Is he gonna be okay...?)");
 SEPlay("EV_SE_515",0,0.6);
 Wait(30,0);
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031100100_11_020");
-MsgDisp("？大成","あ…………");
+MsgDisp("Onari?","Ah......");
 MsgClose();
 BGMVol(0.5,2);
 ChClose(11);
@@ -171,62 +175,66 @@ ScrFadeIn(0);
 MsgClose();
 ChOpen(11,254,3,0,4,-1,-1,0,0);
 VoicePlay("D031100100_42_120");
-MsgDisp("男子生徒Ａ","……大成功？");
+MsgDisp("Male Student A","...Great Success?");
 VoicePlay("D031100100_41_130");
-MsgDisp("男子生徒Ｂ","先生、さっきから何が大成功なんですか？");
+MsgDisp("Male Student B","Sir, what's been so \"Great Success\" this whole time?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100100_11_030");
-MsgDisp("大成","大成功と読みます。
-先生の名前……");
+MsgDisp("Onari","It's read as \"Great Success.\"
+It's my name...");
 SEPlay("EV_SE_788",0.2,0.5);
 SEPlay("EV_SE_GAYA_007",0.01,0.25);
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,1);
 VoicePlay("D031100100_11_040");
-MsgDisp("大成","大失敗でも大成功！
-成功確率１００パーセント！
-大成功です。");
+MsgDisp("Onari","Even failure can lead to GREAT SUCCESS!
+A 100% success rate!
+I'm Onari... Great Success.");
 SEPlay("EV_SE_GAYA_017",0,0.8);
-MsgDisp("主人公","（……あ！
-公園で言ってたダイセイコウって、
-自己紹介の練習だったんだ！）");
+MsgDisp("主人公","(...Oh!
+The \"Great Success\" thing he was saying in the park ―
+it was practice for his self-introduction!)");
 VoicePlay("D031100100_42_140");
-MsgDisp("男子生徒Ａ","それ、先生の鉄板ネタ？");
+MsgDisp("Male Student A","Is that your go-to bit, sir?");
 VoicePlay("D031100100_41_150");
-MsgDisp("男子生徒Ｂ","うーん、ちょいスベってるよ。");
+MsgDisp("Male Student B","Hmm, it kinda fell flat, though.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
 VoicePlay("D031100100_11_050");
-MsgDisp("大成","そう……こっちじゃなかったかな？
-大失敗。");
+MsgDisp("Onari","Really...
+Maybe I should've gone with this one instead?
+Great Failure.");
 VoicePlay("D031100100_42_160");
-MsgDisp("男子生徒Ａ","いきなり失敗してんじゃん！");
+MsgDisp("Male Student A","You're already failing right out the gate!");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031100100_11_060");
-MsgDisp("大成","ああ、確かにな。");
+MsgDisp("Onari","Yeah, you've got a point.");
 SEPlay("EV_SE_GAYA_022");
 VoicePlay("D031100100_41_170");
-MsgDisp("男子生徒Ｂ","それじゃだめじゃん。
-勢いがないんだよな～。");
-MsgDisp("主人公","（ふふっ。
-ちょっと変わってるけど、優しそうな先生だな）");
+MsgDisp("Male Student B","See, that's no good either.
+You gotta sell it with more energy～.");
+MsgDisp("主人公","(Hehe.
+He's a little unusual, but he seems like a
+kind teacher.)");
 SEStop("EV_SE_GAYA_022",2);
-MsgDisp("主人公","（大成先生の自己紹介、わたしの評価は……）");
-MsgSel("うん、大成功！","うーん、失敗かも？");
+MsgDisp("主人公","(What would I rate Onari-san's
+self-introduction...?)");
+MsgSel("Yep, Great Success!","Hmm, maybe a failure?");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","（うん、面白かったし「大成功」だよね！
-だって、がんばって練習してたもん）");
+    MsgDisp("主人公","(Yeah, it was funny, so it's definitely a \"Great Success\"!
+After all, he practiced so hard for it.)");
     break ;
     case 1:
-    MsgDisp("主人公","（うーん……
-あまりウケてなかったし、失敗かも？）");
+    MsgDisp("主人公","(Hmm...
+It didn't really land, so maybe it was a
+failure?)");
     break ;
     default :
     DbgAssert(0);
