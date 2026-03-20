@@ -41,7 +41,7 @@ ChMotion(7,0);
 VoicePlay("D031100100_07_030");
 MsgDisp("Mikage","Oops, my job ends here.
 I'll leave the rest to the supervising
-teacher, Osako-san from the middle school.");
+teacher, Osako-sensei from the middle school.");
 ChEye(7,0);
 ChMouth(7,0);
 ChMotion(7,2);

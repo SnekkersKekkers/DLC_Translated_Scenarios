@@ -59,11 +59,11 @@ ChMotion(11,2);
 VoicePlay("D031100200_11_070");
 MsgDisp("Onari","Glad to hear that.
 But still, I realized I just can't talk the
-way Osako-san does.");
+way Osako-sensei does.");
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","(He left... Osako-san is that energetic
+MsgDisp("主人公","(He left... Osako-sensei is that energetic
 middle school teacher, right?
 He and Onari-sensei are totally different...)");
 MsgClose();

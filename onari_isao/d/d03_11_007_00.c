@@ -44,7 +44,7 @@ VoicePlay("D031100700_11_020");
 MsgDisp("Onari","Wait, you already knew?
 That I failed the exam.");
 MsgDisp("主人公","Um, yes.
-Osako-san told me.");
+Osako-sensei told me.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -52,7 +52,7 @@ ChEyeOpenLevel(11,0);
 VoicePlay("D031100700_11_030");
 MsgDisp("Onari","Well, that saves me the explanation.
 So yeah, I'm not a teacher.");
-MsgDisp("主人公","(Onari-sensei seems a little different
+MsgDisp("主人公","(Onari-sensei seems a little off
 again...)");
 ChEye(11,0);
 ChMouth(11,4);
@@ -74,7 +74,7 @@ ChMotion(11,0);
 VoicePlay("D031100700_11_050");
 MsgDisp("Onari","Hm?");
 MsgDisp("主人公","Seeing you work so hard, Onari-sensei...
-it made me want to try harder too.");
+It made me want to work hard too.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);
@@ -88,17 +88,17 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031100700_11_070");
-MsgDisp("Onari","And watching me made you work harder at
+MsgDisp("Onari","And watching me made you better at
 something?");
 MsgDisp("主人公","Well...
-Not yet, really...");
+Not yet, I guess...");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031100700_11_080");
 MsgDisp("Onari","I see. Heh, well, thanks anyway.
-I'm glad someone like you was there.
-The student teaching alone was worth it.");
+I'm glad someone like you was there. That 
+alone made the internship worth it.");
 MsgDisp("主人公","(What do I do...
 At this rate, Onari-sensei might give up on
 becoming a teacher for good.)");

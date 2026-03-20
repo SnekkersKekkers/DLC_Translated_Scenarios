@@ -51,7 +51,7 @@ ChMotion(11,5);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101100_11_040");
 MsgDisp("Onari","If it weren't for you, I would've given up on
-teaching during my practicum.");
+teaching during my internship.");
 MsgDisp("主人公","Onari-sensei...");
 ChEye(11,0);
 ChMouth(11,0);

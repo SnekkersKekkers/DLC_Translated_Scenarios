@@ -9,15 +9,15 @@ ChOpen(37,254,0,0,0,#1,#1,0,0);
 VoicePlay("D031100600_37_000");
 MsgDisp("Osako","Ossu!
 Long time no see～");
-MsgDisp("主人公","Osako-san, hello!
-It's been since that time we ran into you and
+MsgDisp("主人公","Osako-sensei, hello!
+It's been a while since I ran into you and
 Onari-sensei at the cafeteria.");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031100600_37_010");
 MsgDisp("Osako","That's right.
 I've got some news for you.");
-MsgDisp("主人公","Okay.");
+MsgDisp("主人公","What's up?");
 ChEye(37,2);
 ChMouth(37,0);
 VoicePlay("D031100600_37_020");

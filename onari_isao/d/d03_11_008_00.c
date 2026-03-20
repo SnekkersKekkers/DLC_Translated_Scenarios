@@ -117,7 +117,7 @@ MsgDisp("Onari","...Huh?
 You said that seeing me made you want to try
 harder yourself, right?");
 MsgDisp("主人公","Yes. Thanks to you, Onari-sensei, I even set
-the goal of ranking first on finals.
+the goal of ranking first in exams.
 Studying is actually fun for me now.");
 StlEye(11,2);
 StlMouth(11,0);
@@ -139,6 +139,6 @@ ScrFadeOut(0);
 StlClose();
 MsgDisp("主人公","(Yeah...!
 I'll study hard for Onari-sensei's sake too.
-Top of the class, here I come!)");
+First place, here I come!)");
 BGMStop();
 MsgClose();

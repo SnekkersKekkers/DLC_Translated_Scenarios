@@ -22,7 +22,7 @@ StlMouth(37,0);
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ScrFadeIn(0);
 MsgDisp("主人公","(That's...
-Onari-sensei and Osako-san∋)");
+Onari-sensei and Osako-sensei∋)");
 StlEye(37,0);
 StlMouth(37,0);
 VoicePlay("D031100400_37_000");
@@ -116,9 +116,9 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031100400_11_050");
-MsgDisp("Onari","That thing Osako-san says— \"I may be small,
-but I pack a big punch.\" I tried copying it
-for my self-introduction.");
+MsgDisp("Onari","That thing Osako-sensei says— \"I may be
+small, but I pack a big punch.\" I tried
+copying it for my self-introduction.");
 MsgDisp("主人公","Oh...
 \"Even failure can lead to Great Success\"?");
 ChEye(11,0);
@@ -128,12 +128,12 @@ ChEyeOpenLevel(11,0);
 VoicePlay("D031100400_11_060");
 MsgDisp("Onari","Yeah.
 I even won the spicy food challenge.
-But in the end, everyone flocks to Osako-san.");
+But everyone still flocks to Osako-sensei.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100400_11_070");
-MsgDisp("Onari","?
+MsgDisp("Onari","Hm?
 ...Wait, shouldn't you be with your friends?");
 MsgDisp("主人公","Huh?
 Well, I...");
@@ -154,7 +154,7 @@ Thank you.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","(Oh, right... the practicum is almost over.
+    MsgDisp("主人公","(Oh, right... the internship is almost over.
 I hope Onari-sensei gets assigned to
 Habataki.)");
     break ;
@@ -173,7 +173,7 @@ Thank you.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","(Onari-sensei's practicum is ending...
+    MsgDisp("主人公","(Onari-sensei's internship is ending...
 It went by so fast.)");
     break ;
     default :
