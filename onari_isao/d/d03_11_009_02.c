@@ -61,7 +61,7 @@ SEStop("EV_SE_FOOT_WALK_AWAY_ALONE",2);
 ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031100902_34_080");
-MsgDisp("Man","Unaffiliated with any party...");
+MsgDisp("Nora","Unaffiliated with any party...");
 MsgDisp("主人公","Um...
 Do you two know each other?");
 ChEye(11,0);
@@ -73,7 +73,7 @@ cream combos.");
 ChEye(34,0);
 ChMouth(34,0);
 VoicePlay("D031100902_34_090");
-MsgDisp("Man","The chocolate mint here
+MsgDisp("Nora","The chocolate mint here
 gives you a full HP recovery.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");

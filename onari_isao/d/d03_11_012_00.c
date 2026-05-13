@@ -2,7 +2,7 @@ ChLayout(1);
 BGOpen("sc310",0);
 ScrFadeIn(0);
 MsgDisp("主人公","(I'm on class duty today, so I need to go to
-the staff room to pick up the class journal)");
+the staff room to pick up the class journal.)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -16,7 +16,7 @@ SEPlay("EV_SE_DOOR_019");
 BGOpen("sc360",0);
 Wait(35,0);
 ScrFadeIn(0);
-MsgDisp("主人公","(Huh... is that――)");
+MsgDisp("主人公","(Huh... is that―)");
 MsgClose();
 BGMPlay("BGM_HANYOU_A",0.01);
 ChOpen(37,254,0,0,0,#1,#1,0,0);
@@ -24,11 +24,12 @@ VoicePlay("D031101200_37_000");
 MsgDisp("Osako","Hey!
 Long time no see.");
 MsgDisp("主人公","Osako-sensei, hello.
-Do you have business with the high school?");
+Do you have an errand to run at the 
+high school?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031101200_37_010");
-MsgDisp("Osako","Hey hey! Just a little.
+MsgDisp("Osako","Ossu ossu! Something like that.
 More importantly, looks like
 you've been working hard at studying.");
 MsgDisp("主人公","Yes.
@@ -37,7 +38,7 @@ ChEye(37,1);
 ChMouth(37,0);
 ChEyeOpenLevel(37,8);
 VoicePlay("D031101200_37_020");
-MsgDisp("Osako","Heh heh.
+MsgDisp("Osako","Hehe.
 Hey, over here.");
 VoicePlay("D031101200_11_000");
 MsgDisp("Onari?","Hey.");
@@ -58,30 +59,33 @@ ChMouth(37,0);
 ChEyeOpenLevel(37,8);
 VoicePlay("D031101200_37_030");
 MsgDisp("Osako","Ha, you're a whole year behind everyone else.
-Always at your own pace —
+Always at your own pace.
 I love it.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031101200_11_020");
-MsgDisp("Onari","That time was good for me, though.
+MsgDisp("Onari","That time was well spent, though.
 ...Right?");
 MsgDisp("主人公","Oh... yes!");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031101200_37_040");
-MsgDisp("Osako","Sounds like someone had quite the youth〜.");
+MsgDisp("Osako","Sounds like someone's enjoying 
+their youth〜");
 MsgDisp("主人公","My youth?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031101200_37_050");
-MsgDisp("Osako","Yes indeed, sweet and bittersweet youth.");
+MsgDisp("Osako","That's right!
+A bittersweet, beautiful youth!");
 SEPlay("EV_SE_587",0,0.6);
 SEWait();
 ChEye(37,2);
 ChMouth(37,0);
 VoicePlay("D031101200_37_060");
-MsgDisp("Osako","Ah, s-sorry about that.");
+MsgDisp("Osako","Ah. 
+S-Sorry about that.");
 MsgDisp("主人公","Hehe.
 Congratulations, Onari-sensei!");
 ChEye(11,3);
@@ -90,8 +94,8 @@ ChMotion(11,1);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101200_11_030");
 MsgDisp("Onari","Thanks.
-Well, I'm going to go greet the principal and
-vice principal.");
+Well, I'm going to go greet the Principal and
+Vice Principal.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
@@ -132,13 +136,13 @@ MsgDisp("主人公","What?");
 ChEye(37,1);
 ChMouth(37,0);
 VoicePlay("D031101200_37_110");
-MsgDisp("Osako","Think about it〜.
+MsgDisp("Osako","Think about it〜
 Career guidance is coming up soon, right?");
 MsgDisp("主人公","(Me... a teacher?)");
-MsgSel("Aim for an elite university and become a teacher!","That's probably impossible for me...");
+MsgSel("Aim for an first-rate university and become a teacher!","That's probably impossible for me...");
 switch (MsgSelRsltGet()){
     case 0:
-    MsgDisp("主人公","Alright! I'll work hard to get into an elite
+    MsgDisp("主人公","Alright! I'll try to get into a first-rate
 university like Onari-sensei and become
 a teacher here at Habataki!");
     ChEye(37,0);
@@ -152,9 +156,9 @@ Go for it〜!");
     BGMStop();
     ChClose(37);
     VoicePlay("D031101200_37_130");
-    MsgDisp("Osako","Oh, Onari's posting isn't at Habataki, by the
-way〜.
-It's Yotakado.");
+    MsgDisp("Osako","Oh. 
+Onari's posting isn't at Habataki, by the
+way〜. It's Yotakado.");
     MsgDisp("主人公","Huh?
 ...Yotakado?");
     VoicePlay("D031101200_37_140");

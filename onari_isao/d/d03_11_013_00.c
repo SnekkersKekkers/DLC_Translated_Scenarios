@@ -1,9 +1,9 @@
 ChLayout(1);
 BGOpen("sc500",1);
 ScrFadeIn(0);
-MsgDisp("主人公","(I should go tell Onari-sensei that I put
-down an elite university for my career
-guidance and that I want to be a teacher!)");
+MsgDisp("主人公","(I should go tell Onari-sensei that I
+chose a first-rate university and that
+I want to be a teacher!)");
 MsgClose();
 ScrFadeOut(0);
 MsgDisp("","　　　　　　　　　　 ・
@@ -11,20 +11,21 @@ MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
 MsgClose();
 Wait(40,0);
-MsgDisp("主人公","(Let's see... it's over there, right...?)");
+MsgDisp("主人公","(Let's see...
+It's over here, right...?)");
 MsgClose();
 BGOpen("ex360",1);
 ScrFadeIn(0);
 MsgDisp("主人公","(So this is Yotakado Technical High School.
-It has a kind of... unapproachable feel...
-Maybe I should just go home)");
+It sort of has an intimidating feel...
+Maybe I should just go home.)");
 VoicePlay("D031101300_39_000");
 MsgDisp("Yotakado C","Aw, you're leaving already?
 Why don't you come over here?");
-MsgDisp("主人公","What!");
+MsgDisp("主人公","Huh?");
 VoicePlay("D031101300_33_010");
 MsgDisp("Yotakado B","That's right.
-To cross through this gate — that is your
+Crossing through this gate... that is your
 destiny.");
 MsgDisp("主人公","I-I'm sorry!
 I must have the wrong place∈");
@@ -33,7 +34,8 @@ SEPlay("EV_SE_FOOT_RUN_AWAY_ALONE");
 ScrFadeOut(0);
 SEWait();
 VoicePlay("D031101300_34_020");
-MsgDisp("Yotakado A","Hey, that's Success's girlfriend.");
+MsgDisp("Yotakado A","Huh?
+That's Success's girlfriend.");
 SEPlay("EV_SE_544",0,0.5);
 MsgDisp("主人公","(Huh... \"Success\"?)");
 MsgClose();
@@ -43,11 +45,10 @@ StlMouth(11,0);
 BGMPlay("BGM_C11_ONARI_B",0.01);
 ScrFadeIn(0);
 VoicePlay("D031101300_11_000");
-MsgDisp("Onari","Hey.
-Did you come to meet me?");
-MsgDisp("主人公","Y-yes.
-I have something to report to you,
-Onari-sensei...");
+MsgDisp("Onari","Yo.
+Did you come to see me?");
+MsgDisp("主人公","Y-Yes.
+I have something to tell you, Onari-sensei...");
 VoicePlay("D031101300_39_030");
 MsgDisp("Yotakado C","Sensei?
 Is she a transfer student?");
@@ -57,11 +58,11 @@ You can't fight destiny.");
 MsgDisp("主人公","Ugh...
 What do I do, Onari-sensei...?");
 VoicePlay("D031101300_11_010");
-MsgDisp("Onari","You change your destiny through studying.
-You guys should come too.
-Remedial lessons at the convenience store.");
+MsgDisp("Onari","You can change your destiny through studying.
+You guys should try it. My cram school at 
+the convenience store.");
 VoicePlay("D031101300_39_050");
-MsgDisp("Yotakado C","As if.");
+MsgDisp("Yotakado C","Yeah, right.");
 VoicePlay("D031101300_33_060");
 MsgDisp("Yotakado B","I can't fight destiny.");
 MsgClose();
@@ -75,8 +76,8 @@ ScrFadeIn(0);
 VoicePlay("D031101300_11_020");
 MsgDisp("Onari","Sorry about that.
 You okay?");
-MsgDisp("主人公","Y-yes.
-It was a bit of a surprise, but...");
+MsgDisp("主人公","Y-Yes.
+It was just a bit surprising...");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
@@ -102,8 +103,8 @@ MsgDisp("Onari","Yep.
 The kids here are all kind of the same.
 I think I can actually be useful to them.");
 MsgDisp("主人公","Onari-sensei.
-I want to get into an elite university and
-become a teacher, just like you!");
+I want to get into an first-rate 
+university and become a teacher, just like you!");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -124,9 +125,9 @@ ChMouth(11,3);
 ChMotion(11,0);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101300_11_080");
-MsgDisp("Onari","Ha, you'll be fine.
-Don't run away, just step right in.
-Come on.");
+MsgDisp("Onari","Haha, you'll be fine.
+Don't run away, just keep at it.
+Let's go.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
