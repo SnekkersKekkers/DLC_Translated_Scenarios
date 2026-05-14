@@ -24,10 +24,10 @@ ChEye(33,0);
 ChMouth(33,1);
 VoicePlay("D031101500_33_010");
 MsgDisp("Yotakado B?","Huh? You don't get it?
-The thread of fate connecting us
+The thread of fate connecting us two 
 is way thicker than the one with Success.");
 MsgDisp("主人公","Oh!
-From Yotakado?");
+You're from Yotakado?");
 ChPosition(33,1);
 MsgClose();
 SEPlay("EV_SE_544",0,0.6);
@@ -50,8 +50,8 @@ MsgDisp("主人公","Yes.");
 ChEye(33,0);
 ChMouth(33,0);
 VoicePlay("D031101500_33_050");
-MsgDisp("Yotakado B","Alright, we're off to find our destiny in the
-city.");
+MsgDisp("Yotakado B","Alright, we're off to find our destiny in 
+the city.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(33);
@@ -73,7 +73,7 @@ MsgClose();
 BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,40,4,0,4,#1,#1,0,0);
 VoicePlay("D031101500_11_000");
-MsgDisp("Onari","Hey.");
+MsgDisp("Onari","Yo.");
 MsgDisp("主人公","Onari-sensei!
 I got results I'm happy with on my finals!");
 ChEye(11,0);
@@ -81,7 +81,7 @@ ChMouth(11,0);
 ChMotion(11,3);
 VoicePlay("D031101500_11_010");
 MsgDisp("Onari","Good.
-Keep it up and you'll get into that elite
+Keep it up and you'll get into the first-rate
 university.");
 MsgDisp("主人公","Yes!
 I'm going to get in and become a teacher just
@@ -102,18 +102,18 @@ ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101500_11_040");
-MsgDisp("Onari","So become the kind of teacher
-that only you can be.");
+MsgDisp("Onari","So become the kind of teacher that only 
+you can be.");
 MsgDisp("主人公","Onari-sensei...
-Yes!
+Okay!
 Please keep tutoring me today too.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101500_11_050");
 MsgDisp("Onari","Sure.
-But can you give me one day off from the cram
-school?");
+But can you give me one day off from the 
+cram school?");
 MsgDisp("主人公","Oh... of course.
 I'm sorry for always making you come out when
 you're so busy.");
@@ -134,11 +134,11 @@ show with me next month.");
 MsgDisp("主人公","(Going to the fireworks show with
 Onari-sensei...
 What do I do∋)");
-MsgSel("I'd love to, please!","I don't have time to play during summer break!");
+MsgSel("I'd love to go with you.","I don't have time to play during summer break!");
 switch (MsgSelRsltGet()){
     case 0:
     MsgDisp("主人公","Yes!
-I'd love to.");
+I'd love to go with you.");
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,0);

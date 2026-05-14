@@ -36,11 +36,11 @@ MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
 MsgClose();
-MsgDisp("主人公","(Is Onari-sensei really
-getting all the syrups?)");
+MsgDisp("主人公","(Is Onari-sensei really going to
+get all the syrups?)");
 VoicePlay("D031101600_11_020");
 MsgDisp("Onari","Extra sauce on mine!");
-MsgDisp("主人公","(Huh?
+MsgDisp("主人公","(Eh?
 Sauce on shaved ice?∋
 That's a bit much...)");
 SEPlay("EV_SE_672");
@@ -72,14 +72,14 @@ a bit.");
 SEPlay("EV_SE_671",0,0.9);
 Wait(90,1);
 VoicePlay("D031101600_39_010");
-MsgDisp("Vendor","You're a lifesaver!
-Thanks. ...Hey, wait!
+MsgDisp("Vendor","You're a lifesaver! Thanks!
+Eh...wait a sec!
 You put way too much sauce on that!");
 StlEye(11,0,0);
 StlMouth(11,0);
 StlEyeOpenLevel(11,5,1);
 VoicePlay("D031101600_11_050");
-MsgDisp("Onari","Stronger flavor is always better.");
+MsgDisp("Onari","The stronger the flavor the better.");
 SEStop("EV_SE_604",2);
 MsgClose();
 ScrFadeOut(0);
@@ -90,21 +90,21 @@ MsgClose();
 ChOpen(11,255,2,0,4,#1,#1,0,0);
 SEPlay("EV_SE_022",0,0.5);
 Wait(30,0);
-MsgDisp("主人公","Oh, the fireworks are starting――");
+MsgDisp("主人公","Oh, the fireworks are starting―");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031101600_11_060");
 MsgDisp("Onari","Let's go.
-Yakisoba while we watch.");
+We can eat Yakisoba while we watch.");
 MsgDisp("主人公","Yes!
 I can't wait for the fireworks.
-Or for your yakisoba, Onari-sensei.");
+And to try your Yakisoba, Onari-sensei.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101600_11_070");
-MsgDisp("Onari","Come on.");
+MsgDisp("Onari","Come here.");
 MsgClose();
 SEPlay("EV_SE_504");
 SEWait();
@@ -115,7 +115,7 @@ MsgClose();
 ScrFadeOut(0);
 SEWait();
 MsgDisp("主人公","(I'm holding hands with Onari-sensei...
-I'm a little embarrassed...)");
+It's a bit embarrassing...)");
 MsgClose();
 BGOpen("wf720",2);
 ScrFadeIn(0);
@@ -141,10 +141,10 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101600_11_100");
-MsgDisp("Onari","I don't mind spicy. I don't mind cold either.
-So I guess it's just
+MsgDisp("Onari","I don't mind it spicy, but I don't mind 
+it mild either. So I guess it's just
 how I'm feeling right now.");
-MsgDisp("主人公","How you're feeling... right now?");
+MsgDisp("主人公","How you're feeling...right now?");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -166,8 +166,8 @@ ChMouth(11,4);
 ChMotion(11,5);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101600_11_130");
-MsgDisp("Onari","The cram school isn't lifting you up —
-it's holding you back.");
+MsgDisp("Onari","The cram school isn't lifting you up,
+It's holding you back.");
 ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,5);

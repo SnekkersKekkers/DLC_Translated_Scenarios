@@ -19,11 +19,11 @@ switch (MsgSelRsltGet()){
     MsgDisp("主人公","(Phew...
 The day is already over, huh?)");
     VoicePlay("D031100000_11_000");
-    MsgDisp("？大成","You were born to succeed!
+    MsgDisp("Onari?","You were born to succeed!
 ...No, that's not quite right.");
     MsgDisp("主人公","(...Huh?)");
     VoicePlay("D031100000_11_010");
-    MsgDisp("？大成","Even failure can lead to GREAT SUCCESS!
+    MsgDisp("Onari?","Even failure can lead to GREAT SUCCESS!
 ...Something like that, maybe?");
     MsgDisp("主人公","(Great Success...?
 What is he talking about...?)");
@@ -33,13 +33,13 @@ What is he talking about...?)");
     BGMPlay("BGM_C11_ONARI_I",0.01);
     ChOpen(11,254,2,0,4,7,#1,0,0);
     VoicePlay("D031100000_11_020");
-    MsgDisp("？大成","Let's go with that.");
+    MsgDisp("Onari?","Let's go with that.");
     MsgDisp("主人公","∋");
     ChEye(11,0);
     ChMouth(11,4);
     ChMotion(11,0);
     VoicePlay("D031100000_11_030");
-    MsgDisp("？大成","Hm?
+    MsgDisp("Onari?","Hm?
 Huh...
 A Habataki High student?");
     MsgDisp("主人公","Eh... 
@@ -49,14 +49,14 @@ You're right.");
     ChMouth(11,4);
     ChMotion(11,4);
     VoicePlay("D031100000_11_040");
-    MsgDisp("？大成","The uniform is a bit different now.
+    MsgDisp("Onari?","The uniform is a bit different now.
 I think it was brown back then...");
     ChEye(11,0);
     ChMouth(11,4);
     ChMotion(11,4);
     ChEyeOpenLevel(11,7);
     VoicePlay("D031100000_11_050");
-    MsgDisp("？大成","Maybe it's just my imagination.");
+    MsgDisp("Onari?","Maybe it's just my imagination.");
     MsgClose();
     SEPlay("EV_SE_626");
     BGMStop();

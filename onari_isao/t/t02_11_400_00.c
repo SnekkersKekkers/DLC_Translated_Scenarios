@@ -50,8 +50,8 @@ ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("T021140000_11_060");
 MsgDisp("Onari","Someone like that wanting to be a teacher
-and aspiring to be like Osako-sensei ―
-he feels utterly out of reach to me.");
+and aspiring to be like Osako-sensei,
+it felt utterly out of reach to me.");
 MsgDisp("主人公","But... you were always trying so hard,
 working toward your ideal
 of what a teacher should be.");
@@ -98,7 +98,7 @@ VoicePlay("T021140000_11_120");
 MsgDisp("Onari","You patiently taught me, over and over again.
 What only I could do.");
 MsgDisp("主人公","And because of you, Onari-sensei, I started
-thinking seriously about the future — about
+thinking seriously about the future, about
 becoming a wonderful teacher...");
 ChEye(11,4);
 ChMouth(11,4);

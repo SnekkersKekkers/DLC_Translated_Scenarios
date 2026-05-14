@@ -17,14 +17,13 @@ ScrFadeIn(0);
 MsgClose();
 VoicePlay("D031101400_33_000");
 MsgDisp("Yotakado B","Just as I thought, you came back.
-I told you — you can't fight destiny.");
+Like I said, you can't fight destiny.");
 VoicePlay("D031101400_39_010");
-MsgDisp("Yotakado C","Oh, it's the transfer girl.
+MsgDisp("Yotakado C","Oh, it's the transfer student.
 Come over here before Success shows up.");
-MsgDisp("主人公","Huh?");
-MsgDisp("主人公","(Oh, that's what Onari-sensei said.
-\"Don't run away,
-just step right in\"...)");
+MsgDisp("主人公","Eh?");
+MsgDisp("主人公","(Oh yeah, remember what Onari-sensei said.
+\"Don't run away. Just go in.\"...)");
 VoicePlay("D031101400_39_020");
 MsgDisp("Yotakado C","Don't be scared, don't be scared.");
 MsgDisp("主人公","(Okay, here goes...)");
@@ -33,14 +32,14 @@ switch (MsgSelRsltGet()){
     case 0:
     MsgDisp("主人公","Sure, then take me to the staff room.");
     VoicePlay("D031101400_33_030");
-    MsgDisp("Yotakado B","Ah, that's an unlucky direction.
+    MsgDisp("Yotakado B","Ah, that way has an unlucky aura.
 It's the demon gate.");
     MsgClose();
     SEWait();
     BGMPlay("BGM_C11_ONARI_A",0.01);
     ChOpen(11,40,0,3,3,#1,#1,0,0);
     VoicePlay("D031101400_11_000");
-    MsgDisp("Onari","Ha, she wins.
+    MsgDisp("Onari","Hahaha, she won this time.
 You guys lose.");
     MsgDisp("主人公","Onari-sensei!");
     MsgClose();
@@ -54,30 +53,30 @@ You guys lose.");
     MsgClose();
     ScrFadeOut(0);
     SEPlay("EV_SE_682",0,0.5);
-    MsgDisp("","(pat pat)");
+    MsgDisp("","(*Pat pat*)");
     ScrFadeIn(0);
     MsgDisp("主人公","(Oh...
 Onari-sensei just patted me on the head...)");
     VoicePlay("D031101400_33_040");
     MsgDisp("Yotakado B","Hey, Success.
-Should you really be doing that
-at the school gate? Let's go.");
+Should you really be doing that at the 
+school gate? Let's go.");
     VoicePlay("D031101400_39_050");
-    MsgDisp("Yotakado C","Ugh, honestly.");
+    MsgDisp("Yotakado C","Ugh, seriously.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_MANY",0,0.4);
     BGOpen("ex361",1);
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,4);
     VoicePlay("D031101400_11_020");
-    MsgDisp("Onari","Ha, first time they've ever told me off.
+    MsgDisp("Onari","Haha, first time they've ever told me off.
 Kind of refreshing.");
     MsgDisp("主人公","Hehe.");
     ChEye(11,0);
     ChMouth(11,0);
     ChMotion(11,0);
     VoicePlay("D031101400_11_030");
-    MsgDisp("Onari","Heh...
+    MsgDisp("Onari","Hehe...
 So, shall we go study?");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");

@@ -158,7 +158,7 @@ school— here I come!)");
     ChMotion(11,3);
     VoicePlay("D031100700_11_140");
     MsgDisp("Onari","It's okay.
-No need to rush ― you'll find something
+No need to rush. You'll find something
 worth working hard for. See you around.");
     MsgClose();
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");

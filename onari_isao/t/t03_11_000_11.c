@@ -1,4 +1,4 @@
-MsgDisp("","{Onari**} is giving his all
+MsgDisp("","Onari-sensei is giving his all
 every day at Yotakado High.");
 MsgClear();
 MsgDisp("","I took teacher training at university and

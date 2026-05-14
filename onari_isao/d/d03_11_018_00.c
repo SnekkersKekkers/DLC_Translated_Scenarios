@@ -1,7 +1,7 @@
 ChLayout(1);
 BGOpen("sc370",0);
 ScrFadeIn(0);
-MsgDisp("主人公","(Haa...
+MsgDisp("主人公","(Phew...
 I gave it everything I had.)");
 MsgClose();
 ScrFadeOut(0);
@@ -12,8 +12,8 @@ MsgClose();
 BGOpen("ne000",0);
 ScrFadeIn(0);
 VoicePlay("D031101800_11_000");
-MsgDisp("Onari?","Hey, you look great.");
-MsgDisp("主人公","Huh?∋
+MsgDisp("Onari?","Hey, that's a nice expression.");
+MsgDisp("主人公","Eh?∋
 Onari-sensei!
 What are you doing here?");
 MsgClose();
@@ -21,7 +21,8 @@ BGMPlay("BGM_C11_ONARI_A",0.01);
 ChOpen(11,255,4,0,0,#1,#1,0,0);
 VoicePlay("D031101800_11_010");
 MsgDisp("Onari","Everyone's taking exams today.
-If I wait here, they'll come back through.");
+So I'm waiting here to see you all on
+your way back.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);
@@ -69,7 +70,7 @@ ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("D031101800_11_060");
 MsgDisp("Onari","Sorry for being so one-sided about it.
-But you pushed through it all on your own.");
+But you managed to do it all on your own.");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,2);
@@ -95,15 +96,15 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101800_11_100");
-MsgDisp("Onari","...H-hey.
+MsgDisp("Onari","...H-Hey.
 Don't go so close to the edge.");
 MsgDisp("主人公","What's the matter, all of a sudden?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_110");
-MsgDisp("Onari","You could fall...");
-MsgDisp("主人公","???
+MsgDisp("Onari","It could be dangerous...");
+MsgDisp("主人公","Huh?
 Are you afraid of heights, Onari-sensei?");
 ChEye(11,0);
 ChMouth(11,4);
@@ -117,7 +118,7 @@ ChEyeOpenLevel(11,0);
 VoicePlay("D031101800_11_130");
 MsgDisp("Onari","But what is this feeling?
 Seeing someone precious near the edge...
-Is this what that feels like?");
+Maybe that's the problem?");
 MsgDisp("主人公","Onari-sensei...?");
 ChEye(11,1);
 ChMouth(11,4);
@@ -147,9 +148,8 @@ ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101800_11_160");
-MsgDisp("Onari","Better this than you drifting over to the
-edge.");
-MsgDisp("主人公","(Wha?∋)");
+MsgDisp("Onari","Better this than you drifting over the edge.");
+MsgDisp("主人公","(Eh?∋)");
 BGMStop();
 MsgClose();
 ScrFadeOut(0);
@@ -198,8 +198,9 @@ ChMouth(11,0);
 ChMotion(11,5);
 VoicePlay("D031101800_11_210");
 MsgDisp("Onari","Never mind.
-Oh right — congratulations on passing.");
-MsgDisp("主人公","The exam just ended today.
+Oh, right. 
+Congratulations on passing.");
+MsgDisp("主人公","I just took the exam, though.
 Isn't it a bit early for that?");
 ChEye(11,3);
 ChMouth(11,3);
@@ -212,7 +213,6 @@ MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(11);
 MsgDisp("主人公","(Onari-sensei...
-He seemed a little different today
-somehow...)");
+He seemed a little different today somehow...)");
 MsgClose();
 ScrFadeOut(0);

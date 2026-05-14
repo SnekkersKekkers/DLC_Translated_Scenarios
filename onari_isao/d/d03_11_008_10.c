@@ -20,7 +20,7 @@ MsgDisp("Onari","Hey.
 I assumed we were doing this every day, but I
 guess you didn't think the same?");
 MsgDisp("主人公","Ugh...
-Were you waiting here every day—");
+Were you waiting here every day?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,0);

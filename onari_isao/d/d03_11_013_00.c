@@ -126,7 +126,7 @@ ChMotion(11,0);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101300_11_080");
 MsgDisp("Onari","Haha, you'll be fine.
-Don't run away, just keep at it.
+Don't run away, just go in.
 Let's go.");
 MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
