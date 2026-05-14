@@ -107,7 +107,8 @@ ChMotion(11,0);
 VoicePlay("T021140000_11_130");
 MsgDisp("Onari","I wonder what kind of teacher
 you'll become...");
-MsgDisp("主人公","I want to be like you, Onari-sensei.");
+MsgDisp("主人公","I want to be as good as you, 
+Onari-sensei.");
 ChEye(11,4);
 ChMouth(11,0);
 ChMotion(11,3);

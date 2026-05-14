@@ -47,8 +47,8 @@ Wait(60,0);
 SEPlay("EV_SE_695");
 Wait(120,0);
 VoicePlay("T021140020_11_050");
-MsgDisp("Onari","But this is sweet, right?
-So it's okay to do it a lot.");
+MsgDisp("Onari","But since this tastes sweet, it's
+okay to do it a lot.");
 Wait(120,0);
 MsgClear();
 MsgClose();
