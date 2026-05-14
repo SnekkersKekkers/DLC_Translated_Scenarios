@@ -10,7 +10,7 @@ MsgDisp("主人公","Yes.
 Knowing how you feel makes me so happy...");
 MsgDisp("主人公","The time I spent with you
 was truly wonderful.
-That's why... I love you.");
+That's why...I love you.");
 ChEye(11,2);
 ChMouth(11,4);
 ChMotion(11,4);

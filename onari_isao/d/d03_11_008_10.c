@@ -40,7 +40,7 @@ SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
 MsgDisp("主人公","(He was waiting for me here every day.
-I really let him down... I'll just do my
+I really let him down...I'll just do my
 best on the finals on my own...)");
 MsgClose();
 ScrFadeOut(0);

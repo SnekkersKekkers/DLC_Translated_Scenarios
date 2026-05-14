@@ -43,7 +43,7 @@ ChMotion(11,2);
 ChEyeOpenLevel(11,0);
 VoicePlay("T021140000_11_050");
 MsgDisp("Onari","Not just myself, but other people too.
-What makes someone who they are... that was
+What makes someone who they are...that was
 always hard for me...");
 ChEye(11,4);
 ChMouth(11,4);
@@ -52,7 +52,7 @@ VoicePlay("T021140000_11_060");
 MsgDisp("Onari","Someone like that wanting to be a teacher
 and aspiring to be like Osako-sensei,
 it felt utterly out of reach to me.");
-MsgDisp("主人公","But... you were always trying so hard,
+MsgDisp("主人公","But...you were always trying so hard,
 working toward your ideal
 of what a teacher should be.");
 ChEye(11,1);
@@ -77,7 +77,7 @@ ChMotion(11,4);
 VoicePlay("T021140000_11_090");
 MsgDisp("Onari","We met by chance, and without even realizing
 it, we were helping each other.");
-MsgDisp("主人公","I... didn't do anything...");
+MsgDisp("主人公","I...didn't do anything...");
 ChEye(11,2);
 ChMouth(11,4);
 ChMotion(11,0);
@@ -142,7 +142,7 @@ ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("T021140000_11_180");
 MsgDisp("Onari","I realized it at the sky lounge.
-If something happened to you... just thinking
+If something happened to you...just thinking
 about it frightened me...");
 MsgDisp("主人公","Onari-sensei...");
 ChEye(11,4);

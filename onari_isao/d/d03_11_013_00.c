@@ -25,7 +25,7 @@ Why don't you come over here?");
 MsgDisp("主人公","Huh?");
 VoicePlay("D031101300_33_010");
 MsgDisp("Yotakado B","That's right.
-Crossing through this gate... that is your
+Crossing through this gate...that is your
 destiny.");
 MsgDisp("主人公","I-I'm sorry!
 I must have the wrong place∈");
@@ -37,7 +37,7 @@ VoicePlay("D031101300_34_020");
 MsgDisp("Yotakado A","Huh?
 That's Success's girlfriend.");
 SEPlay("EV_SE_544",0,0.5);
-MsgDisp("主人公","(Huh... \"Success\"?)");
+MsgDisp("主人公","(Huh...\"Success\"?)");
 MsgClose();
 StlOpen("ev_11_01");
 StlEye(11,0);

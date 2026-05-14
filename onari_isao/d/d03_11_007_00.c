@@ -81,7 +81,7 @@ ChMotion(11,2);
 VoicePlay("D031100700_11_060");
 MsgDisp("Onari","Huh, really?
 How come?");
-MsgDisp("主人公","I think it's because... I kept seeing you
+MsgDisp("主人公","I think it's because...I kept seeing you
 in the park, practicing your introductions
 and lessons so earnestly...");
 ChEye(11,0);

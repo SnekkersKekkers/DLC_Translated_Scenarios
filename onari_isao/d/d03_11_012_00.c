@@ -67,7 +67,7 @@ ChMotion(11,4);
 VoicePlay("D031101200_11_020");
 MsgDisp("Onari","That time was well spent, though.
 ...Right?");
-MsgDisp("主人公","Oh... yes!");
+MsgDisp("主人公","Oh...yes!");
 ChEye(37,0);
 ChMouth(37,0);
 VoicePlay("D031101200_37_040");
@@ -138,7 +138,7 @@ ChMouth(37,0);
 VoicePlay("D031101200_37_110");
 MsgDisp("Osako","Think about it〜
 Career guidance is coming up soon, right?");
-MsgDisp("主人公","(Me... a teacher?)");
+MsgDisp("主人公","(Me...a teacher?)");
 MsgSel("Aim for an first-rate university and become a teacher!","That's probably impossible for me...");
 switch (MsgSelRsltGet()){
     case 0:
@@ -201,7 +201,7 @@ It's Yotakado High School.");
 Yotakado Technical High School.");
     MsgClose();
     ScrFadeOut(0);
-    MsgDisp("主人公","(So it's not Habataki... That means I won't
+    MsgDisp("主人公","(So it's not Habataki...That means I won't
 get to see Onari-sensei anymore.
 It's lonely, but it can't be helped...)");
     break ;

@@ -7,7 +7,7 @@ MsgDisp("主人公","(Oh, a message from the Habatcher editorial
 team.)");
 MsgDisp("主人公","(\"A Midwinter Ice Cream Eating Contest is
 being held on the Habataki shopping street.
-Please come cover it\"... it says.)");
+Please come cover it\"...it says.)");
 MsgDisp("主人公","(It's only until noon...
 Okay, I'd better hurry!)");
 MsgClose();
@@ -58,7 +58,7 @@ MsgDisp("Onari","Hm?
 Oh, hey.
 Long time no see.");
 MsgDisp("主人公","Oh, hi.
-Um... are you still eating ice cream?");
+Um...are you still eating ice cream?");
 StlEye(11,0);
 StlMouth(11,1);
 VoicePlay("D031100500_11_010");
@@ -96,7 +96,7 @@ MsgClose();
 ChOpen(11,255,0,0,4,#1,#1,0,0);
 MsgDisp("主人公","I work part-time for Habatcher, and
 I'd like to interview you about today's
-contest, Onari-sensei... Would that be okay?");
+contest, Onari-sensei...Would that be okay?");
 ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
@@ -160,7 +160,7 @@ MsgSel("I'd love it if he came to Habataki","It's really none of my business..."
 switch (MsgSelRsltGet()){
     case 0:
     MsgDisp("主人公","(If he got assigned to Habataki, that'd be
-great... I'd love to take Onari-sensei's
+great...I'd love to take Onari-sensei's
 classes again!)");
     break ;
     case 1:

@@ -138,8 +138,8 @@ Kind of refreshing.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","(Haah... my heart was pounding.
-But what was that... \"girlfriend\"...
+    MsgDisp("主人公","(Haah...my heart was pounding.
+But what was that...\"girlfriend\"...
 Onari-sensei says such surprising things...)");
     break ;
     default :

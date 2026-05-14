@@ -114,7 +114,7 @@ VoicePlay("D031101500_11_050");
 MsgDisp("Onari","Sure.
 But can you give me one day off from the 
 cram school?");
-MsgDisp("主人公","Oh... of course.
+MsgDisp("主人公","Oh...of course.
 I'm sorry for always making you come out when
 you're so busy.");
 ChEye(11,0);
@@ -123,7 +123,7 @@ ChMotion(11,2);
 VoicePlay("D031101500_11_060");
 MsgDisp("Onari","That's not what I mean.
 I want to go on a date.");
-MsgDisp("主人公","Huh... what∋");
+MsgDisp("主人公","Huh...what∋");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
@@ -156,7 +156,7 @@ get started.");
     BGMStop();
     ChClose(11);
     MsgDisp("主人公","(A date with Onari-sensei at the fireworks
-show... It's August 6th this year, right?
+show...It's August 6th this year, right?
 I can't wait! I'll study hard until then!)");
     break ;
     case 1:

@@ -45,7 +45,7 @@ StlEye(11,1,0);
 StlMouth(11,0);
 StlEyeOpenLevel(11,5,1);
 VoicePlay("D031100400_11_010");
-MsgDisp("Onari","Am I... insane?");
+MsgDisp("Onari","Am I...insane?");
 StlEye(37,0,0);
 StlMouth(37,0);
 StlEyeOpenLevel(37,0,1);
@@ -154,7 +154,7 @@ Thank you.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","(Oh, right... the internship is almost over.
+    MsgDisp("主人公","(Oh, right...the internship is almost over.
 I hope Onari-sensei gets assigned to
 Habataki.)");
     break ;

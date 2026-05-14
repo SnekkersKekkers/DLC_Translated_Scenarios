@@ -82,7 +82,7 @@ VoicePlay("D031100100_44_010");
 MsgDisp("Girl A","They don't really look like college
 students...");
 VoicePlay("D031100100_45_010");
-MsgDisp("Girl B","Yeah... more like middle schoolers?");
+MsgDisp("Girl B","Yeah...more like middle schoolers?");
 SEStop("EV_SE_566",0.3);
 SEStop("EV_SE_860",0.3);
 MsgClose();
@@ -196,7 +196,7 @@ ChMotion(11,1);
 VoicePlay("D031100100_11_040");
 MsgDisp("Onari","Even failure can lead to GREAT SUCCESS!
 A 100% success rate!
-I'm Onari... Great Success.");
+I'm Onari...Great Success.");
 SEPlay("EV_SE_GAYA_017",0,0.8);
 MsgDisp("主人公","(...Oh! The \"Great Success\" thing
 he was saying in the park.

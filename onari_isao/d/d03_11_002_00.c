@@ -38,7 +38,7 @@ MsgDisp("Onari","Yeah, I'm not great at talking, it seems.
 So I practice.");
 MsgDisp("主人公","I see...
 But what's with the \"I will wake up early\"
-thing... Trying not to oversleep?");
+thing...Trying not to oversleep?");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,5);
@@ -63,7 +63,7 @@ way Osako-sensei does.");
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 BGMStop();
 ChClose(11);
-MsgDisp("主人公","(He left... Osako-sensei is that energetic
+MsgDisp("主人公","(He left...Osako-sensei is that energetic
 middle school teacher, right?
 He and Onari-sensei are totally different...)");
 MsgClose();

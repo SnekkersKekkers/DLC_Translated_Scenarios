@@ -169,7 +169,7 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031101800_11_170");
-MsgDisp("Onari","First time, huh... What's wrong with me.
+MsgDisp("Onari","First time, huh...What's wrong with me.
 After all those late nights at the cram
 school, I never once walked you home.");
 MsgDisp("主人公","It was so late every time.");
@@ -178,7 +178,7 @@ ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101800_11_180");
 MsgDisp("Onari","All the more reason I should have.
-Today my feet just... carried me here.");
+Today my feet just...carried me here.");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,2);

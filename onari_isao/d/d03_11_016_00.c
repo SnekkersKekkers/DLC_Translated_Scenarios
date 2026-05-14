@@ -202,6 +202,6 @@ SEPlay("EV_SE_626");
 ChClose(11);
 MsgDisp("主人公","(Onari-sensei is a teacher at Yotakado, so I
 shouldn't have kept him all to myself.
-But... will I ever see him again...?)");
+But...will I ever see him again...?)");
 MsgClose();
 ScrFadeOut(0);

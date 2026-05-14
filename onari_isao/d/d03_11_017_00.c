@@ -176,7 +176,7 @@ MsgDisp("","　　　　　　　　　　 ・
 　　　　　　　　　　 ・");
 MsgClose();
 MsgDisp("主人公","(Seeing Onari-sensei again after so long
-seems to have calmed me down too... I think
+seems to have calmed me down too...I think
 I can make it all the way to exams now!)");
 MsgClose();
 ScrFadeOut(0);
