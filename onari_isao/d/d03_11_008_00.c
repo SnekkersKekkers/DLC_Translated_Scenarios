@@ -52,7 +52,7 @@ StlMouth(11,0);
 StlEyeOpenLevel(11,5,1);
 VoicePlay("D031100800_11_040");
 MsgDisp("Onari","So studying more won't help, and even if I
-practice for the interview and pass—");
+practice for the interview and pass...");
 MsgDisp("主人公","?");
 StlEye(11,2);
 StlMouth(11,0);

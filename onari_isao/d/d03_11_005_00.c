@@ -142,7 +142,7 @@ ChEye(11,0);
 ChMouth(11,0);
 ChMotion(11,4);
 VoicePlay("D031100500_11_080");
-MsgDisp("Onari","Oh, here— a little reunion gift.
+MsgDisp("Onari","Oh, here. A little reunion gift.
 It's a convenience store original ice cream.
 Chocolate mint flavor.");
 SEPlay("EV_SE_717");

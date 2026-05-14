@@ -89,8 +89,9 @@ ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,5);
 VoicePlay("T021140000_11_110");
-MsgDisp("Onari","That time we spent together — it was
-something I needed more than anyone.");
+MsgDisp("Onari","That time we spent together...
+It was something I needed more 
+than anyone.");
 ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,4);
@@ -112,19 +113,20 @@ ChMouth(11,0);
 ChMotion(11,3);
 VoicePlay("T021140000_11_140");
 MsgDisp("Onari","Didn't I say you're already there?
-Just look at how you are with my students —
-it's plain to see.");
+Just look at how you are with my students.
+It's clear as day.");
 ChEye(11,4);
 ChMouth(11,0);
 ChMotion(11,0);
 VoicePlay("T021140000_11_150");
-MsgDisp("Onari","More than that — you're the one
+MsgDisp("Onari","Besides that, you're the one
 who made me a teacher.");
 ChEye(11,4);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("T021140000_11_160");
-MsgDisp("Onari","No... you made me human.");
+MsgDisp("Onari","No...
+Actually, you made me human.");
 MsgDisp("主人公","Human...");
 ChEye(11,2);
 ChMouth(11,4);
@@ -132,7 +134,7 @@ ChMotion(11,0);
 VoicePlay("T021140000_11_170");
 MsgDisp("Onari","It finally happened.
 I can genuinely feel afraid now.
-Being with you — it makes me afraid.");
+Being with you, it makes me afraid.");
 MsgDisp("主人公","What?");
 ChEye(11,2);
 ChMouth(11,4);

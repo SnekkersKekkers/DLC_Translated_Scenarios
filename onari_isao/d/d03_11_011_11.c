@@ -27,7 +27,7 @@ ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101111_11_010");
 MsgDisp("Onari","It's my teaching that's the problem.
-You worked so hard at it—if it didn't stick,
+You worked so hard at it. If it didn't stick,
 that's on me.");
 MsgDisp("主人公","No, it's my fault...");
 ChEye(11,0);

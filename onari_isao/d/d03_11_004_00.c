@@ -116,7 +116,7 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,4);
 VoicePlay("D031100400_11_050");
-MsgDisp("Onari","That thing Osako-sensei says— \"I may be
+MsgDisp("Onari","That thing Osako-sensei says: \"I may be
 small, but I pack a big punch.\" I tried
 copying it for my self-introduction.");
 MsgDisp("主人公","Oh...

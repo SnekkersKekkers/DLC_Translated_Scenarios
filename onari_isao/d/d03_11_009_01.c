@@ -24,4 +24,4 @@ ChMotion(11,0);
 VoicePlay("D031100901_11_010");
 MsgDisp("Onari","Thanks to you, I realized that I can at least
 be the spark that gets someone going.");
-MsgDisp("主人公","So, about your exam—");
+MsgDisp("主人公","So, about your exam...");

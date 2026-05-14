@@ -16,7 +16,7 @@ SEPlay("EV_SE_DOOR_019");
 BGOpen("sc360",0);
 Wait(35,0);
 ScrFadeIn(0);
-MsgDisp("主人公","(Huh... is that―)");
+MsgDisp("主人公","(Huh...is that―)");
 MsgClose();
 BGMPlay("BGM_HANYOU_A",0.01);
 ChOpen(37,254,0,0,0,#1,#1,0,0);

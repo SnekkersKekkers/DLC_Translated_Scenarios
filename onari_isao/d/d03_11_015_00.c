@@ -220,9 +220,9 @@ point of studying, though.");
     SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
     BGMStop();
     ChClose(11);
-    MsgDisp("主人公","(Onari-sensei...
-You're right ― for the Yotakado students, I
-should graduate from the cram school)");
+    MsgDisp("主人公","(Onari-sensei...You're right. 
+For the sake of the Yotakado students,
+I should graduate from the cram school.)");
     break ;
     default :
     DbgAssert(0);

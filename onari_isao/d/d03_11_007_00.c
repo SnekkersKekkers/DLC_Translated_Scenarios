@@ -149,7 +149,7 @@ The next one's in July, right?");
     ChClose(11);
     MsgDisp("主人公","(All right!
 Onari-sensei's convenience store cram
-school— here I come!)");
+school, here I come!)");
     break ;
     case 1:
     MsgDisp("主人公","............");

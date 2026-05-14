@@ -26,4 +26,4 @@ ChMouth(11,3);
 ChMotion(11,3);
 VoicePlay("D031100900_11_010");
 MsgDisp("Onari","I'm happy too.");
-MsgDisp("主人公","So, about your exam—");
+MsgDisp("主人公","So, about your exam...");

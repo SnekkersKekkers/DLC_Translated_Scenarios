@@ -22,7 +22,7 @@ VoicePlay("D031101700_44_000");
 MsgDisp("Girl","Seriously?
 That's scary.");
 MsgDisp("主人公","Scary and sketchy...
-Could it be―");
+Could it be...?");
 MsgClose();
 ScrFadeOut(0);
 BGOpen("sc130",1);

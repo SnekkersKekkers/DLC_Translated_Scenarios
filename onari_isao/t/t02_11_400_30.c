@@ -7,8 +7,7 @@ ChMotion(11,0);
 VoicePlay("T021140030_11_000");
 MsgDisp("Onari","I'm important to you?");
 MsgDisp("主人公","Yes.
-I was able to throw myself into studying,
-and――");
+I was able to throw myself into studying.");
 MsgDisp("主人公","I even got to know the students at Yotakado.
 None of it would have happened without you,
 Onari-sensei.");

@@ -34,7 +34,7 @@ ChMotion(7,1);
 ChEyeOpenLevel(7,8);
 VoicePlay("D031100100_07_020");
 MsgDisp("Mikage","Which will it be?
-A fresh-faced college student who's――");
+A fresh-faced college student who's―");
 ChEye(7,0);
 ChMouth(7,0);
 ChMotion(7,0);
@@ -199,8 +199,8 @@ A 100% success rate!
 I'm Onari... Great Success.");
 SEPlay("EV_SE_GAYA_017",0,0.8);
 MsgDisp("主人公","(...Oh! The \"Great Success\" thing
-he was saying in the park ―
-it was practice for his self-introduction!)");
+he was saying in the park.
+It was practice for his self-introduction!)");
 VoicePlay("D031100100_42_140");
 MsgDisp("Boy A","Is that your go-to bit, sir?");
 VoicePlay("D031100100_41_150");
