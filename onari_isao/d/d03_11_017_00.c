@@ -85,7 +85,8 @@ ChEye(11,1);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031101700_11_030");
-MsgDisp("Onari","He told me he wanted to study, so I came here.");
+MsgDisp("Onari","He told me he wanted to study, so I came
+here.");
 MsgDisp("主人公","What?
 So, that part about Onari-sensei's health...");
 ChEye(11,2);

@@ -58,7 +58,8 @@ ChMouth(11,0);
 ChMotion(11,0);
 ChEyeOpenLevel(11,0);
 VoicePlay("D031101000_11_020");
-MsgDisp("Onari","He asked my name the other day, so I told him.");
+    MsgDisp("Onari","He asked my name the other day, so I told
+him.");
 MsgDisp("主人公","Oh...
 Did you do that self-introduction of yours?");
 ChEye(11,1);

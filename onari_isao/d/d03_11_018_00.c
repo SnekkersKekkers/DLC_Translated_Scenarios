@@ -213,6 +213,7 @@ MsgClose();
 SEPlay("EV_SE_FOOT_WALK_AWAY_ALONE");
 ChClose(11);
 MsgDisp("主人公","(Onari-sensei...
-He seemed a little different today somehow...)");
+He seemed a little different today
+somehow...)");
 MsgClose();
 ScrFadeOut(0);

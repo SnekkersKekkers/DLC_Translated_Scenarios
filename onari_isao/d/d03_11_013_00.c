@@ -103,8 +103,8 @@ MsgDisp("Onari","Yep.
 The kids here are all kind of the same.
 I think I can actually be useful to them.");
 MsgDisp("主人公","Onari-sensei.
-I want to get into an first-rate 
-university and become a teacher, just like you!");
+I want to get into a first-rate university
+and become a teacher, just like you!");
 ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
