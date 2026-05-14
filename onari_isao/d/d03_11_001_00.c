@@ -186,7 +186,7 @@ ChEye(11,0);
 ChMouth(11,4);
 ChMotion(11,0);
 VoicePlay("D031100100_11_030");
-MsgDisp("Onari","It's read as \"Great Success.\"
+MsgDisp("Onari","It's read as \"Onari.\"
 It's my name...");
 SEPlay("EV_SE_788",0.2,0.5);
 SEPlay("EV_SE_GAYA_007",0.01,0.25);
