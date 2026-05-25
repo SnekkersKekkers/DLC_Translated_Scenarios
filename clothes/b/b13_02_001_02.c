@@ -1,0 +1,13 @@
+ChEyeOpenLevel(2,-1);
+ChMouthOpenLevel(2,-1);
+ChCheek(2,0);
+ChEye(2,0);
+ChMouth(2,4);
+ChMotion(2,3);
+VoicePlay("B130200102_02_000");
+MsgDisp("颯砂","着物のドレス、ここにピッタリじゃん！");
+ChEye(2,0);
+ChMouth(2,4);
+ChMotion(2,3);
+VoicePlay("B130200102_02_010");
+MsgDisp("颯砂","みんな、舞台に上がる人だと思ってるって。");

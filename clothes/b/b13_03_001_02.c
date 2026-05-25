@@ -1,0 +1,17 @@
+Wait(30,0);
+ChEyeOpenLevel(3,-1);
+ChMouthOpenLevel(3,-1);
+ChCheek(3,0);
+ChEye(3,0);
+ChMouth(3,0);
+ChMotion(3,4,1);
+VoicePlay("B130300102_03_000");
+MsgDisp("本多","今日の君のファッションならさ、
+高座に座ってもいい感じだよね。");
+ChEye(3,3);
+ChMouth(3,3);
+ChMotion(3,1,1);
+VoicePlay("B130300102_03_010");
+MsgDisp("本多","あ、エントランスにさ
+紫の座布団があったから、あとで座ってみて！
+きっと似合うよ。");

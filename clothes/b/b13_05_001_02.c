@@ -1,0 +1,14 @@
+Wait(30,0);
+ChEyeOpenLevel(5,-1);
+ChMouthOpenLevel(5,-1);
+ChCheek(5,0);
+ChEye(5,0);
+ChMouth(5,4);
+ChMotion(5,4);
+VoicePlay("B130500102_05_000");
+MsgDisp("柊","着物のドレス？
+まるで高座の噺家さんですね。");
+ChEye(5,4);
+ChMotion(5,0);
+VoicePlay("B130500102_05_010");
+MsgDisp("柊","今日はあなたのお話を聞くのでもいいな。");

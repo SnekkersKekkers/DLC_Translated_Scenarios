@@ -1,0 +1,17 @@
+BGOpen("tr220",0);
+ChEye(5,4);
+ChMouth(5,4);
+ChMotion(5,0);
+ChCheek(5,0);
+ScrFadeIn(0);
+ChMotion(5,4);
+VoicePlay("B130500101_05_000");
+MsgDisp("柊","ふふっ、ネコの耳。
+あなたもここの住人？");
+ChEye(5,3);
+ChMotion(5,0);
+VoicePlay("B130500101_05_010");
+MsgDisp("柊","次は僕も付けさせてもらおうかな。
+ネコのしっぽとか。");
+MsgClose();
+ScrFadeOut(0,0);

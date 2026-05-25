@@ -1,0 +1,17 @@
+BGOpen("tr220",0);
+ChEye(2,0);
+ChMouth(2,4);
+ChMotion(2,0);
+ScrFadeIn(0);
+VoicePlay("B130200101_02_000");
+MsgDisp("颯砂","ネコ耳つけたきみ、まるで女王ネコだな。
+ほら、周りのネコが見とれてる。");
+ChEye(2,0);
+ChMouth(2,0);
+ChMotion(2,4);
+ChEyeOpenLevel(2,7);
+VoicePlay("B130200101_02_010");
+MsgDisp("颯砂","……ん？
+なんかオレ、睨まれてんのぉ？");
+MsgClose();
+ScrFadeOut(0);
