@@ -8,15 +8,14 @@ ChEye(3,0);
 ChMouth(3,2);
 ChMotion(3,4,1);
 VoicePlay("B130300101_03_000");
-MsgDisp("本多","あれ……君がネコ耳を付けてるせい？
-猫たちの落ち着きがないよ。
-興奮してるみたい。");
+MsgDisp("Honda","Huh... You're wearing cat ears?
+The cats are going wild.
+They're really riled up.");
 ChEye(3,2);
 ChMouth(3,4);
 ChMotion(3,2,1);
 VoicePlay("B130300101_03_010");
-MsgDisp("本多","なんか、
-オレだけ蚊帳の外みたいじゃん？
-オレも付けてくればよかったなー。");
+MsgDisp("Honda","Hmm... Am I the odd one out here?
+I should have worn those too...");
 MsgClose();
 ScrFadeOut(0,0);

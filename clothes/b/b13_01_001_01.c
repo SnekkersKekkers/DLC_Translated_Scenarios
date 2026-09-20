@@ -5,15 +5,15 @@ ChMotion(1,0);
 ChCheek(1,0);
 ScrFadeIn(0);
 VoicePlay("B130100101_01_000");
-MsgDisp("風真","そのネコ耳、評判いいみたいだな。
-猫たち喜んでる。");
+MsgDisp("Kazama","Those cat ears are pretty popular.
+The cats like them.");
 ChEye(1,0);
 ChMouth(1,2);
 ChMotion(1,2);
 ChEyeOpenLevel(1,7);
 VoicePlay("B130100101_01_010");
-MsgDisp("風真","いや、ちょっと待て。
-……みんなオス猫か。");
+MsgDisp("Kazama","No, wait a sec.
+...Are those all male cats?");
 MsgClose();
 ScrFadeOut(0,0);
 ChEyeOpenLevel(1,-1);

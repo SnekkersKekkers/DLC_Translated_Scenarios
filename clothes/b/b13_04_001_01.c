@@ -5,16 +5,16 @@ ChMouth(4,0);
 ChMotion(4,0);
 ScrFadeIn(0);
 VoicePlay("B130400101_04_000");
-MsgDisp("七ツ森","改めて、この場所で見ると妙な気分になるな。
-その、ネコミミ。");
+MsgDisp("Nanatsumori","I feel weird, seeing you in those
+cat ears.");
 ChEye(4,2);
 ChMouth(4,4);
 ChMotion(4,2,1);
 ChCheek(4,7);
 VoicePlay("B130400101_04_010");
-MsgDisp("七ツ森","やっ、ヘンな意味じゃなくて！
-……ん、ヘンな意味なのか……？
-なんか、ムズッとするんだよな。");
+MsgDisp("Nanatsumori","Oh, I didn't mean that in a weird way!
+...Or maybe I did?
+Somehow, I think I'm gonna sneeze.");
 MsgClose();
 ScrFadeOut(0,0);
 ChCheek(4,0);

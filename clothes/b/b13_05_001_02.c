@@ -6,9 +6,10 @@ ChEye(5,0);
 ChMouth(5,4);
 ChMotion(5,4);
 VoicePlay("B130500102_05_000");
-MsgDisp("柊","着物のドレス？
-まるで高座の噺家さんですね。");
+MsgDisp("Hiiragi","You're wearing a kimono dress?
+You look like the storyteller.");
 ChEye(5,4);
 ChMotion(5,0);
 VoicePlay("B130500102_05_010");
-MsgDisp("柊","今日はあなたのお話を聞くのでもいいな。");
+MsgDisp("Hiiragi","I wouldn't mind listening to your
+story today.");

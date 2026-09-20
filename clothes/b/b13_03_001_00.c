@@ -8,15 +8,15 @@ ChEye(3,3);
 ChMouth(3,3);
 ChMotion(3,1,1);
 VoicePlay("B130300100_03_000");
-MsgDisp("本多","ちょっと待って！
-今日の君、深海魚みたい！
-体全体に発光器があるから……");
+MsgDisp("Honda","Wait a minute!
+You look like a deep sea fish today!
+Your whole body is bioluminescent.");
 ChEye(3,0);
 ChMouth(3,0);
 ChMotion(3,4,1);
 VoicePlay("B130300100_03_010");
-MsgDisp("本多","自分を囮にして
-寄ってきた魚をパクっていっちゃう、
-一番怖いタイプだ。");
+MsgDisp("Honda","You're using yourself as bait to lure the
+other fish.
+Those are the scariest types.");
 MsgClose();
 ScrFadeOut(0,0);

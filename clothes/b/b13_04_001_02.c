@@ -3,13 +3,13 @@ ChEye(4,0);
 ChMouth(4,3);
 ChMotion(4,0);
 VoicePlay("B130400102_04_000");
-MsgDisp("七ツ森","いまさらだけど……
-今日は気合入れてきたんだねぇ。
-その服、斬新だわ。");
+MsgDisp("Nanatsumori","This is sudden, but...
+You're all dressed up today.
+That outfit is original.");
 ChEye(4,4);
 ChMouth(4,3);
 ChMotion(4,1,1);
 VoicePlay("B130400102_04_010");
-MsgDisp("七ツ森","……あ。
-もしかして、あんたの噺、
-一席聴かせてくれんの？");
+MsgDisp("Nanatsumori","...Ah.
+Maybe I could hear your material in
+private?");

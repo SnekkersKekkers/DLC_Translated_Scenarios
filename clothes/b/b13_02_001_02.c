@@ -5,9 +5,10 @@ ChEye(2,0);
 ChMouth(2,4);
 ChMotion(2,3);
 VoicePlay("B130200102_02_000");
-MsgDisp("颯砂","着物のドレス、ここにピッタリじゃん！");
+MsgDisp("Sassa","You fit right in with that kimono.");
 ChEye(2,0);
 ChMouth(2,4);
 ChMotion(2,3);
 VoicePlay("B130200102_02_010");
-MsgDisp("颯砂","みんな、舞台に上がる人だと思ってるって。");
+MsgDisp("Sassa","Everyone will think you belong on
+the stage.");

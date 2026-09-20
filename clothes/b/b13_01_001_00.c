@@ -5,13 +5,16 @@ ChMotion(1,0);
 ChCheek(1,0);
 ScrFadeIn(0);
 VoicePlay("B130100100_01_000");
-MsgDisp("Kazama","The clothes you're wearing today, they glow...");
+MsgDisp("Kazama","The clothes you're wearing today,
+they glow...");
 ChEye(1,4);
 ChMouth(1,3);
 ChMotion(1,0);
 ChEyeOpenLevel(1,0);
 VoicePlay("B130100100_01_010");
-MsgDisp("Kazama","Yeah. With that on, we won't get separated. Even in the dark.");
+MsgDisp("Kazama","Yeah.
+With that on, we won't get separated.
+Even in the dark.");
 MsgClose();
 ScrFadeOut(0,0);
 ChEye(1,0);

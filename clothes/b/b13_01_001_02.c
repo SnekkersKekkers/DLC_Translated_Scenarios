@@ -6,11 +6,12 @@ ChEye(1,4);
 ChMouth(1,3);
 ChMotion(1,0);
 VoicePlay("B130100102_01_000");
-MsgDisp("風真","今日の服、ここにピッタリだな。
-おしゃれな噺家さん。");
+MsgDisp("Kazama","You came dressed for the occasion today.
+Miss fancy comedian.");
 ChEye(1,0);
 ChMouth(1,3);
 ChMotion(1,1);
 ChEyeOpenLevel(1,0);
 VoicePlay("B130100102_01_010");
-MsgDisp("風真","おまえの話は、俺がひとり占めだけどな。");
+MsgDisp("Kazama","I'm the only one who gets to hear your
+skit, though.");
